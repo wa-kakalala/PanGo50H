@@ -1,0 +1,1586 @@
+#Build: Synplify Pro (R) S-2021.09P, Build 242R, Mar  8 2022
+#install: E:\software\PDS_2022.1\syn
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-7S7UGPP
+
+# Tue May 16 01:58:08 2023
+
+#Implementation: synplify_impl
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09P
+Install: E:\software\PDS_2022.1\syn
+OS: Windows 6.2
+
+Hostname: DESKTOP-7S7UGPP
+
+Implementation : synplify_impl
+Synopsys HDL Compiler, Version comp202109synp1, Build 238R, Built Mar  8 2022 09:18:06, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09P
+Install: E:\software\PDS_2022.1\syn
+OS: Windows 6.2
+
+Hostname: DESKTOP-7S7UGPP
+
+Implementation : synplify_impl
+Synopsys Verilog Compiler, Version comp202109synp1, Build 238R, Built Mar  8 2022 09:18:06, @
+
+@N|Running in 64-bit mode
+@I::"E:\software\PDS_2022.1\syn\lib\generic\logos.v" (library work)
+@I::"E:\software\PDS_2022.1\syn\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"E:\software\PDS_2022.1\syn\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"E:\software\PDS_2022.1\syn\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"E:\software\PDS_2022.1\syn\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\wkk\Desktop\program\program\source\top.v" (library work)
+@I::"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v" (library work)
+@I::"C:\Users\wkk\Desktop\program\program\source\hdmi\ms72xx_ctl.v" (library work)
+@I::"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v" (library work)
+@I::"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v" (library work)
+@I::"C:\Users\wkk\Desktop\program\program\source\hdmi\sync_vg.v" (library work)
+@I::"C:\Users\wkk\Desktop\program\program\source\hdmi_top.v" (library work)
+@I::"C:\Users\wkk\Desktop\program\program\source\hdmi\pattern_vg.v" (library work)
+@I::"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v" (library work)
+Verilog syntax check successful!
+Selecting top level module top
+@N: CG364 :"E:\software\PDS_2022.1\syn\lib\generic\logos.v":139:7:139:17|Synthesizing module GTP_CLKBUFG in library work.
+Running optimization stage 1 on GTP_CLKBUFG .......
+Finished optimization stage 1 on GTP_CLKBUFG (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+@N: CG364 :"E:\software\PDS_2022.1\syn\lib\generic\logos.v":10631:7:10631:16|Synthesizing module GTP_PLL_E3 in library work.
+Running optimization stage 1 on GTP_PLL_E3 .......
+Finished optimization stage 1 on GTP_PLL_E3 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":20:7:20:13|Synthesizing module sys_pll in library work.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":119:9:119:13|Removing wire clkfb, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":122:9:122:13|Removing wire pfden, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":123:9:123:20|Removing wire clkout0_gate, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":124:9:124:25|Removing wire clkout0_2pad_gate, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":125:9:125:20|Removing wire clkout1_gate, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":126:9:126:20|Removing wire clkout2_gate, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":127:9:127:20|Removing wire clkout3_gate, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":128:9:128:20|Removing wire clkout4_gate, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":129:9:129:20|Removing wire clkout5_gate, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":130:15:130:22|Removing wire dyn_idiv, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":131:15:131:23|Removing wire dyn_odiv0, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":132:15:132:23|Removing wire dyn_odiv1, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":133:15:133:23|Removing wire dyn_odiv2, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":134:15:134:23|Removing wire dyn_odiv3, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":135:15:135:23|Removing wire dyn_odiv4, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":136:15:136:22|Removing wire dyn_fdiv, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":137:15:137:23|Removing wire dyn_duty0, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":138:15:138:23|Removing wire dyn_duty1, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":139:15:139:23|Removing wire dyn_duty2, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":140:15:140:23|Removing wire dyn_duty3, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":141:15:141:23|Removing wire dyn_duty4, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":142:16:142:25|Removing wire dyn_phase0, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":143:16:143:25|Removing wire dyn_phase1, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":144:16:144:25|Removing wire dyn_phase2, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":145:16:145:25|Removing wire dyn_phase3, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":146:16:146:25|Removing wire dyn_phase4, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":150:15:150:22|Removing wire icp_base, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":151:15:151:21|Removing wire icp_sel, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":152:15:152:24|Removing wire lpfres_sel, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":153:15:153:25|Removing wire cripple_sel, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":154:15:154:23|Removing wire phase_sel, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":155:15:155:23|Removing wire phase_dir, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":156:15:156:26|Removing wire phase_step_n, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":157:15:157:24|Removing wire load_phase, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":158:15:158:22|Removing wire dyn_mdiv, as there is no assignment to it.
+Running optimization stage 1 on sys_pll .......
+Finished optimization stage 1 on sys_pll (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":22:7:22:16|Synthesizing module ms7200_ctl in library work.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":407:27:407:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":490:35:490:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":501:35:501:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":512:35:512:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":523:35:523:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":534:35:534:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":587:31:587:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":593:31:593:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":599:31:599:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":602:34:602:36|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":607:31:607:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":632:37:632:45|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":634:40:634:48|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":639:37:639:45|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":651:37:651:45|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":669:39:669:46|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":678:41:678:48|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":682:33:682:40|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":684:39:684:46|Removing redundant assignment.
+@W: CG188 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|All paths in the function do not assign a return value
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":723:35:723:38|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":724:35:724:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":808:22:808:30|Removing redundant assignment.
+Running optimization stage 1 on ms7200_ctl .......
+@W: CL271 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":658:4:658:9|Pruning unused bits 31 to 18 of freq_rec[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":658:4:658:9|Pruning unused bits 15 to 0 of freq_rec[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":380:4:380:9|Pruning unused bits 31 to 18 of freq_rec_1d[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":380:4:380:9|Pruning unused bits 15 to 0 of freq_rec_1d[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":380:4:380:9|Pruning unused bits 31 to 18 of freq_rec_2d[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":380:4:380:9|Pruning unused bits 15 to 0 of freq_rec_2d[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":691:4:691:9|Register bit cmd_iic[22] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":691:4:691:9|Register bit cmd_iic[23] is always 0.
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":691:4:691:9|Pruning register bits 23 to 22 of cmd_iic[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on ms7200_ctl (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 103MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":22:7:22:16|Synthesizing module ms7210_ctl in library work.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":189:35:189:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":200:35:200:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":211:35:211:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":263:31:263:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":267:34:267:36|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":272:31:272:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":293:37:293:45|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":296:40:296:48|Removing redundant assignment.
+@W: CG188 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":40:8:40:11|All paths in the function do not assign a return value
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":335:35:335:38|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":336:35:336:41|Removing redundant assignment.
+Running optimization stage 1 on ms7210_ctl .......
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":303:4:303:9|Register bit cmd_iic[21] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":303:4:303:9|Register bit cmd_iic[22] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":303:4:303:9|Register bit cmd_iic[23] is always 0.
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":303:4:303:9|Pruning register bits 23 to 21 of cmd_iic[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on ms7210_ctl (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 103MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":23:7:23:13|Synthesizing module iic_dri in library work.
+
+	CLK_FRE=27'b000100110001001011010000000
+	IIC_FREQ=20'b01100001101010000000
+	T_WR=10'b0000000001
+	ADDR_BYTE=2'b10
+	LEN_WIDTH=8'b00000011
+	DATA_BYTE=2'b01
+	CLK_DIV=27'b000000000000000000000011001
+	ID_ADDR_BYTE=2'b11
+	DATA_SET=27'b000000000000000000000000110
+	T_WR_DELAY=32'b00000000000000000000000000001010
+	IDLE=3'b000
+	S_START=3'b001
+	SEND=3'b010
+	S_ACK=3'b011
+	RECEIV=3'b100
+	R_ACK=3'b101
+	STOP=3'b110
+   Generated name = iic_dri_Z1
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":107:28:107:35|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":163:28:163:35|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":187:26:187:31|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":200:27:200:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":210:24:210:27|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":222:27:222:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":258:29:258:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":272:34:272:47|Removing redundant assignment.
+@W: CG1340 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":288:45:288:56|Index into variable send_data could be out of range ; a simulation mismatch is possible.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":290:35:290:41|Removing redundant assignment.
+@W: CG1340 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":294:41:294:52|Index into variable send_data could be out of range ; a simulation mismatch is possible.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":320:35:320:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":334:35:334:45|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":345:28:345:35|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":374:33:374:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":389:34:389:43|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":392:30:392:39|Removing redundant assignment.
+Running optimization stage 1 on iic_dri_Z1 .......
+Finished optimization stage 1 on iic_dri_Z1 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms72xx_ctl.v":22:7:22:16|Synthesizing module ms72xx_ctl in library work.
+Running optimization stage 1 on ms72xx_ctl .......
+Finished optimization stage 1 on ms72xx_ctl (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\sync_vg.v":34:7:34:13|Synthesizing module sync_vg in library work.
+
+	X_BITS=4'b1100
+	Y_BITS=4'b1100
+	V_TOTAL=12'b010001100101
+	V_FP=12'b000000000100
+	V_BP=12'b000000100100
+	V_SYNC=12'b000000000101
+	V_ACT=12'b010000111000
+	H_TOTAL=12'b100010011000
+	H_FP=12'b000001011000
+	H_BP=12'b000010010100
+	H_SYNC=12'b000000101100
+	H_ACT=12'b011110000000
+   Generated name = sync_vg_Z2
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\sync_vg.v":108:30:108:35|Removing redundant assignment.
+Running optimization stage 1 on sync_vg_Z2 .......
+Finished optimization stage 1 on sync_vg_Z2 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\pattern_vg.v":22:7:22:16|Synthesizing module pattern_vg in library work.
+
+	COCLOR_DEPP=32'b00000000000000000000000000001000
+	X_BITS=4'b1100
+	Y_BITS=4'b1100
+	H_ACT=12'b011110000000
+	V_ACT=12'b010000111000
+	H_ACT_ARRAY_0=32'b00000000000000000000000011110000
+	H_ACT_ARRAY_1=32'b00000000000000000000000111100000
+	H_ACT_ARRAY_2=32'b00000000000000000000001011010000
+	H_ACT_ARRAY_3=32'b00000000000000000000001111000000
+	H_ACT_ARRAY_4=32'b00000000000000000000010010110000
+	H_ACT_ARRAY_5=32'b00000000000000000000010110100000
+	H_ACT_ARRAY_6=32'b00000000000000000000011010010000
+	H_ACT_ARRAY_7=32'b00000000000000000000011110000000
+   Generated name = pattern_vg_Z3
+Running optimization stage 1 on pattern_vg_Z3 .......
+Finished optimization stage 1 on pattern_vg_Z3 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi_top.v":1:7:1:14|Synthesizing module hdmi_top in library work.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi_top.v":81:22:81:29|Removing redundant assignment.
+Running optimization stage 1 on hdmi_top .......
+Finished optimization stage 1 on hdmi_top (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\top.v":1:7:1:9|Synthesizing module top in library work.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+Running optimization stage 2 on top .......
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":9:22:9:30|Input pixclk_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":10:22:10:26|Input vs_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":11:22:11:26|Input hs_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":12:22:12:26|Input de_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":13:22:13:25|Input r_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":14:22:14:25|Input g_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":15:22:15:25|Input b_in is unused.
+Finished optimization stage 2 on top (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 104MB)
+Running optimization stage 2 on hdmi_top .......
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\source\hdmi_top.v":53:10:53:20|*Input sys_clk_glb to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\hdmi_top.v":17:25:17:31|Input sys_clk is unused.
+Finished optimization stage 2 on hdmi_top (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 104MB)
+Running optimization stage 2 on pattern_vg_Z3 .......
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\pattern_vg.v":61:4:61:9|Pruning register bits 7 to 1 of r_out[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\pattern_vg.v":61:4:61:9|Pruning register bits 7 to 1 of b_out[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\pattern_vg.v":61:4:61:9|Pruning register bits 7 to 1 of g_out[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\hdmi\pattern_vg.v":29:41:29:44|Input rstn is unused.
+Finished optimization stage 2 on pattern_vg_Z3 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 104MB)
+Running optimization stage 2 on sync_vg_Z2 .......
+Finished optimization stage 2 on sync_vg_Z2 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 104MB)
+Running optimization stage 2 on ms72xx_ctl .......
+Finished optimization stage 2 on ms72xx_ctl (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 104MB)
+Running optimization stage 2 on iic_dri_Z1 .......
+@N: CL201 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":398:4:398:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@W: CL247 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":34:25:34:33|Input port bit 0 of device_id[7:0] is unused
+
+Finished optimization stage 2 on iic_dri_Z1 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+Running optimization stage 2 on ms7210_ctl .......
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":313:4:313:9|Register bit addr[13] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":313:4:313:9|Register bit addr[14] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":313:4:313:9|Register bit addr[15] is always 0.
+@W: CL260 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":303:4:303:9|Pruning register bit 20 of cmd_iic[20:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":313:4:313:9|Pruning register bits 15 to 13 of addr[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":118:4:118:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@W: CL260 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":313:4:313:9|Pruning register bit 12 of addr[12:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@A: CL153 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":310:42:310:42|*Unassigned bits of cmd_data_2[23:0] are referenced and tied to 0 -- simulation mismatch possible.
+Finished optimization stage 2 on ms7210_ctl (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Running optimization stage 2 on ms7200_ctl .......
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":701:4:701:9|Register bit addr[14] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":701:4:701:9|Register bit addr[15] is always 0.
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":691:4:691:9|Pruning register bits 19 to 18 of cmd_iic[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":701:4:701:9|Pruning register bits 15 to 14 of addr[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":411:4:411:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 5 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0010000
+   0100000
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":701:4:701:9|Pruning register bits 11 to 10 of addr[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":541:4:541:9|Pruning register bits 23 to 1 of delay_cnt[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":541:4:541:9|Optimizing register bit delay_cnt[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":541:4:541:9|Pruning unused register delay_cnt[0]. Make sure that there are no unused intermediate registers.
+@A: CL153 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":698:42:698:42|*Unassigned bits of cmd_data_2[23:0] are referenced and tied to 0 -- simulation mismatch possible.
+Finished optimization stage 2 on ms7200_ctl (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 110MB)
+Running optimization stage 2 on sys_pll .......
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":119:9:119:13|*Input clkfb to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":122:9:122:13|*Input pfden to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":130:15:130:22|*Input dyn_idiv[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":131:15:131:23|*Input dyn_odiv0[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":132:15:132:23|*Input dyn_odiv1[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":133:15:133:23|*Input dyn_odiv2[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":134:15:134:23|*Input dyn_odiv3[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":135:15:135:23|*Input dyn_odiv4[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":136:15:136:22|*Input dyn_fdiv[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":137:15:137:23|*Input dyn_duty0[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":138:15:138:23|*Input dyn_duty1[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":139:15:139:23|*Input dyn_duty2[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":140:15:140:23|*Input dyn_duty3[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":141:15:141:23|*Input dyn_duty4[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":123:9:123:20|*Input clkout0_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":124:9:124:25|*Input clkout0_2pad_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":125:9:125:20|*Input clkout1_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":126:9:126:20|*Input clkout2_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":127:9:127:20|*Input clkout3_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":128:9:128:20|*Input clkout4_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":129:9:129:20|*Input clkout5_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+Finished optimization stage 2 on sys_pll (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 110MB)
+Running optimization stage 2 on GTP_PLL_E3 .......
+Finished optimization stage 2 on GTP_PLL_E3 (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 110MB)
+Running optimization stage 2 on GTP_CLKBUFG .......
+Finished optimization stage 2 on GTP_CLKBUFG (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 110MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\wkk\Desktop\program\program\synthesize\synplify_impl\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 108MB peak: 110MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 16 01:58:10 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09P
+Install: E:\software\PDS_2022.1\syn
+OS: Windows 6.2
+
+Hostname: DESKTOP-7S7UGPP
+
+Implementation : synplify_impl
+Synopsys Synopsys Netlist Linker, Version comp202109synp1, Build 238R, Built Mar  8 2022 09:18:06, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 16 01:58:10 2023
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\wkk\Desktop\program\program\synthesize\synplify_impl\synwork\synplify_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 16 01:58:10 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09P
+Install: E:\software\PDS_2022.1\syn
+OS: Windows 6.2
+
+Hostname: DESKTOP-7S7UGPP
+
+Implementation : synplify_impl
+Synopsys Synopsys Netlist Linker, Version comp202109synp1, Build 238R, Built Mar  8 2022 09:18:06, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 16 01:58:12 2023
+
+###########################################################]
+Premap Report
+
+# Tue May 16 01:58:12 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09P
+Install: E:\software\PDS_2022.1\syn
+OS: Windows 6.2
+
+Hostname: DESKTOP-7S7UGPP
+
+Implementation : synplify_impl
+Synopsys Pango Technology Pre-mapping, Version map202109png, Build 115R, Built Mar  8 2022 09:34:03, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 132MB)
+
+Reading constraint file: C:\Users\wkk\Desktop\program\program\source\hdmi\constr\hdmi_loop.fdc
+@L: C:\Users\wkk\Desktop\program\program\synthesize\synplify_impl\synplify_scck.rpt 
+See clock summary report "C:\Users\wkk\Desktop\program\program\synthesize\synplify_impl\synplify_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+@N: MO111 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":53:10:53:20|Tristate driver sys_clk_glb (in view: work.hdmi_top(verilog)) on net sys_clk_glb (in view: work.hdmi_top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty4 (in view: work.sys_pll(verilog)) on net dyn_duty4 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty3 (in view: work.sys_pll(verilog)) on net dyn_duty3 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty2 (in view: work.sys_pll(verilog)) on net dyn_duty2 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty1 (in view: work.sys_pll(verilog)) on net dyn_duty1 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty0 (in view: work.sys_pll(verilog)) on net dyn_duty0 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_fdiv (in view: work.sys_pll(verilog)) on net dyn_fdiv (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv4 (in view: work.sys_pll(verilog)) on net dyn_odiv4 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv3 (in view: work.sys_pll(verilog)) on net dyn_odiv3 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv2 (in view: work.sys_pll(verilog)) on net dyn_odiv2 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":276:4:276:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.sda_out is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":231:4:231:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.send_data[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt[26:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":380:4:380:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.trans_byte[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":215:4:215:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.scl_out is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":203:4:203:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.busy is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":349:4:349:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.byte_over is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":367:4:367:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.trans_bit[2:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":327:4:327:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.receiv_data[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":262:4:262:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.trans_byte_max[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":180:4:180:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_en is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":156:4:156:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.trans_en is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":113:4:113:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.w_r_2d is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":113:4:113:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.w_r_1d is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":276:4:276:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.sda_out is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":231:4:231:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.send_data[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt[26:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":380:4:380:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.trans_byte[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":215:4:215:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.scl_out is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":203:4:203:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.busy is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":349:4:349:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.byte_over is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":367:4:367:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.trans_bit[2:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":327:4:327:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.receiv_data[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":262:4:262:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.trans_byte_max[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":180:4:180:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_en is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":156:4:156:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.trans_en is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":113:4:113:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.w_r_2d is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":113:4:113:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.w_r_1d is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":75:4:75:9|User-specified initial value defined for instance hdmi_top_inst.sync_vg.v_count[11:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":61:4:61:9|User-specified initial value defined for instance hdmi_top_inst.sync_vg.h_count[11:0] is being ignored due to limitations in architecture. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 230MB peak: 230MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 230MB peak: 231MB)
+
+@W: BN114 :"c:\users\wkk\desktop\program\program\source\top.v":29:12:29:27|Removing instance GTP_CLKBUFG_inst (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":801:4:801:9|Removing sequential instance init_over (in view: work.ms7200_ctl(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":136:4:136:9|Removing sequential instance y_act[11:0] (in view: work.sync_vg_Z2(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+
+Encoding state machine state[4:0] (in view: work.ms7200_ctl(verilog))
+original code -> new code
+   0000001 -> 00001
+   0000010 -> 00010
+   0000100 -> 00100
+   0010000 -> 01000
+   0100000 -> 10000
+Encoding state machine state[5:0] (in view: work.ms7210_ctl(verilog))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine state[6:0] (in view: work.iic_dri_Z1(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine state[6:0] (in view: work.iic_dri_Z1_0(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 233MB peak: 233MB)
+
+
+ mixed edge conversion for GCC is OFF
+Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 233MB peak: 233MB)
+
+@N: BZ111 |Number of ICGs considered for optimization : 0  
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 233MB peak: 234MB)
+
+
+ mixed edge conversion for GCC is OFF
+ mixed edge conversion for GCC is OFF
+ mixed edge conversion for GCC is OFF
+ mixed edge conversion for GCC is OFF
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 233MB peak: 234MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 233MB peak: 234MB)
+
+
+
+Clock Summary
+******************
+
+          Start                              Requested     Requested     Clock        Clock                       Clock
+Level     Clock                              Frequency     Period        Type         Group                       Load 
+-----------------------------------------------------------------------------------------------------------------------
+0 -       sys_clk                            50.0 MHz      20.000        virtual      default_clkgroup            0    
+                                                                                                                       
+0 -       sys_pll|clkout1_inferred_clock     1.0 MHz       1000.000      inferred     Autoconstr_clkgroup_0_1     379  
+                                                                                                                       
+0 -       sys_pll|clkout0_inferred_clock     1.0 MHz       1000.000      inferred     Autoconstr_clkgroup_0_2     45   
+=======================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                   Clock     Source                                                           Clock Pin                             Non-clock Pin     Non-clock Pin
+Clock                              Load      Pin                                                              Seq Example                           Seq Example       Comb Example 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+sys_clk                            0         -                                                                -                                     -                 -            
+                                                                                                                                                                                   
+sys_pll|clkout1_inferred_clock     379       hdmi_top_inst.the_instance_name.u_pll_e3.CLKOUT1(GTP_PLL_E3)     hdmi_top_inst.rstn_1ms[15:0].C        -                 -            
+                                                                                                                                                                                   
+sys_pll|clkout0_inferred_clock     45        hdmi_top_inst.the_instance_name.u_pll_e3.CLKOUT0(GTP_PLL_E3)     hdmi_top_inst.pattern_vg.de_out.C     -                 -            
+===================================================================================================================================================================================
+
+@W: MT529 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":411:4:411:9|Found inferred clock sys_pll|clkout1_inferred_clock which controls 379 sequential elements including hdmi_top_inst.ms72xx_ctl.ms7200_ctl.state[4]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":97:4:97:9|Found inferred clock sys_pll|clkout0_inferred_clock which controls 45 sequential elements including hdmi_top_inst.sync_vg.vs_out. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+For details review file gcc_ICG_report.rpt
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 424 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+====================================================== Non-Gated/Non-Generated Clocks ======================================================
+Clock Tree ID     Driving Element                                      Drive Element Type     Fanout     Sample Instance                    
+--------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       hdmi_top_inst.the_instance_name.u_pll_e3.CLKOUT1     GTP_PLL_E3             379        hdmi_top_inst.rstn_1ms[15:0]       
+@KP:ckid0_1       hdmi_top_inst.the_instance_name.u_pll_e3.CLKOUT0     GTP_PLL_E3             45         hdmi_top_inst.pattern_vg.b_out_1[0]
+============================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\wkk\Desktop\program\program\synthesize\synplify_impl\synplify.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 235MB peak: 235MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 235MB peak: 236MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 236MB peak: 236MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 157MB peak: 237MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue May 16 01:58:13 2023
+
+###########################################################]
+Map & Optimize Report
+
+# Tue May 16 01:58:13 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09P
+Install: E:\software\PDS_2022.1\syn
+OS: Windows 6.2
+
+Hostname: DESKTOP-7S7UGPP
+
+Implementation : synplify_impl
+Synopsys Pango Technology Mapper, Version map202109png, Build 115R, Built Mar  8 2022 09:34:03, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 132MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 227MB peak: 227MB)
+
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty4 (in view: work.sys_pll(verilog)) on net dyn_duty4 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty3 (in view: work.sys_pll(verilog)) on net dyn_duty3 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty2 (in view: work.sys_pll(verilog)) on net dyn_duty2 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty1 (in view: work.sys_pll(verilog)) on net dyn_duty1 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty0 (in view: work.sys_pll(verilog)) on net dyn_duty0 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_fdiv (in view: work.sys_pll(verilog)) on net dyn_fdiv (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv4 (in view: work.sys_pll(verilog)) on net dyn_odiv4 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv3 (in view: work.sys_pll(verilog)) on net dyn_odiv3 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv2 (in view: work.sys_pll(verilog)) on net dyn_odiv2 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv1 (in view: work.sys_pll(verilog)) on net dyn_odiv1 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: FX493 |Applying initial value "1" on instance state[0].
+@N: FX493 |Applying initial value "0" on instance state[1].
+@N: FX493 |Applying initial value "0" on instance state[2].
+@N: FX493 |Applying initial value "0" on instance state[3].
+@N: FX493 |Applying initial value "0" on instance state[4].
+@N: FX493 |Applying initial value "1" on instance state[0].
+@N: FX493 |Applying initial value "0" on instance state[1].
+@N: FX493 |Applying initial value "0" on instance state[2].
+@N: FX493 |Applying initial value "0" on instance state[3].
+@N: FX493 |Applying initial value "0" on instance state[4].
+@N: FX493 |Applying initial value "0" on instance state[5].
+@N: FX493 |Applying initial value "1" on instance state[0].
+@N: FX493 |Applying initial value "0" on instance state[1].
+@N: FX493 |Applying initial value "0" on instance state[2].
+@N: FX493 |Applying initial value "0" on instance state[3].
+@N: FX493 |Applying initial value "0" on instance state[4].
+@N: FX493 |Applying initial value "0" on instance state[5].
+@N: FX493 |Applying initial value "0" on instance state[6].
+@N: FX493 |Applying initial value "1" on instance state[0].
+@N: FX493 |Applying initial value "0" on instance state[1].
+@N: FX493 |Applying initial value "0" on instance state[2].
+@N: FX493 |Applying initial value "0" on instance state[3].
+@N: FX493 |Applying initial value "0" on instance state[4].
+@N: FX493 |Applying initial value "0" on instance state[5].
+@N: FX493 |Applying initial value "0" on instance state[6].
+@N: MT204 |Auto Constrain mode is disabled because the following clocks are already defined:
+
+            sys_clk
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 231MB peak: 231MB)
+
+@N: MO231 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":61:4:61:9|Found counter in view:work.sync_vg_Z2(verilog) instance h_count[11:0] 
+@N: MO231 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":472:4:472:9|Found counter in view:work.ms7200_ctl(verilog) instance dri_cnt[8:0] 
+@N: MO231 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":614:4:614:9|Found counter in view:work.ms7200_ctl(verilog) instance cmd_index[8:0] 
+@N: MO231 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":170:4:170:9|Found counter in view:work.ms7210_ctl(verilog) instance dri_cnt[4:0] 
+@N: MO231 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":218:4:218:9|Found counter in view:work.ms7210_ctl(verilog) instance delay_cnt[21:0] 
+@N: MO231 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":279:4:279:9|Found counter in view:work.ms7210_ctl(verilog) instance cmd_index[5:0] 
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":262:4:262:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.trans_byte_max[3] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.trans_byte_max[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":262:4:262:9|Removing sequential instance trans_byte_max[1] (in view: work.iic_dri_Z1(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":262:4:262:9|Removing sequential instance trans_byte_max[2] (in view: work.iic_dri_Z1(verilog)) because it does not drive other instances.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":262:4:262:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.trans_byte_max[3] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.trans_byte_max[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":262:4:262:9|Removing sequential instance trans_byte_max[1] (in view: work.iic_dri_Z1_0(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":262:4:262:9|Removing sequential instance trans_byte_max[2] (in view: work.iic_dri_Z1_0(verilog)) because it does not drive other instances.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 234MB peak: 234MB)
+
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":122:4:122:9|Removing sequential instance sync_vg.x_act[0] (in view: ScratchLib.cell27(netlist)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":122:4:122:9|Removing sequential instance sync_vg.x_act[1] (in view: ScratchLib.cell27(netlist)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":122:4:122:9|Removing sequential instance sync_vg.x_act[2] (in view: ScratchLib.cell27(netlist)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":122:4:122:9|Removing sequential instance sync_vg.x_act[3] (in view: ScratchLib.cell27(netlist)) because it does not drive other instances.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":118:4:118:9|Removing instance hdmi_top_inst.ms72xx_ctl.ms7210_ctl.state[0] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.ms7200_ctl.state[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":122:4:122:9|Removing sequential instance sync_vg.x_act[0] (in view: work.hdmi_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":122:4:122:9|Removing sequential instance sync_vg.x_act[1] (in view: work.hdmi_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":122:4:122:9|Removing sequential instance sync_vg.x_act[2] (in view: work.hdmi_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":122:4:122:9|Removing sequential instance sync_vg.x_act[3] (in view: work.hdmi_top(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 243MB peak: 243MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":74:4:74:9|Removing sequential instance hdmi_top_inst.rstn_1ms_0_mod[0] (in view: work.top(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 312MB peak: 312MB)
+
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[2] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[4] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[5] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[6] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[7] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[8] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[9] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[10] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[11] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[12] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[13] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[14] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[15] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[16] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[17] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[18] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[19] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[20] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[21] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[22] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[23] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[24] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[25] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[25]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[26] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[26]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[2] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[4] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[5] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[6] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[7] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[8] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[9] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[10] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[11] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[12] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[13] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[14] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[15] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[16] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[17] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[18] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[19] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[20] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[21] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[22] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[23] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[24] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[25] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[25]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[26] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[26]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":74:4:74:9|Removing instance hdmi_top_inst.rstn_1ms_0_mod[1] because it is equivalent to instance hdmi_top_inst.rstn_1ms_mod[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":74:4:74:9|Removing instance hdmi_top_inst.rstn_1ms_0_mod[2] because it is equivalent to instance hdmi_top_inst.rstn_1ms_mod[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":74:4:74:9|Removing instance hdmi_top_inst.rstn_1ms_0_mod[3] because it is equivalent to instance hdmi_top_inst.rstn_1ms_mod[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":74:4:74:9|Removing instance hdmi_top_inst.rstn_1ms_0_mod[4] because it is equivalent to instance hdmi_top_inst.rstn_1ms_mod[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":74:4:74:9|Removing instance hdmi_top_inst.rstn_1ms_0_mod[5] because it is equivalent to instance hdmi_top_inst.rstn_1ms_mod[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":74:4:74:9|Removing instance hdmi_top_inst.rstn_1ms_0_mod[6] because it is equivalent to instance hdmi_top_inst.rstn_1ms_mod[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":74:4:74:9|Removing instance hdmi_top_inst.rstn_1ms_0_mod[7] because it is equivalent to instance hdmi_top_inst.rstn_1ms_mod[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":74:4:74:9|Removing instance hdmi_top_inst.rstn_1ms_0_mod[8] because it is equivalent to instance hdmi_top_inst.rstn_1ms_mod[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":74:4:74:9|Removing instance hdmi_top_inst.rstn_1ms_0_mod[9] because it is equivalent to instance hdmi_top_inst.rstn_1ms_mod[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":74:4:74:9|Removing instance hdmi_top_inst.rstn_1ms_0_mod[10] because it is equivalent to instance hdmi_top_inst.rstn_1ms_mod[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":74:4:74:9|Removing instance hdmi_top_inst.rstn_1ms_0_mod[11] because it is equivalent to instance hdmi_top_inst.rstn_1ms_mod[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":74:4:74:9|Removing instance hdmi_top_inst.rstn_1ms_0_mod[12] because it is equivalent to instance hdmi_top_inst.rstn_1ms_mod[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":74:4:74:9|Removing instance hdmi_top_inst.rstn_1ms_0_mod[13] because it is equivalent to instance hdmi_top_inst.rstn_1ms_mod[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":74:4:74:9|Removing instance hdmi_top_inst.rstn_1ms_0_mod[14] because it is equivalent to instance hdmi_top_inst.rstn_1ms_mod[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":74:4:74:9|Removing instance hdmi_top_inst.rstn_1ms_0_mod[15] because it is equivalent to instance hdmi_top_inst.rstn_1ms_mod[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":75:4:75:9|Removing instance hdmi_top_inst.sync_vg.v_count_0_mod[0] because it is equivalent to instance hdmi_top_inst.sync_vg.v_count_mod[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":75:4:75:9|Removing instance hdmi_top_inst.sync_vg.v_count_0_mod[1] because it is equivalent to instance hdmi_top_inst.sync_vg.v_count_mod[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":75:4:75:9|Removing instance hdmi_top_inst.sync_vg.v_count_0_mod[2] because it is equivalent to instance hdmi_top_inst.sync_vg.v_count_mod[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":75:4:75:9|Removing instance hdmi_top_inst.sync_vg.v_count_0_mod[3] because it is equivalent to instance hdmi_top_inst.sync_vg.v_count_mod[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":75:4:75:9|Removing instance hdmi_top_inst.sync_vg.v_count_0_mod[4] because it is equivalent to instance hdmi_top_inst.sync_vg.v_count_mod[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":75:4:75:9|Removing instance hdmi_top_inst.sync_vg.v_count_mod[5] because it is equivalent to instance hdmi_top_inst.sync_vg.v_count_0_mod[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":75:4:75:9|Removing instance hdmi_top_inst.sync_vg.v_count_mod[6] because it is equivalent to instance hdmi_top_inst.sync_vg.v_count_0_mod[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":75:4:75:9|Removing instance hdmi_top_inst.sync_vg.v_count_mod[7] because it is equivalent to instance hdmi_top_inst.sync_vg.v_count_0_mod[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":75:4:75:9|Removing instance hdmi_top_inst.sync_vg.v_count_0_mod[8] because it is equivalent to instance hdmi_top_inst.sync_vg.v_count_mod[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":75:4:75:9|Removing instance hdmi_top_inst.sync_vg.v_count_0_mod[9] because it is equivalent to instance hdmi_top_inst.sync_vg.v_count_mod[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":75:4:75:9|Removing instance hdmi_top_inst.sync_vg.v_count_0_mod[10] because it is equivalent to instance hdmi_top_inst.sync_vg.v_count_mod[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":75:4:75:9|Removing instance hdmi_top_inst.sync_vg.v_count_0_mod[11] because it is equivalent to instance hdmi_top_inst.sync_vg.v_count_mod[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[0] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[1] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_mod[3] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt_0_mod[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[0] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[1] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_mod[3] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt_0_mod[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":59:4:59:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_0_mod[0] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_mod[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":59:4:59:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_0_mod[1] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_mod[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":59:4:59:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_0_mod[2] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_mod[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":59:4:59:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_0_mod[3] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_mod[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":59:4:59:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_0_mod[4] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_mod[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":59:4:59:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_0_mod[5] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_mod[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":59:4:59:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_0_mod[6] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_mod[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":59:4:59:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_0_mod[7] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_mod[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":59:4:59:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_0_mod[8] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_mod[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":59:4:59:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_0_mod[9] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_mod[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":59:4:59:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_0_mod[10] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_mod[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":59:4:59:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_0_mod[11] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_mod[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":59:4:59:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_0_mod[12] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_mod[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":59:4:59:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_0_mod[13] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_mod[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":59:4:59:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_0_mod[14] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_mod[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":59:4:59:9|Removing instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_0_mod[15] because it is equivalent to instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.fre_cnt_mod[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Only the first 100 messages of id 'BN132' are reported. To see all messages use 'report_messages -log C:\Users\wkk\Desktop\program\program\synthesize\synplify_impl\synlog\synplify_fpga_mapper.srr -id BN132' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN132} -count unlimited' in the Tcl shell.
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 312MB peak: 312MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 312MB peak: 313MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 312MB peak: 313MB)
+
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_000 = 000040020000042D830000425B0000042E01000000926000000401000020540000020402.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_001 = 00000E201000001602000000A0000000A80800000E100000043B020000003C3000040F04.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_002 = 000042104000042013000040060000040401000040314000040504000042DC700000C214.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_003 = 0000101FF000010000000000C8000000F010000042C33000042B3300004230C000042204.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_004 = 0000101FF0000100000000107000000106FF0000105FF0000104FF0000103FF0000102FF.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_005 = 00001092D00001084C0000107000000106FF0000105FF0000104FF0000103FF0000102FF.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_006 = 00001111C00001101C000010F30000010E51000010D4D000010C58000010B0D000010AFF.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_007 = 00001195F00001182A00001177800001162300001153D000011480000011303000011201.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_008 = 00001215000001200F000011F28000011EA2000011D4F000011C57000011BA2000011AB1.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_009 = 00001290000001288100001274F0000126710000125800000124EF0000123BF000012254.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_00A = 0000131C00000130A9000012F00000012E95000012D80000012C81000012BC0000012A81.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_00B = 0000139300000138000000137740000136040000135010000134010000133000000132B3.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_00C = 00001410000001408A000013F58000013EB0000013D80000013C5A000013B70000013AF2.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_00D = 00001490000001480000001471E000014600000014500000014421000014359000014260.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_00E = 00001511E00001505A000014F1E000014E4B000014D18000014C00000014BFD000014A00.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_00F = 00001592000001582000001572000001562000001552000001542000001530A000015200.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_010 = 000016138000016032000015F55000015E00000015DFC000015C00000015B00000015A00.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_011 = 00001692000001682000001672000001660A000016578000016435000016337000016248.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_012 = 000017148000017000000016FFF000016E00000016D00000016C00000016B20000016A20.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_013 = 00001793500001783000001773000001763000001753700001744B000017350000017254.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_014 = 000018103000018002000017FF7000017E01000017D20000017C20000017B0A000017A31.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_015 = 00001891300001881F00001870400001861000001855F00001844B0000183F0000018226.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_016 = 000019109000019023000018F5D000018E5E000018D22000018C20000018B12000018A03.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_017 = 00001990300001986D000019700000019600000019501000019483000019307000019207.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_018 = 00001A11000001A020000019F3C000019E80000019D00000019C10000019B00000019A0C.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_019 = 00001A91800001A88000001A73A00001A60200001A50300001A40200001A30100001A260.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_01A = 00001B10000001B04500001AF2C00001AE5800001AD4000001AC2D00001AB3800001AA71.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_01B = 00001B93A00001B80200001B71E00001B60000001B50000001B42100001B35900001B260.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_01C = 00001C12C00001C01000001BF4000001BE2D00001BD3800001BC7200001BBD000001BA80.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_01D = 00001C91E00001C80000001C70000001C62100001C55900001C46000001C38000001C245.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_01E = 00001D12000001D01E00001CFD000001CE5100001CD7200001CC0000001CB1D00001CA01.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_01F = 00001D90000001D82100001D75900001D66000001D50000001D45500001D32800001D26E.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_020 = 00001E1A000001E0A000001DFA000001DE0000001DD5E00001DC5600001DB1E00001DA00.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_021 = 00001E95900001E86000001E70000001E63500001E52000001E43000001E35000001E229.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_022 = 00001F10000001F00000001EF0000001EE0000001ED1A00001EC0000001EB0000001EA21.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_023 = 00001F90000001F80000001F70000001F60000001F50000001F40000001F30000001F200.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_024 = 000000A04000000C0000001FFA800001FE0000001FD0000001FC0000001FB0000001FA00.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_025 = 000089F00000089E00000089D00000089C0000008030100008020000008010000008000F.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_026 = 000000000000021500000021501000020007000042470000020000000042400000041001.
+@N: FX211 |Packed ROM hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0[19:0] (9 input, 20 output) to Block SelectRAM 
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7210_ctl.cmd_data_cnst_0_0.INIT_000 = 07C1C0F8009510244408C1C04090051C00200C610061102BC008F001C240901058100104.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7210_ctl.cmd_data_cnst_0_0.INIT_001 = 024080A82038000B110400429080A220270D09B74205E01810070602C0000FE06080201E.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7210_ctl.cmd_data_cnst_0_0.INIT_002 = 039000D00034000D00034000D00034000D00034000D00034000D00035600D11034180B0D.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7210_ctl.cmd_data_cnst_0_0.INIT_003 = 000000000000000000000000000000000000000000000000000000000000000000000700.
+@N: FX211 |Packed ROM hdmi_top_inst.ms72xx_ctl.ms7210_ctl.cmd_data_cnst_0[13:0] (6 input, 14 output) to Block SelectRAM 
+@N: FX214 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":40:8:40:11|Generating ROM hdmi_top_inst.ms72xx_ctl.ms7210_ctl.cmd_data_cnst_0[3:0] (in view: work.top(verilog)).
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 312MB peak: 313MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 330MB peak: 359MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		   991.86ns		 626 /       380
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 330MB peak: 359MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 333MB peak: 359MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 244MB peak: 359MB)
+
+Writing Analyst data base C:\Users\wkk\Desktop\program\program\synthesize\synplify_impl\synwork\synplify_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 337MB peak: 359MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 368MB peak: 368MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 369MB peak: 369MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 369MB peak: 369MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 331MB peak: 369MB)
+
+@W: MT420 |Found inferred clock sys_pll|clkout1_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net hdmi_top_inst.the_instance_name.cfg_clk_10m[0].
+@W: MT420 |Found inferred clock sys_pll|clkout0_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net hdmi_top_inst.the_instance_name.pixclk_out[0].
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue May 16 01:58:26 2023
+#
+
+
+Top view:               top
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        3
+Constraint File(s):    C:\Users\wkk\Desktop\program\program\source\hdmi\constr\hdmi_loop.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 994.274
+
+                                   Requested     Estimated     Requested     Estimated                 Clock        Clock                  
+Starting Clock                     Frequency     Frequency     Period        Period        Slack       Type         Group                  
+-------------------------------------------------------------------------------------------------------------------------------------------
+sys_clk                            50.0 MHz      NA            20.000        NA            NA          virtual      default_clkgroup       
+sys_pll|clkout0_inferred_clock     1.0 MHz       258.2 MHz     1000.000      3.873         996.127     inferred     Autoconstr_clkgroup_0_2
+sys_pll|clkout1_inferred_clock     1.0 MHz       174.7 MHz     1000.000      5.726         994.274     inferred     Autoconstr_clkgroup_0_1
+===========================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                          |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                        Ending                          |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+sys_pll|clkout1_inferred_clock  sys_pll|clkout1_inferred_clock  |  1000.000    994.274  |  No paths    -      |  No paths    -      |  No paths    -    
+sys_pll|clkout1_inferred_clock  sys_pll|clkout0_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+sys_pll|clkout0_inferred_clock  sys_pll|clkout0_inferred_clock  |  1000.000    996.127  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: sys_pll|clkout0_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                           Starting                                                                        Arrival            
+Instance                                   Reference                          Type          Pin     Net                    Time        Slack  
+                                           Clock                                                                                              
+----------------------------------------------------------------------------------------------------------------------------------------------
+hdmi_top_inst.sync_vg.h_count[2]           sys_pll|clkout0_inferred_clock     GTP_DFF_R     Q       h_count[2]             0.325       996.127
+hdmi_top_inst.sync_vg.h_count[1]           sys_pll|clkout0_inferred_clock     GTP_DFF_R     Q       h_count[1]             0.325       996.248
+hdmi_top_inst.sync_vg.h_count[0]           sys_pll|clkout0_inferred_clock     GTP_DFF_R     Q       h_count[0]             0.325       996.271
+hdmi_top_inst.sync_vg.h_count[4]           sys_pll|clkout0_inferred_clock     GTP_DFF_R     Q       h_count[4]             0.325       996.297
+hdmi_top_inst.sync_vg.h_count[11]          sys_pll|clkout0_inferred_clock     GTP_DFF_R     Q       h_count[11]            0.325       996.490
+hdmi_top_inst.sync_vg.h_count[7]           sys_pll|clkout0_inferred_clock     GTP_DFF_R     Q       h_count[7]             0.325       996.506
+hdmi_top_inst.sync_vg.v_count_0_mod[6]     sys_pll|clkout0_inferred_clock     GTP_DFF_R     Q       dsp_join_kb_1_1[6]     0.325       996.550
+hdmi_top_inst.sync_vg.v_count_0_mod[7]     sys_pll|clkout0_inferred_clock     GTP_DFF_R     Q       dsp_join_kb_1_1[7]     0.325       996.554
+hdmi_top_inst.sync_vg.h_count[5]           sys_pll|clkout0_inferred_clock     GTP_DFF_R     Q       h_count[5]             0.325       996.651
+hdmi_top_inst.sync_vg.v_count_mod[4]       sys_pll|clkout0_inferred_clock     GTP_DFF_R     Q       dsp_join_kb_1_1[4]     0.325       996.655
+==============================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                           Starting                                                                         Required            
+Instance                                   Reference                          Type          Pin     Net                     Time         Slack  
+                                           Clock                                                                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+hdmi_top_inst.sync_vg.v_count_mod[10]      sys_pll|clkout0_inferred_clock     GTP_DFF_R     D       dsp_join_kb_1_0[10]     999.983      996.127
+hdmi_top_inst.sync_vg.v_count_0_mod[6]     sys_pll|clkout0_inferred_clock     GTP_DFF_R     D       dsp_join_kb_1_0[6]      999.983      996.255
+hdmi_top_inst.sync_vg.v_count_0_mod[5]     sys_pll|clkout0_inferred_clock     GTP_DFF_R     D       dsp_join_kb_1_0[5]      999.983      996.287
+hdmi_top_inst.sync_vg.v_count_mod[2]       sys_pll|clkout0_inferred_clock     GTP_DFF_R     D       dsp_join_kb_1_0[2]      999.983      996.383
+hdmi_top_inst.sync_vg.v_count_mod[11]      sys_pll|clkout0_inferred_clock     GTP_DFF_R     D       dsp_join_kb_1_0[11]     999.983      996.603
+hdmi_top_inst.sync_vg.v_count_mod[9]       sys_pll|clkout0_inferred_clock     GTP_DFF_R     D       dsp_join_kb_1_0[9]      999.983      996.667
+hdmi_top_inst.sync_vg.v_count_mod[8]       sys_pll|clkout0_inferred_clock     GTP_DFF_R     D       dsp_join_kb_1_0[8]      999.983      996.699
+hdmi_top_inst.sync_vg.v_count_0_mod[7]     sys_pll|clkout0_inferred_clock     GTP_DFF_R     D       dsp_join_kb_1_0[7]      999.983      996.731
+hdmi_top_inst.sync_vg.v_count_mod[4]       sys_pll|clkout0_inferred_clock     GTP_DFF_R     D       dsp_join_kb_1_0[4]      999.983      996.827
+hdmi_top_inst.sync_vg.v_count_mod[3]       sys_pll|clkout0_inferred_clock     GTP_DFF_R     D       dsp_join_kb_1_0[3]      999.983      996.859
+================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.017
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.983
+
+    - Propagation time:                      3.856
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 996.127
+
+    Number of logic level(s):                16
+    Starting point:                          hdmi_top_inst.sync_vg.h_count[2] / Q
+    Ending point:                            hdmi_top_inst.sync_vg.v_count_mod[10] / D
+    The start point is clocked by            sys_pll|clkout0_inferred_clock [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+    The end   point is clocked by            sys_pll|clkout0_inferred_clock [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+
+Instance / Net                                                      Pin      Pin               Arrival     No. of    
+Name                                              Type              Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------
+hdmi_top_inst.sync_vg.h_count[2]                  GTP_DFF_R         Q        Out     0.325     0.325 r     -         
+h_count[2]                                        Net               -        -       0.308     -           3         
+hdmi_top_inst.sync_vg.un1_h_count_6_7             GTP_LUT4          I2       In      -         0.633 r     -         
+hdmi_top_inst.sync_vg.un1_h_count_6_7             GTP_LUT4          Z        Out     0.383     1.016 r     -         
+un1_h_count_6_7                                   Net               -        -       0.289     -           2         
+hdmi_top_inst.sync_vg.un1_h_count_6_2             GTP_LUT5          I4       In      -         1.305 r     -         
+hdmi_top_inst.sync_vg.un1_h_count_6_2             GTP_LUT5          Z        Out     0.174     1.479 f     -         
+un1_h_count_6_2                                   Net               -        -       0.269     -           1         
+hdmi_top_inst.sync_vg.un1_h_count_6               GTP_LUT5          I3       In      -         1.748 f     -         
+hdmi_top_inst.sync_vg.un1_h_count_6               GTP_LUT5          Z        Out     0.383     2.131 r     -         
+un1_h_count_6                                     Net               -        -       0.348     -           5         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_0_cy     GTP_LUT5CARRY     I2       In      -         2.479 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_0_cy     GTP_LUT5CARRY     COUT     Out     0.333     2.812 r     -         
+un1_v_count_12_cry_0_cy                           Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_0        GTP_LUT5CARRY     CIN      In      -         2.812 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_0        GTP_LUT5CARRY     COUT     Out     0.032     2.844 r     -         
+un1_v_count_12_cry_0                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_1        GTP_LUT5CARRY     CIN      In      -         2.844 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_1        GTP_LUT5CARRY     COUT     Out     0.032     2.876 r     -         
+un1_v_count_12_cry_1                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_2        GTP_LUT5CARRY     CIN      In      -         2.876 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_2        GTP_LUT5CARRY     COUT     Out     0.032     2.908 r     -         
+un1_v_count_12_cry_2                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_3        GTP_LUT5CARRY     CIN      In      -         2.908 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_3        GTP_LUT5CARRY     COUT     Out     0.032     2.940 r     -         
+un1_v_count_12_cry_3                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_4        GTP_LUT5CARRY     CIN      In      -         2.940 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_4        GTP_LUT5CARRY     COUT     Out     0.032     2.972 r     -         
+un1_v_count_12_cry_4                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_5        GTP_LUT5CARRY     CIN      In      -         2.972 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_5        GTP_LUT5CARRY     COUT     Out     0.032     3.004 r     -         
+un1_v_count_12_cry_5                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_6        GTP_LUT5CARRY     CIN      In      -         3.004 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_6        GTP_LUT5CARRY     COUT     Out     0.032     3.036 r     -         
+un1_v_count_12_cry_6                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_7        GTP_LUT5CARRY     CIN      In      -         3.036 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_7        GTP_LUT5CARRY     COUT     Out     0.032     3.068 r     -         
+un1_v_count_12_cry_7                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_8        GTP_LUT5CARRY     CIN      In      -         3.068 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_8        GTP_LUT5CARRY     COUT     Out     0.032     3.100 r     -         
+un1_v_count_12_cry_8                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_9        GTP_LUT5CARRY     CIN      In      -         3.100 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_9        GTP_LUT5CARRY     COUT     Out     0.032     3.132 r     -         
+un1_v_count_12_cry_9                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_10       GTP_LUT5CARRY     CIN      In      -         3.132 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_10       GTP_LUT5CARRY     Z        Out     0.216     3.348 f     -         
+un1_v_count_12_cry_10_Z                           Net               -        -       0.269     -           1         
+hdmi_top_inst.sync_vg.v_count_0_0[10]             GTP_LUT3          I0       In      -         3.617 f     -         
+hdmi_top_inst.sync_vg.v_count_0_0[10]             GTP_LUT3          Z        Out     0.239     3.856 f     -         
+dsp_join_kb_1_0[10]                               Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.v_count_mod[10]             GTP_DFF_R         D        In      -         3.856 f     -         
+=====================================================================================================================
+Total path delay (propagation time + setup) of 3.873 is 2.390(61.7%) logic and 1.483(38.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.017
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.983
+
+    - Propagation time:                      3.735
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 996.248
+
+    Number of logic level(s):                16
+    Starting point:                          hdmi_top_inst.sync_vg.h_count[1] / Q
+    Ending point:                            hdmi_top_inst.sync_vg.v_count_mod[10] / D
+    The start point is clocked by            sys_pll|clkout0_inferred_clock [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+    The end   point is clocked by            sys_pll|clkout0_inferred_clock [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+
+Instance / Net                                                      Pin      Pin               Arrival     No. of    
+Name                                              Type              Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------
+hdmi_top_inst.sync_vg.h_count[1]                  GTP_DFF_R         Q        Out     0.325     0.325 r     -         
+h_count[1]                                        Net               -        -       0.289     -           2         
+hdmi_top_inst.sync_vg.un1_h_count_6_7             GTP_LUT4          I1       In      -         0.614 r     -         
+hdmi_top_inst.sync_vg.un1_h_count_6_7             GTP_LUT4          Z        Out     0.282     0.896 r     -         
+un1_h_count_6_7                                   Net               -        -       0.289     -           2         
+hdmi_top_inst.sync_vg.un1_h_count_6_2             GTP_LUT5          I4       In      -         1.184 r     -         
+hdmi_top_inst.sync_vg.un1_h_count_6_2             GTP_LUT5          Z        Out     0.174     1.358 f     -         
+un1_h_count_6_2                                   Net               -        -       0.269     -           1         
+hdmi_top_inst.sync_vg.un1_h_count_6               GTP_LUT5          I3       In      -         1.627 f     -         
+hdmi_top_inst.sync_vg.un1_h_count_6               GTP_LUT5          Z        Out     0.383     2.010 r     -         
+un1_h_count_6                                     Net               -        -       0.348     -           5         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_0_cy     GTP_LUT5CARRY     I2       In      -         2.358 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_0_cy     GTP_LUT5CARRY     COUT     Out     0.333     2.691 r     -         
+un1_v_count_12_cry_0_cy                           Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_0        GTP_LUT5CARRY     CIN      In      -         2.691 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_0        GTP_LUT5CARRY     COUT     Out     0.032     2.723 r     -         
+un1_v_count_12_cry_0                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_1        GTP_LUT5CARRY     CIN      In      -         2.723 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_1        GTP_LUT5CARRY     COUT     Out     0.032     2.755 r     -         
+un1_v_count_12_cry_1                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_2        GTP_LUT5CARRY     CIN      In      -         2.755 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_2        GTP_LUT5CARRY     COUT     Out     0.032     2.787 r     -         
+un1_v_count_12_cry_2                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_3        GTP_LUT5CARRY     CIN      In      -         2.787 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_3        GTP_LUT5CARRY     COUT     Out     0.032     2.819 r     -         
+un1_v_count_12_cry_3                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_4        GTP_LUT5CARRY     CIN      In      -         2.819 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_4        GTP_LUT5CARRY     COUT     Out     0.032     2.851 r     -         
+un1_v_count_12_cry_4                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_5        GTP_LUT5CARRY     CIN      In      -         2.851 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_5        GTP_LUT5CARRY     COUT     Out     0.032     2.883 r     -         
+un1_v_count_12_cry_5                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_6        GTP_LUT5CARRY     CIN      In      -         2.883 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_6        GTP_LUT5CARRY     COUT     Out     0.032     2.915 r     -         
+un1_v_count_12_cry_6                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_7        GTP_LUT5CARRY     CIN      In      -         2.915 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_7        GTP_LUT5CARRY     COUT     Out     0.032     2.947 r     -         
+un1_v_count_12_cry_7                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_8        GTP_LUT5CARRY     CIN      In      -         2.947 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_8        GTP_LUT5CARRY     COUT     Out     0.032     2.979 r     -         
+un1_v_count_12_cry_8                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_9        GTP_LUT5CARRY     CIN      In      -         2.979 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_9        GTP_LUT5CARRY     COUT     Out     0.032     3.011 r     -         
+un1_v_count_12_cry_9                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_10       GTP_LUT5CARRY     CIN      In      -         3.011 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_10       GTP_LUT5CARRY     Z        Out     0.216     3.227 f     -         
+un1_v_count_12_cry_10_Z                           Net               -        -       0.269     -           1         
+hdmi_top_inst.sync_vg.v_count_0_0[10]             GTP_LUT3          I0       In      -         3.496 f     -         
+hdmi_top_inst.sync_vg.v_count_0_0[10]             GTP_LUT3          Z        Out     0.239     3.735 f     -         
+dsp_join_kb_1_0[10]                               Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.v_count_mod[10]             GTP_DFF_R         D        In      -         3.735 f     -         
+=====================================================================================================================
+Total path delay (propagation time + setup) of 3.752 is 2.289(61.0%) logic and 1.463(39.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.017
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.983
+
+    - Propagation time:                      3.728
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 996.255
+
+    Number of logic level(s):                12
+    Starting point:                          hdmi_top_inst.sync_vg.h_count[2] / Q
+    Ending point:                            hdmi_top_inst.sync_vg.v_count_0_mod[6] / D
+    The start point is clocked by            sys_pll|clkout0_inferred_clock [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+    The end   point is clocked by            sys_pll|clkout0_inferred_clock [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+
+Instance / Net                                                      Pin      Pin               Arrival     No. of    
+Name                                              Type              Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------
+hdmi_top_inst.sync_vg.h_count[2]                  GTP_DFF_R         Q        Out     0.325     0.325 r     -         
+h_count[2]                                        Net               -        -       0.308     -           3         
+hdmi_top_inst.sync_vg.un1_h_count_6_7             GTP_LUT4          I2       In      -         0.633 r     -         
+hdmi_top_inst.sync_vg.un1_h_count_6_7             GTP_LUT4          Z        Out     0.383     1.016 r     -         
+un1_h_count_6_7                                   Net               -        -       0.289     -           2         
+hdmi_top_inst.sync_vg.un1_h_count_6_2             GTP_LUT5          I4       In      -         1.305 r     -         
+hdmi_top_inst.sync_vg.un1_h_count_6_2             GTP_LUT5          Z        Out     0.174     1.479 f     -         
+un1_h_count_6_2                                   Net               -        -       0.269     -           1         
+hdmi_top_inst.sync_vg.un1_h_count_6               GTP_LUT5          I3       In      -         1.748 f     -         
+hdmi_top_inst.sync_vg.un1_h_count_6               GTP_LUT5          Z        Out     0.383     2.131 r     -         
+un1_h_count_6                                     Net               -        -       0.348     -           5         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_0_cy     GTP_LUT5CARRY     I2       In      -         2.479 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_0_cy     GTP_LUT5CARRY     COUT     Out     0.333     2.812 r     -         
+un1_v_count_12_cry_0_cy                           Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_0        GTP_LUT5CARRY     CIN      In      -         2.812 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_0        GTP_LUT5CARRY     COUT     Out     0.032     2.844 r     -         
+un1_v_count_12_cry_0                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_1        GTP_LUT5CARRY     CIN      In      -         2.844 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_1        GTP_LUT5CARRY     COUT     Out     0.032     2.876 r     -         
+un1_v_count_12_cry_1                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_2        GTP_LUT5CARRY     CIN      In      -         2.876 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_2        GTP_LUT5CARRY     COUT     Out     0.032     2.908 r     -         
+un1_v_count_12_cry_2                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_3        GTP_LUT5CARRY     CIN      In      -         2.908 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_3        GTP_LUT5CARRY     COUT     Out     0.032     2.940 r     -         
+un1_v_count_12_cry_3                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_4        GTP_LUT5CARRY     CIN      In      -         2.940 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_4        GTP_LUT5CARRY     COUT     Out     0.032     2.972 r     -         
+un1_v_count_12_cry_4                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_5        GTP_LUT5CARRY     CIN      In      -         2.972 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_5        GTP_LUT5CARRY     COUT     Out     0.032     3.004 r     -         
+un1_v_count_12_cry_5                              Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_6        GTP_LUT5CARRY     CIN      In      -         3.004 r     -         
+hdmi_top_inst.sync_vg.un1_v_count_12_cry_6        GTP_LUT5CARRY     Z        Out     0.216     3.220 f     -         
+un1_v_count_12_cry_6_Z                            Net               -        -       0.269     -           1         
+hdmi_top_inst.sync_vg.v_count_0_0[6]              GTP_LUT3          I0       In      -         3.489 f     -         
+hdmi_top_inst.sync_vg.v_count_0_0[6]              GTP_LUT3          Z        Out     0.239     3.728 f     -         
+dsp_join_kb_1_0[6]                                Net               -        -       0.000     -           1         
+hdmi_top_inst.sync_vg.v_count_0_mod[6]            GTP_DFF_R         D        In      -         3.728 f     -         
+=====================================================================================================================
+Total path delay (propagation time + setup) of 3.745 is 2.262(60.4%) logic and 1.483(39.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: sys_pll|clkout1_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                     Starting                                                                   Arrival            
+Instance                                             Reference                          Type           Pin     Net              Time        Slack  
+                                                     Clock                                                                                         
+---------------------------------------------------------------------------------------------------------------------------------------------------
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_index[1]     sys_pll|clkout1_inferred_clock     GTP_DFF_RE     Q       cmd_index[1]     0.325       994.274
+hdmi_top_inst.ms72xx_ctl.rstn                        sys_pll|clkout1_inferred_clock     GTP_DFF        Q       rstn             0.325       994.292
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_index[0]     sys_pll|clkout1_inferred_clock     GTP_DFF_RE     Q       cmd_index[0]     0.325       994.298
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_index[2]     sys_pll|clkout1_inferred_clock     GTP_DFF_RE     Q       cmd_index[2]     0.325       994.382
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.state[0]         sys_pll|clkout1_inferred_clock     GTP_DFF        Q       state[0]         0.325       994.413
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_index[4]     sys_pll|clkout1_inferred_clock     GTP_DFF_RE     Q       cmd_index[4]     0.325       994.677
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_index[5]     sys_pll|clkout1_inferred_clock     GTP_DFF_RE     Q       cmd_index[5]     0.325       994.681
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_index[3]     sys_pll|clkout1_inferred_clock     GTP_DFF_RE     Q       cmd_index[3]     0.325       994.782
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_index[8]     sys_pll|clkout1_inferred_clock     GTP_DFF_RE     Q       cmd_index[8]     0.325       994.850
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_index[7]     sys_pll|clkout1_inferred_clock     GTP_DFF_RE     Q       cmd_index[7]     0.325       995.185
+===================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                          Starting                                                                  Required            
+Instance                                                  Reference                          Type           Pin      Net            Time         Slack  
+                                                          Clock                                                                                         
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0     sys_pll|clkout1_inferred_clock     GTP_DRM18K     RSTB     cmd_iic_15     999.974      994.274
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.addr_1[3]             sys_pll|clkout1_inferred_clock     GTP_DFF_E      D        addr_8[3]      999.968      995.195
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.addr_1[4]             sys_pll|clkout1_inferred_clock     GTP_DFF_E      D        addr_8[4]      999.968      995.195
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.addr_1[7]             sys_pll|clkout1_inferred_clock     GTP_DFF_E      D        addr_8[7]      999.968      995.195
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.addr_1[0]             sys_pll|clkout1_inferred_clock     GTP_DFF_E      D        addr_8[0]      999.983      995.233
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.addr_1[1]             sys_pll|clkout1_inferred_clock     GTP_DFF_E      D        addr_8[1]      999.983      995.233
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.addr_1[2]             sys_pll|clkout1_inferred_clock     GTP_DFF_E      D        addr_8[2]      999.983      995.233
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.addr_1[9]             sys_pll|clkout1_inferred_clock     GTP_DFF_E      D        addr_8[9]      999.983      995.233
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.addr_1[12]            sys_pll|clkout1_inferred_clock     GTP_DFF_E      D        N_293_i_0      999.968      995.235
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.addr_1[13]            sys_pll|clkout1_inferred_clock     GTP_DFF_E      D        N_305_i_0      999.968      995.235
+========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.026
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.974
+
+    - Propagation time:                      5.700
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     994.274
+
+    Number of logic level(s):                3
+    Starting point:                          hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_index[1] / Q
+    Ending point:                            hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0 / RSTB
+    The start point is clocked by            sys_pll|clkout1_inferred_clock [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+    The end   point is clocked by            sys_pll|clkout1_inferred_clock [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLKB
+
+Instance / Net                                                                  Pin      Pin               Arrival     No. of    
+Name                                                             Type           Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_index[1]                 GTP_DFF_RE     Q        Out     0.325     0.325 r     -         
+cmd_index[1]                                                     Net            -        -       2.058     -           3         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.un1_cmd_index_111_1_a3_1     GTP_LUT3       I1       In      -         2.384 r     -         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.un1_cmd_index_111_1_a3_1     GTP_LUT3       Z        Out     0.282     2.666 r     -         
+un1_cmd_index_111_1_a3_1                                         Net            -        -       0.269     -           1         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.un1_cmd_index_111_1_a3_0     GTP_LUT5       I0       In      -         2.934 r     -         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.un1_cmd_index_111_1_a3_0     GTP_LUT5       Z        Out     0.239     3.173 f     -         
+N_109                                                            Net            -        -       0.269     -           1         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_iic_15                   GTP_LUT5       I0       In      -         3.442 f     -         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_iic_15                   GTP_LUT5       Z        Out     0.239     3.681 f     -         
+cmd_iic_15                                                       Net            -        -       2.019     -           1         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0            GTP_DRM18K     RSTB     In      -         5.700 f     -         
+=================================================================================================================================
+Total path delay (propagation time + setup) of 5.726 is 1.111(19.4%) logic and 4.615(80.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.026
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.974
+
+    - Propagation time:                      5.682
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 994.292
+
+    Number of logic level(s):                2
+    Starting point:                          hdmi_top_inst.ms72xx_ctl.rstn / Q
+    Ending point:                            hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0 / RSTB
+    The start point is clocked by            sys_pll|clkout1_inferred_clock [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+    The end   point is clocked by            sys_pll|clkout1_inferred_clock [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLKB
+
+Instance / Net                                                           Pin      Pin               Arrival     No. of    
+Name                                                      Type           Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------
+hdmi_top_inst.ms72xx_ctl.rstn                             GTP_DFF        Q        Out     0.325     0.325 r     -         
+rstn                                                      Net            -        -       0.812     -           50        
+hdmi_top_inst.ms72xx_ctl.ms7210_ctl.comp_rst_1_1_0        GTP_LUT2       I1       In      -         1.137 r     -         
+hdmi_top_inst.ms72xx_ctl.ms7210_ctl.comp_rst_1_1_0        GTP_LUT2       Z        Out     0.174     1.311 f     -         
+state5_1_1                                                Net            -        -       2.178     -           9         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_iic_15            GTP_LUT5       I4       In      -         3.489 f     -         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_iic_15            GTP_LUT5       Z        Out     0.174     3.663 f     -         
+cmd_iic_15                                                Net            -        -       2.019     -           1         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0     GTP_DRM18K     RSTB     In      -         5.682 f     -         
+==========================================================================================================================
+Total path delay (propagation time + setup) of 5.708 is 0.699(12.2%) logic and 5.009(87.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.026
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.974
+
+    - Propagation time:                      5.676
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 994.298
+
+    Number of logic level(s):                3
+    Starting point:                          hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_index[0] / Q
+    Ending point:                            hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0 / RSTB
+    The start point is clocked by            sys_pll|clkout1_inferred_clock [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+    The end   point is clocked by            sys_pll|clkout1_inferred_clock [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLKB
+
+Instance / Net                                                                  Pin      Pin               Arrival     No. of    
+Name                                                             Type           Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_index[0]                 GTP_DFF_RE     Q        Out     0.325     0.325 r     -         
+cmd_index[0]                                                     Net            -        -       2.078     -           4         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.un1_cmd_index_111_1_a3_1     GTP_LUT3       I0       In      -         2.403 r     -         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.un1_cmd_index_111_1_a3_1     GTP_LUT3       Z        Out     0.239     2.642 f     -         
+un1_cmd_index_111_1_a3_1                                         Net            -        -       0.269     -           1         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.un1_cmd_index_111_1_a3_0     GTP_LUT5       I0       In      -         2.911 f     -         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.un1_cmd_index_111_1_a3_0     GTP_LUT5       Z        Out     0.239     3.150 f     -         
+N_109                                                            Net            -        -       0.269     -           1         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_iic_15                   GTP_LUT5       I0       In      -         3.419 f     -         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_iic_15                   GTP_LUT5       Z        Out     0.239     3.658 f     -         
+cmd_iic_15                                                       Net            -        -       2.019     -           1         
+hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0            GTP_DRM18K     RSTB     In      -         5.676 f     -         
+=================================================================================================================================
+Total path delay (propagation time + setup) of 5.702 is 1.068(18.7%) logic and 4.634(81.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 332MB peak: 369MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 332MB peak: 369MB)
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: pgl50hfbg484-6
+Cell usage:
+GTP_BUF         38 uses
+GTP_DFF         47 uses
+GTP_DFF_C       1 use
+GTP_DFF_E       108 uses
+GTP_DFF_R       139 uses
+GTP_DFF_RE      81 uses
+GTP_DFF_S       4 uses
+GTP_DRM18K      1 use
+GTP_DRM9K       1 use
+GTP_GRS         1 use
+GTP_INV         10 uses
+GTP_LUT2        76 uses
+GTP_LUT3        94 uses
+GTP_LUT4        87 uses
+GTP_LUT5        155 uses
+GTP_LUT5CARRY   201 uses
+GTP_LUT5M       4 uses
+GTP_MUX2LUT6    1 use
+GTP_ONE         8 uses
+GTP_PLL_E3      1 use
+GTP_ROM32X1     6 uses
+GTP_ZERO        9 uses
+
+I/O ports: 63
+GTP_IOBUF      2 uses
+GTP_OUTBUF     32 uses
+
+
+RAM/ROM usage summary
+
+Distributed Rams : 6.00 of 4250 (0.14%)
+
+
+Mapping Summary:
+Total LUTs: 623 of 42800 (1.46%)
+	LUTs as dram: 0 of 17000 (0.00%)
+	LUTs as logic: 623 
+Total Registers: 380 of 64200 (0.59%)
+Total Muxes:   1
+
+DRM18K:
+Total DRM18K =  1.5 of 134 (1.12%)
+
+APMs:
+Total APMs =  0.00 of 84 (0.00%)
+
+Total I/O primitives =  34 of 296 (11.49%)
+
+
+ Number of unique control sets:              37
+ CLK(clkout1_i), R(trans_bit9_i_a2_0), S(GND), CE(un27_dsu)		: 1
+ CLK(clkout1_i), R(N_43_i_0), S(GND), CE(trans_byte_0_sqmuxa)		: 3
+ CLK(clkout1_i), R(trans_bit9_i_a2_0), S(GND), CE(trans_bit[0])		: 2
+ CLK(clkout1_i), R(N_43_i_0), S(GND), CE(trans_byte[2])		: 1
+ CLK(clkout1_i), C(GND), P(GND), CE(VCC)		: 43
+ CLK(clkout1_i), C(GND), P(GND), CE(un1_start_0)		: 8
+ CLK(clkout1_i), C(GND), P(GND), CE(data_out3)		: 16
+ CLK(clkout1_i), C(GND), P(GND), CE(twr_en)		: 54
+ CLK(clkout1_i), R(GND), S(N_43_i_0), CE(VCC)		: 1
+ CLK(clkout1_i), R(rstn_i_0), S(GND), CE(VCC)		: 56
+ CLK(clkout1_i), R(receiv_data_18), S(GND), CE(receiv_data_1_sqmuxa_i_0)		: 8
+ CLK(clkout1_i), R(trans_bit9_i_a2), S(GND), CE(un27_dsu)		: 1
+ CLK(clkout1_i), R(start), S(GND), CE(trans_byte_0_sqmuxa)		: 3
+ CLK(clkout1_i), R(trans_bit9_i_a2), S(GND), CE(trans_bit[0])		: 2
+ CLK(clkout1_i), R(start), S(GND), CE(trans_byte[2])		: 1
+ CLK(clkout1_i), R(start), S(GND), CE(VCC)		: 1
+ CLK(clkout1_i), C(GND), P(GND), CE(un1_start)		: 8
+ CLK(clkout1_i), R(GND), S(start), CE(VCC)		: 1
+ CLK(clkout1_i), R(receiv_data_16), S(GND), CE(receiv_data_1_sqmuxa_i_0)		: 8
+ CLK(clkout1_i), R(GND), S(rstn_i_0), CE(VCC)		: 2
+ CLK(clkout1_i), R(N_186_i_0), S(GND), CE(cmd_indexe)		: 6
+ CLK(clkout1_i), R(state_srsts_i_o2[4]), S(GND), CE(VCC)		: 22
+ CLK(clkout1_i), R(state5_0), S(GND), CE(dri_cnte)		: 5
+ CLK(clkout1_i), R(state5_1_1), S(GND), CE(VCC)		: 7
+ CLK(clkout1_i), R(rstn_i_0), S(GND), CE(addr_1_sqmuxa_i_0)		: 20
+ CLK(clkout1_i), C(GND), P(GND), CE(data_in_2_sqmuxa_i_0)		: 20
+ CLK(clkout1_i), C(GND), P(GND), CE(freq_rec_2d3)		: 2
+ CLK(clkout1_i), R(state_1_1), S(GND), CE(cmd_indexe)		: 9
+ CLK(clkout1_i), R(state_1_0), S(GND), CE(dri_cnte)		: 9
+ CLK(clkout1_i), R(rstn_i_0), S(GND), CE(freq_rec_1_sqmuxa)		: 2
+ CLK(clkout1_i), C(rstn_out_c_i_0), P(GND), CE(VCC)		: 1
+ CLK(clkout0_i), C(GND), P(GND), CE(VCC)		: 4
+ CLK(clkout0_i), R(b_out_1_21), S(GND), CE(VCC)		: 2
+ CLK(clkout0_i), R(rstn_out_c_i_0), S(GND), CE(VCC)		: 14
+ CLK(clkout0_i), R(x_act_13), S(GND), CE(VCC)		: 9
+ CLK(clkout0_i), R(h_count19_0), S(GND), CE(VCC)		: 12
+ CLK(clkout1_i), R(clk_locked_i_0), S(GND), CE(VCC)		: 16
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 155MB peak: 369MB)
+
+Process took 0h:00m:12s realtime, 0h:00m:12s cputime
+# Tue May 16 01:58:26 2023
+
+###########################################################]
+
+Inputs and Outputs :
++-----------------------------------------------------------------------------------------+
+| Type       | File Name                                                                 
++-----------------------------------------------------------------------------------------+
+| Input      | C:/Users/wkk/Desktop/program/program/source/hdmi/constr/hdmi_loop.fdc     
+|            | C:/Users/wkk/Desktop/program/program/source/top.v                         
+|            | C:/Users/wkk/Desktop/program/program/source/hdmi/iic_dri.v                
+|            | C:/Users/wkk/Desktop/program/program/source/hdmi/ms72xx_ctl.v             
+|            | C:/Users/wkk/Desktop/program/program/source/hdmi/ms7200_ctl.v             
+|            | C:/Users/wkk/Desktop/program/program/source/hdmi/ms7210_ctl.v             
+|            | C:/Users/wkk/Desktop/program/program/source/hdmi/sync_vg.v                
+|            | C:/Users/wkk/Desktop/program/program/source/hdmi_top.v                    
+|            | C:/Users/wkk/Desktop/program/program/source/hdmi/pattern_vg.v             
+|            | C:/Users/wkk/Desktop/program/program/ipcore/sys_pll/sys_pll.idf           
+| Output     | C:/Users/wkk/Desktop/program/program/synthesize/stdout.log                
+|            | C:/Users/wkk/Desktop/program/program/synthesize/synlog.tcl                
+|            | C:/Users/wkk/Desktop/program/program/synthesize/top.vm                    
+|            | C:/Users/wkk/Desktop/program/program/synthesize/synplify.scf              
+|            | C:/Users/wkk/Desktop/program/program/synthesize/synplify.lcf              
+|            | C:/Users/wkk/Desktop/program/program/synthesize/synplify.log              
+|            | C:/Users/wkk/Desktop/program/program/synthesize/snr.db                    
++-----------------------------------------------------------------------------------------+
+
+
+Flow Command: synthesize -include_path {C:/Users/wkk/Desktop/program/program} -selected_syn_tool_opt 1 -top_module top

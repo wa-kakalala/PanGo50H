@@ -1,0 +1,17 @@
+i the_instance_name.clkout1_i
+m 0 0
+u 93 379
+p {t:the_instance_name.u_pll_e3.CLKOUT1}{t:the_instance_name.clkout1_inferred_clock.I[0]}{t:the_instance_name.clkout1_inferred_clock.OUT[0]}{p:the_instance_name.clkout1}{t:the_instance_name.clkout1}{t:hdmi_top_inst.cfg_clk_10m}{p:hdmi_top_inst.cfg_clk_10m}{t:hdmi_top_inst.rstn_1ms[15:0].C}
+e ckid0_0 {t:hdmi_top_inst.rstn_1ms[15:0].C} sdffr
+c ckid0_0 {t:the_instance_name.u_pll_e3.CLKOUT1} GTP_PLL_E3 Unsupported/too complex instance on clock path
+i the_instance_name.clkout0_i
+m 0 0
+u 12 45
+p {t:the_instance_name.u_pll_e3.CLKOUT0}{t:the_instance_name.clkout0_inferred_clock.I[0]}{t:the_instance_name.clkout0_inferred_clock.OUT[0]}{p:the_instance_name.clkout0}{t:the_instance_name.clkout0}{t:hdmi_top_inst.clk_148m5}{p:hdmi_top_inst.clk_148m5}{t:hdmi_top_inst.pattern_vg.pix_clk}{p:hdmi_top_inst.pattern_vg.pix_clk}{t:hdmi_top_inst.pattern_vg.b_out_1[0].C}
+e ckid0_1 {t:hdmi_top_inst.pattern_vg.b_out_1[0].C} sdffr
+c ckid0_1 {t:the_instance_name.u_pll_e3.CLKOUT0} GTP_PLL_E3 Unsupported/too complex instance on clock path
+i the_instance_name.pll_lock
+m 0 0
+u 0 0
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

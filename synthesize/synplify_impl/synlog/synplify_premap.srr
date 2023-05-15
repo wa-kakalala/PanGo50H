@@ -1,0 +1,224 @@
+# Tue May 16 02:05:06 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09P
+Install: E:\software\PDS_2022.1\syn
+OS: Windows 6.2
+
+Hostname: DESKTOP-7S7UGPP
+
+Implementation : synplify_impl
+Synopsys Pango Technology Pre-mapping, Version map202109png, Build 115R, Built Mar  8 2022 09:34:03, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 132MB)
+
+Reading constraint file: C:\Users\wkk\Desktop\program\program\source\hdmi\constr\hdmi_loop.fdc
+@L: C:\Users\wkk\Desktop\program\program\synthesize\synplify_impl\synplify_scck.rpt 
+See clock summary report "C:\Users\wkk\Desktop\program\program\synthesize\synplify_impl\synplify_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty4 (in view: work.sys_pll(verilog)) on net dyn_duty4 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty3 (in view: work.sys_pll(verilog)) on net dyn_duty3 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty2 (in view: work.sys_pll(verilog)) on net dyn_duty2 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty1 (in view: work.sys_pll(verilog)) on net dyn_duty1 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty0 (in view: work.sys_pll(verilog)) on net dyn_duty0 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_fdiv (in view: work.sys_pll(verilog)) on net dyn_fdiv (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv4 (in view: work.sys_pll(verilog)) on net dyn_odiv4 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv3 (in view: work.sys_pll(verilog)) on net dyn_odiv3 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv2 (in view: work.sys_pll(verilog)) on net dyn_odiv2 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv1 (in view: work.sys_pll(verilog)) on net dyn_odiv1 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":276:4:276:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.sda_out is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":231:4:231:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.send_data[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_cnt[26:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":380:4:380:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.trans_byte[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":215:4:215:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.scl_out is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":203:4:203:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.busy is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":349:4:349:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.byte_over is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":367:4:367:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.trans_bit[2:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":327:4:327:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.receiv_data[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":262:4:262:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.trans_byte_max[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":180:4:180:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.twr_en is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":156:4:156:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.trans_en is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":113:4:113:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.w_r_2d is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":113:4:113:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_rx.w_r_1d is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":276:4:276:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.sda_out is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":231:4:231:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.send_data[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":190:4:190:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_cnt[26:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":380:4:380:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.trans_byte[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":215:4:215:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.scl_out is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":203:4:203:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.busy is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":349:4:349:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.byte_over is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":367:4:367:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.trans_bit[2:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":327:4:327:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.receiv_data[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":262:4:262:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.trans_byte_max[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":180:4:180:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.twr_en is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":156:4:156:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.trans_en is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":113:4:113:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.w_r_2d is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":113:4:113:9|User-specified initial value defined for instance hdmi_top_inst.ms72xx_ctl.iic_dri_tx.w_r_1d is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":75:4:75:9|User-specified initial value defined for instance hdmi_top_inst.sync_vg.v_count[11:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":61:4:61:9|User-specified initial value defined for instance hdmi_top_inst.sync_vg.h_count[11:0] is being ignored due to limitations in architecture. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 230MB peak: 230MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 230MB peak: 231MB)
+
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":801:4:801:9|Removing sequential instance init_over (in view: work.ms7200_ctl(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":136:4:136:9|Removing sequential instance y_act[11:0] (in view: work.sync_vg_Z2(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+
+Encoding state machine state[4:0] (in view: work.ms7200_ctl(verilog))
+original code -> new code
+   0000001 -> 00001
+   0000010 -> 00010
+   0000100 -> 00100
+   0010000 -> 01000
+   0100000 -> 10000
+Encoding state machine state[5:0] (in view: work.ms7210_ctl(verilog))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine state[6:0] (in view: work.iic_dri_Z1(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine state[6:0] (in view: work.iic_dri_Z1_0(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 233MB peak: 233MB)
+
+
+ mixed edge conversion for GCC is OFF
+Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 233MB peak: 233MB)
+
+@N: BZ111 |Number of ICGs considered for optimization : 0  
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 233MB peak: 234MB)
+
+
+ mixed edge conversion for GCC is OFF
+ mixed edge conversion for GCC is OFF
+ mixed edge conversion for GCC is OFF
+ mixed edge conversion for GCC is OFF
+Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 233MB peak: 234MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 233MB peak: 234MB)
+
+
+
+Clock Summary
+******************
+
+          Start                              Requested     Requested     Clock        Clock                       Clock
+Level     Clock                              Frequency     Period        Type         Group                       Load 
+-----------------------------------------------------------------------------------------------------------------------
+0 -       sys_clk                            50.0 MHz      20.000        virtual      default_clkgroup            0    
+                                                                                                                       
+0 -       sys_pll|clkout1_inferred_clock     1.0 MHz       1000.000      inferred     Autoconstr_clkgroup_0_1     379  
+                                                                                                                       
+0 -       sys_pll|clkout0_inferred_clock     1.0 MHz       1000.000      inferred     Autoconstr_clkgroup_0_2     45   
+=======================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                   Clock     Source                                             Clock Pin                             Non-clock Pin     Non-clock Pin
+Clock                              Load      Pin                                                Seq Example                           Seq Example       Comb Example 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+sys_clk                            0         -                                                  -                                     -                 -            
+                                                                                                                                                                     
+sys_pll|clkout1_inferred_clock     379       the_instance_name.u_pll_e3.CLKOUT1(GTP_PLL_E3)     hdmi_top_inst.rstn_1ms[15:0].C        -                 -            
+                                                                                                                                                                     
+sys_pll|clkout0_inferred_clock     45        the_instance_name.u_pll_e3.CLKOUT0(GTP_PLL_E3)     hdmi_top_inst.pattern_vg.de_out.C     -                 -            
+=====================================================================================================================================================================
+
+@W: MT529 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":411:4:411:9|Found inferred clock sys_pll|clkout1_inferred_clock which controls 379 sequential elements including hdmi_top_inst.ms72xx_ctl.ms7200_ctl.state[4]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":97:4:97:9|Found inferred clock sys_pll|clkout0_inferred_clock which controls 45 sequential elements including hdmi_top_inst.sync_vg.vs_out. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+For details review file gcc_ICG_report.rpt
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 424 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=============================================== Non-Gated/Non-Generated Clocks ===============================================
+Clock Tree ID     Driving Element                        Drive Element Type     Fanout     Sample Instance                    
+------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       the_instance_name.u_pll_e3.CLKOUT1     GTP_PLL_E3             379        hdmi_top_inst.rstn_1ms[15:0]       
+@KP:ckid0_1       the_instance_name.u_pll_e3.CLKOUT0     GTP_PLL_E3             45         hdmi_top_inst.pattern_vg.b_out_1[0]
+==============================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\wkk\Desktop\program\program\synthesize\synplify_impl\synplify.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 235MB peak: 235MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 235MB peak: 236MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 236MB peak: 236MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 156MB peak: 237MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue May 16 02:05:07 2023
+
+###########################################################]

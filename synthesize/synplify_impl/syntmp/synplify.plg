@@ -1,0 +1,25 @@
+@P:  Worst Slack : 994.274
+@P:  sys_clk - Estimated Frequency : NA
+@P:  sys_clk - Requested Frequency : 50.0 MHz
+@P:  sys_clk - Estimated Period : NA
+@P:  sys_clk - Requested Period : 20.000
+@P:  sys_clk - Slack : NA
+@P:  sys_pll|clkout0_inferred_clock - Estimated Frequency : 258.2 MHz
+@P:  sys_pll|clkout0_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  sys_pll|clkout0_inferred_clock - Estimated Period : 3.873
+@P:  sys_pll|clkout0_inferred_clock - Requested Period : 1000.000
+@P:  sys_pll|clkout0_inferred_clock - Slack : 996.127
+@P:  sys_pll|clkout1_inferred_clock - Estimated Frequency : 174.7 MHz
+@P:  sys_pll|clkout1_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  sys_pll|clkout1_inferred_clock - Estimated Period : 5.726
+@P:  sys_pll|clkout1_inferred_clock - Requested Period : 1000.000
+@P:  sys_pll|clkout1_inferred_clock - Slack : 994.274
+@P: top Part : pgl50hfbg484-6
+@P: top Distributed Rams : 6.00 of 4250 (0.14%)
+@P: top Total Luts : 623 of 42800 (1.46%)
+@P: top Total Register bits  : 380 of 64200 (0.59%)
+@P: top Total Mux bits  : 1
+@P: top Total DRM18K  : 1.5 of 134 (1.12%)
+@P: top Total APMs  : 0.00 of 84 (0.00%)
+@P: top Total I/O primitives  : 35 of 296 (11.82%)
+@P:  CPU Time : 0h:00m:11s

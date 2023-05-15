@@ -1,0 +1,282 @@
+Selecting top level module top
+@N: CG364 :"E:\software\PDS_2022.1\syn\lib\generic\logos.v":10631:7:10631:16|Synthesizing module GTP_PLL_E3 in library work.
+Running optimization stage 1 on GTP_PLL_E3 .......
+Finished optimization stage 1 on GTP_PLL_E3 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":20:7:20:13|Synthesizing module sys_pll in library work.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":119:9:119:13|Removing wire clkfb, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":122:9:122:13|Removing wire pfden, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":123:9:123:20|Removing wire clkout0_gate, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":124:9:124:25|Removing wire clkout0_2pad_gate, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":125:9:125:20|Removing wire clkout1_gate, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":126:9:126:20|Removing wire clkout2_gate, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":127:9:127:20|Removing wire clkout3_gate, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":128:9:128:20|Removing wire clkout4_gate, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":129:9:129:20|Removing wire clkout5_gate, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":130:15:130:22|Removing wire dyn_idiv, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":131:15:131:23|Removing wire dyn_odiv0, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":132:15:132:23|Removing wire dyn_odiv1, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":133:15:133:23|Removing wire dyn_odiv2, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":134:15:134:23|Removing wire dyn_odiv3, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":135:15:135:23|Removing wire dyn_odiv4, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":136:15:136:22|Removing wire dyn_fdiv, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":137:15:137:23|Removing wire dyn_duty0, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":138:15:138:23|Removing wire dyn_duty1, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":139:15:139:23|Removing wire dyn_duty2, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":140:15:140:23|Removing wire dyn_duty3, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":141:15:141:23|Removing wire dyn_duty4, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":142:16:142:25|Removing wire dyn_phase0, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":143:16:143:25|Removing wire dyn_phase1, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":144:16:144:25|Removing wire dyn_phase2, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":145:16:145:25|Removing wire dyn_phase3, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":146:16:146:25|Removing wire dyn_phase4, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":150:15:150:22|Removing wire icp_base, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":151:15:151:21|Removing wire icp_sel, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":152:15:152:24|Removing wire lpfres_sel, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":153:15:153:25|Removing wire cripple_sel, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":154:15:154:23|Removing wire phase_sel, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":155:15:155:23|Removing wire phase_dir, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":156:15:156:26|Removing wire phase_step_n, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":157:15:157:24|Removing wire load_phase, as there is no assignment to it.
+@W: CG360 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":158:15:158:22|Removing wire dyn_mdiv, as there is no assignment to it.
+Running optimization stage 1 on sys_pll .......
+Finished optimization stage 1 on sys_pll (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":22:7:22:16|Synthesizing module ms7200_ctl in library work.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":407:27:407:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":490:35:490:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":501:35:501:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":512:35:512:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":523:35:523:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":534:35:534:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":587:31:587:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":593:31:593:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":599:31:599:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":602:34:602:36|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":607:31:607:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":632:37:632:45|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":634:40:634:48|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":639:37:639:45|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":651:37:651:45|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":669:39:669:46|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":678:41:678:48|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":682:33:682:40|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":684:39:684:46|Removing redundant assignment.
+@W: CG188 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|All paths in the function do not assign a return value
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":723:35:723:38|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":724:35:724:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":808:22:808:30|Removing redundant assignment.
+Running optimization stage 1 on ms7200_ctl .......
+@W: CL271 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":658:4:658:9|Pruning unused bits 31 to 18 of freq_rec[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":658:4:658:9|Pruning unused bits 15 to 0 of freq_rec[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":380:4:380:9|Pruning unused bits 31 to 18 of freq_rec_1d[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":380:4:380:9|Pruning unused bits 15 to 0 of freq_rec_1d[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":380:4:380:9|Pruning unused bits 31 to 18 of freq_rec_2d[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":380:4:380:9|Pruning unused bits 15 to 0 of freq_rec_2d[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":691:4:691:9|Register bit cmd_iic[22] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":691:4:691:9|Register bit cmd_iic[23] is always 0.
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":691:4:691:9|Pruning register bits 23 to 22 of cmd_iic[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on ms7200_ctl (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 103MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":22:7:22:16|Synthesizing module ms7210_ctl in library work.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":189:35:189:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":200:35:200:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":211:35:211:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":263:31:263:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":267:34:267:36|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":272:31:272:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":293:37:293:45|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":296:40:296:48|Removing redundant assignment.
+@W: CG188 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":40:8:40:11|All paths in the function do not assign a return value
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":335:35:335:38|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":336:35:336:41|Removing redundant assignment.
+Running optimization stage 1 on ms7210_ctl .......
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":303:4:303:9|Register bit cmd_iic[21] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":303:4:303:9|Register bit cmd_iic[22] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":303:4:303:9|Register bit cmd_iic[23] is always 0.
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":303:4:303:9|Pruning register bits 23 to 21 of cmd_iic[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on ms7210_ctl (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 103MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":23:7:23:13|Synthesizing module iic_dri in library work.
+
+	CLK_FRE=27'b000100110001001011010000000
+	IIC_FREQ=20'b01100001101010000000
+	T_WR=10'b0000000001
+	ADDR_BYTE=2'b10
+	LEN_WIDTH=8'b00000011
+	DATA_BYTE=2'b01
+	CLK_DIV=27'b000000000000000000000011001
+	ID_ADDR_BYTE=2'b11
+	DATA_SET=27'b000000000000000000000000110
+	T_WR_DELAY=32'b00000000000000000000000000001010
+	IDLE=3'b000
+	S_START=3'b001
+	SEND=3'b010
+	S_ACK=3'b011
+	RECEIV=3'b100
+	R_ACK=3'b101
+	STOP=3'b110
+   Generated name = iic_dri_Z1
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":107:28:107:35|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":163:28:163:35|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":187:26:187:31|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":200:27:200:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":210:24:210:27|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":222:27:222:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":258:29:258:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":272:34:272:47|Removing redundant assignment.
+@W: CG1340 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":288:45:288:56|Index into variable send_data could be out of range ; a simulation mismatch is possible.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":290:35:290:41|Removing redundant assignment.
+@W: CG1340 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":294:41:294:52|Index into variable send_data could be out of range ; a simulation mismatch is possible.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":320:35:320:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":334:35:334:45|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":345:28:345:35|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":374:33:374:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":389:34:389:43|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":392:30:392:39|Removing redundant assignment.
+Running optimization stage 1 on iic_dri_Z1 .......
+Finished optimization stage 1 on iic_dri_Z1 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms72xx_ctl.v":22:7:22:16|Synthesizing module ms72xx_ctl in library work.
+Running optimization stage 1 on ms72xx_ctl .......
+Finished optimization stage 1 on ms72xx_ctl (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\sync_vg.v":34:7:34:13|Synthesizing module sync_vg in library work.
+
+	X_BITS=4'b1100
+	Y_BITS=4'b1100
+	V_TOTAL=12'b010001100101
+	V_FP=12'b000000000100
+	V_BP=12'b000000100100
+	V_SYNC=12'b000000000101
+	V_ACT=12'b010000111000
+	H_TOTAL=12'b100010011000
+	H_FP=12'b000001011000
+	H_BP=12'b000010010100
+	H_SYNC=12'b000000101100
+	H_ACT=12'b011110000000
+   Generated name = sync_vg_Z2
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\sync_vg.v":108:30:108:35|Removing redundant assignment.
+Running optimization stage 1 on sync_vg_Z2 .......
+Finished optimization stage 1 on sync_vg_Z2 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\pattern_vg.v":22:7:22:16|Synthesizing module pattern_vg in library work.
+
+	COCLOR_DEPP=32'b00000000000000000000000000001000
+	X_BITS=4'b1100
+	Y_BITS=4'b1100
+	H_ACT=12'b011110000000
+	V_ACT=12'b010000111000
+	H_ACT_ARRAY_0=32'b00000000000000000000000011110000
+	H_ACT_ARRAY_1=32'b00000000000000000000000111100000
+	H_ACT_ARRAY_2=32'b00000000000000000000001011010000
+	H_ACT_ARRAY_3=32'b00000000000000000000001111000000
+	H_ACT_ARRAY_4=32'b00000000000000000000010010110000
+	H_ACT_ARRAY_5=32'b00000000000000000000010110100000
+	H_ACT_ARRAY_6=32'b00000000000000000000011010010000
+	H_ACT_ARRAY_7=32'b00000000000000000000011110000000
+   Generated name = pattern_vg_Z3
+Running optimization stage 1 on pattern_vg_Z3 .......
+Finished optimization stage 1 on pattern_vg_Z3 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi_top.v":1:7:1:14|Synthesizing module hdmi_top in library work.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi_top.v":70:22:70:29|Removing redundant assignment.
+Running optimization stage 1 on hdmi_top .......
+Finished optimization stage 1 on hdmi_top (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\top.v":1:7:1:9|Synthesizing module top in library work.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+Running optimization stage 2 on top .......
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":9:22:9:30|Input pixclk_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":10:22:10:26|Input vs_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":11:22:11:26|Input hs_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":12:22:12:26|Input de_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":13:22:13:25|Input r_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":14:22:14:25|Input g_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":15:22:15:25|Input b_in is unused.
+Finished optimization stage 2 on top (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 104MB)
+Running optimization stage 2 on hdmi_top .......
+Finished optimization stage 2 on hdmi_top (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 104MB)
+Running optimization stage 2 on pattern_vg_Z3 .......
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\pattern_vg.v":61:4:61:9|Pruning register bits 7 to 1 of r_out[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\pattern_vg.v":61:4:61:9|Pruning register bits 7 to 1 of b_out[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\pattern_vg.v":61:4:61:9|Pruning register bits 7 to 1 of g_out[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\hdmi\pattern_vg.v":29:41:29:44|Input rstn is unused.
+Finished optimization stage 2 on pattern_vg_Z3 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 104MB)
+Running optimization stage 2 on sync_vg_Z2 .......
+Finished optimization stage 2 on sync_vg_Z2 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 104MB)
+Running optimization stage 2 on ms72xx_ctl .......
+Finished optimization stage 2 on ms72xx_ctl (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 104MB)
+Running optimization stage 2 on iic_dri_Z1 .......
+@N: CL201 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":398:4:398:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@W: CL247 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":34:25:34:33|Input port bit 0 of device_id[7:0] is unused
+
+Finished optimization stage 2 on iic_dri_Z1 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+Running optimization stage 2 on ms7210_ctl .......
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":313:4:313:9|Register bit addr[13] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":313:4:313:9|Register bit addr[14] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":313:4:313:9|Register bit addr[15] is always 0.
+@W: CL260 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":303:4:303:9|Pruning register bit 20 of cmd_iic[20:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":313:4:313:9|Pruning register bits 15 to 13 of addr[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":118:4:118:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@W: CL260 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":313:4:313:9|Pruning register bit 12 of addr[12:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@A: CL153 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":310:42:310:42|*Unassigned bits of cmd_data_2[23:0] are referenced and tied to 0 -- simulation mismatch possible.
+Finished optimization stage 2 on ms7210_ctl (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Running optimization stage 2 on ms7200_ctl .......
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":701:4:701:9|Register bit addr[14] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":701:4:701:9|Register bit addr[15] is always 0.
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":691:4:691:9|Pruning register bits 19 to 18 of cmd_iic[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":701:4:701:9|Pruning register bits 15 to 14 of addr[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":411:4:411:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 5 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0010000
+   0100000
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":701:4:701:9|Pruning register bits 11 to 10 of addr[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":541:4:541:9|Pruning register bits 23 to 1 of delay_cnt[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":541:4:541:9|Optimizing register bit delay_cnt[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":541:4:541:9|Pruning unused register delay_cnt[0]. Make sure that there are no unused intermediate registers.
+@A: CL153 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":698:42:698:42|*Unassigned bits of cmd_data_2[23:0] are referenced and tied to 0 -- simulation mismatch possible.
+Finished optimization stage 2 on ms7200_ctl (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 110MB)
+Running optimization stage 2 on sys_pll .......
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":119:9:119:13|*Input clkfb to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":122:9:122:13|*Input pfden to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":130:15:130:22|*Input dyn_idiv[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":131:15:131:23|*Input dyn_odiv0[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":132:15:132:23|*Input dyn_odiv1[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":133:15:133:23|*Input dyn_odiv2[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":134:15:134:23|*Input dyn_odiv3[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":135:15:135:23|*Input dyn_odiv4[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":136:15:136:22|*Input dyn_fdiv[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":137:15:137:23|*Input dyn_duty0[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":138:15:138:23|*Input dyn_duty1[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":139:15:139:23|*Input dyn_duty2[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":140:15:140:23|*Input dyn_duty3[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":141:15:141:23|*Input dyn_duty4[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":123:9:123:20|*Input clkout0_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":124:9:124:25|*Input clkout0_2pad_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":125:9:125:20|*Input clkout1_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":126:9:126:20|*Input clkout2_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":127:9:127:20|*Input clkout3_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":128:9:128:20|*Input clkout4_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":129:9:129:20|*Input clkout5_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+Finished optimization stage 2 on sys_pll (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 110MB)
+Running optimization stage 2 on GTP_PLL_E3 .......
+Finished optimization stage 2 on GTP_PLL_E3 (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 110MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\wkk\Desktop\program\program\synthesize\synplify_impl\synwork\layer0.rt.csv
+

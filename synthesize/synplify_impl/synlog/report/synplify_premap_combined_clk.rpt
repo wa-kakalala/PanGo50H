@@ -1,0 +1,22 @@
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 424 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=============================================== Non-Gated/Non-Generated Clocks ===============================================
+Clock Tree ID     Driving Element                        Drive Element Type     Fanout     Sample Instance                    
+------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       the_instance_name.u_pll_e3.CLKOUT1     GTP_PLL_E3             379        hdmi_top_inst.rstn_1ms[15:0]       
+@KP:ckid0_1       the_instance_name.u_pll_e3.CLKOUT0     GTP_PLL_E3             45         hdmi_top_inst.pattern_vg.b_out_1[0]
+==============================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+

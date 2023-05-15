@@ -1,0 +1,12 @@
+
+. Module name, LUTS, REGISTERS, LATCHES, ADDSUB, MUXES, DEDICATED RAMS, DISTRIBUTED RAMS, MULTS, BUFS, LUT5CARRY, LUT6CARRY
+. top, 624, 380, 0, 0, 1, 2, 6, 0, 0, 201, 0
+.	. hdmi_top, 624, 380, 0, 0, 1, 2, 6, 0, 0, 201, 0
+.	.	. ms72xx_ctl, 531, 323, 0, 0, 1, 2, 6, 0, 0, 153, 0
+.	.	.	. iic_dri_Z1, 161, 99, 0, 0, 0, 0, 0, 0, 0, 51, 0
+.	.	.	. iic_dri_Z1_0, 163, 99, 0, 0, 1, 0, 0, 0, 0, 51, 0
+.	.	.	. ms7200_ctl, 105, 53, 0, 0, 0, 1, 0, 0, 0, 18, 0
+.	.	.	. ms7210_ctl, 102, 69, 0, 0, 0, 1, 6, 0, 0, 33, 0
+.	.	. pattern_vg_Z3, 10, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. sync_vg_Z2, 60, 35, 0, 0, 0, 0, 0, 0, 0, 32, 0
+.	. sys_pll, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0

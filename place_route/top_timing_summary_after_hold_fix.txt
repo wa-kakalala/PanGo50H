@@ -1,0 +1,108 @@
+Design Summary : All Constraints Met.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                        sys_pll|clkout1_inferred_clock
+                                                   994.342       0.000              0           1089
+ sys_pll|clkout0_inferred_clock
+                        sys_pll|clkout0_inferred_clock
+                                                   995.411       0.000              0            104
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                        sys_pll|clkout1_inferred_clock
+                                                     0.267       0.000              0           1089
+ sys_pll|clkout0_inferred_clock
+                        sys_pll|clkout0_inferred_clock
+                                                     0.415       0.000              0            104
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                        sys_pll|clkout1_inferred_clock
+                                                   997.352       0.000              0              1
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                        sys_pll|clkout1_inferred_clock
+                                                     1.165       0.000              0              1
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                        sys_pll|clkout1_inferred_clock
+                                                   995.928       0.000              0           1089
+ sys_pll|clkout0_inferred_clock
+                        sys_pll|clkout0_inferred_clock
+                                                   996.695       0.000              0            104
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                        sys_pll|clkout1_inferred_clock
+                                                     0.191       0.000              0           1089
+ sys_pll|clkout0_inferred_clock
+                        sys_pll|clkout0_inferred_clock
+                                                     0.307       0.000              0            104
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                        sys_pll|clkout1_inferred_clock
+                                                   998.060       0.000              0              1
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                        sys_pll|clkout1_inferred_clock
+                                                     0.854       0.000              0              1
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+

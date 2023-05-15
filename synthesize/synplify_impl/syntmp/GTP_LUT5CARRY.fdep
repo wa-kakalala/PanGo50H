@@ -1,0 +1,21 @@
+#OPTIONS:"|-modgen|-top|GTP_LUT5CARRY|-I|E:\\software\\PDS_2022.1\\syn\\lib|-devicelib|E:\\software\\PDS_2022.1\\syn\\lib\\xilinx\\unisim.v|-encrypt|-pro|-sysv|-dw|-primux|-ram|-fixsmult|-tri_compatible|-autosm|-fid2|-sharing|on|-ll|2000|-params|C:\\Users\\wkk\\Desktop\\program\\program\\synthesize\\synplify_impl\\syntmp\\GTP_LUT5CARRY.param"
+#CUR:"E:\\software\\PDS_2022.1\\syn\\bin64\\c_ver.exe":1657560282
+#CUR:"E:\\software\\PDS_2022.1\\syn\\lib\\vlog\\hypermods.v":1657560354
+#CUR:"E:\\software\\PDS_2022.1\\syn\\lib\\vlog\\umr_capim.v":1657560354
+#CUR:"E:\\software\\PDS_2022.1\\syn\\lib\\vlog\\scemi_objects.v":1657560354
+#CUR:"E:\\software\\PDS_2022.1\\syn\\lib\\vlog\\scemi_pipes.svh":1657560354
+#CUR:"C:\\Users\\wkk\\Desktop\\program\\program\\synthesize\\synplify_impl\\syntmp\\GTP_LUT5CARRY.v":1657560316
+#CUR:"C:\\Users\\wkk\\Desktop\\program\\program\\synthesize\\synplify_impl\\syntmp\\GTP_LUT5CARRY.param":1684173917
+#numinternalfiles:4
+#defaultlanguage:verilog
+0			"C:\Users\wkk\Desktop\program\program\synthesize\synplify_impl\syntmp\GTP_LUT5CARRY.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work INT_LUTMUX4_UDP 0
+module work INT_LUTMUX2_UDP 0
+module work GTP_LUT5CARRY 0
+module work GTP_LUT5 0
+module work GTP_LUT6CARRY 0

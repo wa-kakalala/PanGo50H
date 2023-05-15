@@ -1,0 +1,277 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09P
+Install: E:\software\PDS_2022.1\syn
+OS: Windows 6.2
+
+Hostname: DESKTOP-7S7UGPP
+
+Implementation : synplify_impl
+
+# Written on Tue May 16 02:05:07 2023
+
+##### DESIGN INFO #######################################################
+
+Top View:                "top"
+Constraint File(s):      "C:\Users\wkk\Desktop\program\program\source\hdmi\constr\hdmi_loop.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 589 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                           Ending                             |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+sys_pll|clkout1_inferred_clock     sys_pll|clkout1_inferred_clock     |     1000.000         |     No paths         |     No paths         |     No paths                         
+sys_pll|clkout1_inferred_clock     sys_pll|clkout0_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+sys_pll|clkout0_inferred_clock     sys_pll|clkout0_inferred_clock     |     1000.000         |     No paths         |     No paths         |     No paths                         
+=================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:b_in[0]
+p:b_in[1]
+p:b_in[2]
+p:b_in[3]
+p:b_in[4]
+p:b_in[5]
+p:b_in[6]
+p:b_in[7]
+p:b_out[0]
+p:b_out[1]
+p:b_out[2]
+p:b_out[3]
+p:b_out[4]
+p:b_out[5]
+p:b_out[6]
+p:b_out[7]
+p:de_in
+p:de_out
+p:g_in[0]
+p:g_in[1]
+p:g_in[2]
+p:g_in[3]
+p:g_in[4]
+p:g_in[5]
+p:g_in[6]
+p:g_in[7]
+p:g_out[0]
+p:g_out[1]
+p:g_out[2]
+p:g_out[3]
+p:g_out[4]
+p:g_out[5]
+p:g_out[6]
+p:g_out[7]
+p:hs_in
+p:hs_out
+p:iic_scl
+p:iic_sda (bidir end point)
+p:iic_sda (bidir start point)
+p:iic_tx_scl
+p:iic_tx_sda (bidir end point)
+p:iic_tx_sda (bidir start point)
+p:led_int
+p:pixclk_in
+p:r_in[0]
+p:r_in[1]
+p:r_in[2]
+p:r_in[3]
+p:r_in[4]
+p:r_in[5]
+p:r_in[6]
+p:r_in[7]
+p:r_out[0]
+p:r_out[1]
+p:r_out[2]
+p:r_out[3]
+p:r_out[4]
+p:r_out[5]
+p:r_out[6]
+p:r_out[7]
+p:rstn_out
+p:sys_clk
+p:vs_in
+p:vs_out
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Identical constraints
+**********************************************
+
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":682:0:682:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":686:0:686:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":188:0:188:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":196:0:196:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":195:0:195:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":583:0:583:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":568:0:568:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":250:0:250:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":310:0:310:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":608:0:608:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":295:0:295:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":290:0:290:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":593:0:593:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":280:0:280:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":335:0:335:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":638:0:638:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":633:0:633:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":628:0:628:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":668:0:668:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":696:0:696:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":277:0:277:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":570:0:570:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":560:0:560:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":610:0:610:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":297:0:297:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":292:0:292:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":287:0:287:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":590:0:590:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":645:0:645:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":640:0:640:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":635:0:635:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":322:0:322:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":672:0:672:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":700:0:700:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":52:0:52:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":422:0:422:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":31:0:31:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":401:0:401:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":394:0:394:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":3:0:3:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":464:0:464:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":80:0:80:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":450:0:450:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":66:0:66:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":436:0:436:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":164:0:164:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":115:0:115:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":56:0:56:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":426:0:426:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":412:0:412:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":28:0:28:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":21:0:21:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":391:0:391:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":7:0:7:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":432:0:432:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":84:0:84:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":77:0:77:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":34:0:34:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":447:0:447:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":390:0:390:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":6:0:6:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":90:0:90:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":83:0:83:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":453:0:453:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":496:0:496:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":167:0:167:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":118:0:118:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":178:0:178:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":703:0:703:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":679:0:679:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":210:0:210:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":581:0:581:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":258:0:258:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":556:0:556:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":298:0:298:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":293:0:293:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":596:0:596:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":591:0:591:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":586:0:586:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":333:0:333:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":328:0:328:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":631:0:631:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":626:0:626:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":666:0:666:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":680:0:680:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":190:0:190:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":683:0:683:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":193:0:193:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":694:0:694:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":276:0:276:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":261:0:261:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":559:0:559:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":301:0:301:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":604:0:604:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":599:0:599:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":594:0:594:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":589:0:589:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":644:0:644:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":639:0:639:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":634:0:634:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":629:0:629:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":172:0:172:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":697:0:697:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":427:0:427:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":43:0:43:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":406:0:406:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":399:0:399:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":8:0:8:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":378:0:378:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":462:0:462:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":78:0:78:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":448:0:448:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":64:0:64:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":434:0:434:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":162:0:162:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":113:0:113:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":53:0:53:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":46:0:46:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":409:0:409:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":402:0:402:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":18:0:18:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":388:0:388:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":381:0:381:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":465:0:465:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":81:0:81:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":451:0:451:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":67:0:67:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":60:0:60:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":165:0:165:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":493:0:493:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":673:0:673:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":204:0:204:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":676:0:676:0|	There are 2 identical constraints define_attribute define_attribute 
+@W:"c:/users/wkk/desktop/program/program/source/hdmi/constr/hdmi_loop.fdc":207:0:207:0|	There are 2 identical constraints define_attribute define_attribute 
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

@@ -1,0 +1,56 @@
+# Written by Synplify Pro version map202109png, Build 115R. Synopsys Run ID: sid1684173907 
+# Top Level Design Parameters 
+
+# Clocks 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {sys_pll|clkout1_inferred_clock} [get_pins {the_instance_name/u_pll_e3:CLKOUT1}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {sys_pll|clkout0_inferred_clock} [get_pins {the_instance_name/u_pll_e3:CLKOUT0}] 
+
+# Virtual Clocks 
+create_clock -period 20.000 -waveform {0.000 10.000} -name {sys_clk}
+
+# Generated Clocks 
+
+# Paths Between Clocks 
+
+# Multicycle Constraints 
+
+# Point-to-point Delay Constraints 
+
+# False Path Constraints 
+
+# Output Load Constraints 
+
+# Driving Cell Constraints 
+
+# Input Delay Constraints 
+
+# Output Delay Constraints 
+
+# Wire Loads 
+
+# Other Constraints 
+
+# syn_hier Attributes 
+
+# set_case Attributes 
+
+# Clock Delay Constraints 
+set_clock_groups -name {Autoconstr_clkgroup_0_1} -asynchronous -group [get_clocks {sys_pll|clkout1_inferred_clock}]
+set_clock_groups -name {Autoconstr_clkgroup_0_2} -asynchronous -group [get_clocks {sys_pll|clkout0_inferred_clock}]
+
+# syn_mode Attributes 
+
+# Cells 
+
+# Port DRC Rules 
+
+# Input Transition Constraints 
+
+# Unused constraints (intentionally commented out) 
+
+# Unused constraints (not checked for applicability) 
+
+# Non-forward-annotatable constraints (intentionally commented out) 
+
+# Block Path constraints 
+

@@ -1,0 +1,2 @@
+ckid0_0:@|S:the_instance_name.u_pll_e3.CLKOUT1@|E:hdmi_top_inst.rstn_1ms[15:0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_1:@|S:the_instance_name.u_pll_e3.CLKOUT0@|E:hdmi_top_inst.pattern_vg.b_out_1[0]@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1

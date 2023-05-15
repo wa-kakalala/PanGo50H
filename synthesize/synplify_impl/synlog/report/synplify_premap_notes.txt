@@ -1,0 +1,18 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty4 (in view: work.sys_pll(verilog)) on net dyn_duty4 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty3 (in view: work.sys_pll(verilog)) on net dyn_duty3 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty2 (in view: work.sys_pll(verilog)) on net dyn_duty2 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty1 (in view: work.sys_pll(verilog)) on net dyn_duty1 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty0 (in view: work.sys_pll(verilog)) on net dyn_duty0 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_fdiv (in view: work.sys_pll(verilog)) on net dyn_fdiv (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv4 (in view: work.sys_pll(verilog)) on net dyn_odiv4 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv3 (in view: work.sys_pll(verilog)) on net dyn_odiv3 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv2 (in view: work.sys_pll(verilog)) on net dyn_odiv2 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv1 (in view: work.sys_pll(verilog)) on net dyn_odiv1 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":801:4:801:9|Removing sequential instance init_over (in view: work.ms7200_ctl(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":136:4:136:9|Removing sequential instance y_act[11:0] (in view: work.sync_vg_Z2(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BZ111 |Number of ICGs considered for optimization : 0  
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file C:\Users\wkk\Desktop\program\program\synthesize\synplify_impl\synplify.sap.

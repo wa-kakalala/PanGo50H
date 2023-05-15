@@ -1,0 +1,94 @@
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: pgl50hfbg484-6
+Cell usage:
+GTP_BUF         38 uses
+GTP_DFF         47 uses
+GTP_DFF_C       1 use
+GTP_DFF_E       108 uses
+GTP_DFF_R       139 uses
+GTP_DFF_RE      81 uses
+GTP_DFF_S       4 uses
+GTP_DRM18K      1 use
+GTP_DRM9K       1 use
+GTP_GRS         1 use
+GTP_INV         10 uses
+GTP_LUT2        76 uses
+GTP_LUT3        94 uses
+GTP_LUT4        87 uses
+GTP_LUT5        155 uses
+GTP_LUT5CARRY   201 uses
+GTP_LUT5M       4 uses
+GTP_MUX2LUT6    1 use
+GTP_ONE         8 uses
+GTP_PLL_E3      1 use
+GTP_ROM32X1     6 uses
+GTP_ZERO        9 uses
+
+I/O ports: 63
+GTP_INBUF      1 use
+GTP_IOBUF      2 uses
+GTP_OUTBUF     32 uses
+
+
+RAM/ROM usage summary
+
+Distributed Rams : 6.00 of 4250 (0.14%)
+
+
+Mapping Summary:
+Total LUTs: 623 of 42800 (1.46%)
+	LUTs as dram: 0 of 17000 (0.00%)
+	LUTs as logic: 623 
+Total Registers: 380 of 64200 (0.59%)
+Total Muxes:   1
+
+DRM18K:
+Total DRM18K =  1.5 of 134 (1.12%)
+
+APMs:
+Total APMs =  0.00 of 84 (0.00%)
+
+Total I/O primitives =  35 of 296 (11.82%)
+
+
+ Number of unique control sets:              37
+ CLK(clkout1_i), R(trans_bit9_i_a2_0), S(GND), CE(un27_dsu)		: 1
+ CLK(clkout1_i), R(N_43_i_0), S(GND), CE(trans_byte_0_sqmuxa)		: 3
+ CLK(clkout1_i), R(trans_bit9_i_a2_0), S(GND), CE(trans_bit[0])		: 2
+ CLK(clkout1_i), R(N_43_i_0), S(GND), CE(trans_byte[2])		: 1
+ CLK(clkout1_i), C(GND), P(GND), CE(VCC)		: 43
+ CLK(clkout1_i), C(GND), P(GND), CE(un1_start_0)		: 8
+ CLK(clkout1_i), C(GND), P(GND), CE(data_out3)		: 16
+ CLK(clkout1_i), C(GND), P(GND), CE(twr_en)		: 54
+ CLK(clkout1_i), R(GND), S(N_43_i_0), CE(VCC)		: 1
+ CLK(clkout1_i), R(rstn_i_0), S(GND), CE(VCC)		: 56
+ CLK(clkout1_i), R(receiv_data_18), S(GND), CE(receiv_data_1_sqmuxa_i_0)		: 8
+ CLK(clkout1_i), R(trans_bit9_i_a2), S(GND), CE(un27_dsu)		: 1
+ CLK(clkout1_i), R(start), S(GND), CE(trans_byte_0_sqmuxa)		: 3
+ CLK(clkout1_i), R(trans_bit9_i_a2), S(GND), CE(trans_bit[0])		: 2
+ CLK(clkout1_i), R(start), S(GND), CE(trans_byte[2])		: 1
+ CLK(clkout1_i), R(start), S(GND), CE(VCC)		: 1
+ CLK(clkout1_i), C(GND), P(GND), CE(un1_start)		: 8
+ CLK(clkout1_i), R(GND), S(start), CE(VCC)		: 1
+ CLK(clkout1_i), R(receiv_data_16), S(GND), CE(receiv_data_1_sqmuxa_i_0)		: 8
+ CLK(clkout1_i), R(GND), S(rstn_i_0), CE(VCC)		: 2
+ CLK(clkout1_i), R(N_186_i_0), S(GND), CE(cmd_indexe)		: 6
+ CLK(clkout1_i), R(state_srsts_i_o2[4]), S(GND), CE(VCC)		: 22
+ CLK(clkout1_i), R(state5_0), S(GND), CE(dri_cnte)		: 5
+ CLK(clkout1_i), R(state5_1_1), S(GND), CE(VCC)		: 7
+ CLK(clkout1_i), R(rstn_i_0), S(GND), CE(addr_1_sqmuxa_i_0)		: 20
+ CLK(clkout1_i), C(GND), P(GND), CE(data_in_2_sqmuxa_i_0)		: 20
+ CLK(clkout1_i), C(GND), P(GND), CE(freq_rec_2d3)		: 2
+ CLK(clkout1_i), R(state_1_1), S(GND), CE(cmd_indexe)		: 9
+ CLK(clkout1_i), R(state_1_0), S(GND), CE(dri_cnte)		: 9
+ CLK(clkout1_i), R(rstn_i_0), S(GND), CE(freq_rec_1_sqmuxa)		: 2
+ CLK(clkout1_i), C(rstn_out_c_i_0), P(GND), CE(VCC)		: 1
+ CLK(clkout0_i), C(GND), P(GND), CE(VCC)		: 4
+ CLK(clkout0_i), R(b_out_1_21), S(GND), CE(VCC)		: 2
+ CLK(clkout0_i), R(rstn_out_c_i_0), S(GND), CE(VCC)		: 14
+ CLK(clkout0_i), R(x_act_13), S(GND), CE(VCC)		: 9
+ CLK(clkout0_i), R(h_count19_0), S(GND), CE(VCC)		: 12
+ CLK(clkout1_i), R(clk_locked_i_0), S(GND), CE(VCC)		: 16
+

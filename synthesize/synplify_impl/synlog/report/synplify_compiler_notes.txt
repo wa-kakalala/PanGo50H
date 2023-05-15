@@ -1,0 +1,84 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"E:\software\PDS_2022.1\syn\lib\generic\logos.v":10631:7:10631:16|Synthesizing module GTP_PLL_E3 in library work.
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\ipcore\sys_pll\sys_pll.v":20:7:20:13|Synthesizing module sys_pll in library work.
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":22:7:22:16|Synthesizing module ms7200_ctl in library work.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":407:27:407:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":490:35:490:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":501:35:501:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":512:35:512:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":523:35:523:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":534:35:534:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":587:31:587:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":593:31:593:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":599:31:599:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":602:34:602:36|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":607:31:607:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":632:37:632:45|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":634:40:634:48|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":639:37:639:45|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":651:37:651:45|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":669:39:669:46|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":678:41:678:48|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":682:33:682:40|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":684:39:684:46|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":723:35:723:38|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":724:35:724:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":808:22:808:30|Removing redundant assignment.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":691:4:691:9|Register bit cmd_iic[22] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":691:4:691:9|Register bit cmd_iic[23] is always 0.
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":22:7:22:16|Synthesizing module ms7210_ctl in library work.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":189:35:189:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":200:35:200:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":211:35:211:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":263:31:263:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":267:34:267:36|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":272:31:272:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":293:37:293:45|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":296:40:296:48|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":335:35:335:38|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":336:35:336:41|Removing redundant assignment.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":303:4:303:9|Register bit cmd_iic[21] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":303:4:303:9|Register bit cmd_iic[22] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":303:4:303:9|Register bit cmd_iic[23] is always 0.
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":23:7:23:13|Synthesizing module iic_dri in library work.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":107:28:107:35|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":163:28:163:35|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":187:26:187:31|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":200:27:200:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":210:24:210:27|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":222:27:222:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":258:29:258:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":272:34:272:47|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":290:35:290:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":320:35:320:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":334:35:334:45|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":345:28:345:35|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":374:33:374:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":389:34:389:43|Removing redundant assignment.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":392:30:392:39|Removing redundant assignment.
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms72xx_ctl.v":22:7:22:16|Synthesizing module ms72xx_ctl in library work.
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\sync_vg.v":34:7:34:13|Synthesizing module sync_vg in library work.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi\sync_vg.v":108:30:108:35|Removing redundant assignment.
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi\pattern_vg.v":22:7:22:16|Synthesizing module pattern_vg in library work.
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\hdmi_top.v":1:7:1:14|Synthesizing module hdmi_top in library work.
+@N: CG179 :"C:\Users\wkk\Desktop\program\program\source\hdmi_top.v":70:22:70:29|Removing redundant assignment.
+@N: CG364 :"C:\Users\wkk\Desktop\program\program\source\top.v":1:7:1:9|Synthesizing module top in library work.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":9:22:9:30|Input pixclk_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":10:22:10:26|Input vs_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":11:22:11:26|Input hs_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":12:22:12:26|Input de_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":13:22:13:25|Input r_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":14:22:14:25|Input g_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\top.v":15:22:15:25|Input b_in is unused.
+@N: CL159 :"C:\Users\wkk\Desktop\program\program\source\hdmi\pattern_vg.v":29:41:29:44|Input rstn is unused.
+@N: CL201 :"C:\Users\wkk\Desktop\program\program\source\hdmi\iic_dri.v":398:4:398:9|Trying to extract state machine for register state.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":313:4:313:9|Register bit addr[13] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":313:4:313:9|Register bit addr[14] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":313:4:313:9|Register bit addr[15] is always 0.
+@N: CL201 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7210_ctl.v":118:4:118:9|Trying to extract state machine for register state.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":701:4:701:9|Register bit addr[14] is always 0.
+@N: CL189 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":701:4:701:9|Register bit addr[15] is always 0.
+@N: CL201 :"C:\Users\wkk\Desktop\program\program\source\hdmi\ms7200_ctl.v":411:4:411:9|Trying to extract state machine for register state.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,66 @@
+
+fsm_encoding {841144113} onehot
+
+fsm_state_encoding {841144113} IDLE {00001}
+
+fsm_state_encoding {841144113} CONECT {00010}
+
+fsm_state_encoding {841144113} INIT {00100}
+
+fsm_state_encoding {841144113} STA_RD {01000}
+
+fsm_state_encoding {841144113} SETING {10000}
+
+fsm_registers {841144113} {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
+
+fsm_encoding {911841182} onehot
+
+fsm_state_encoding {911841182} IDLE {000001}
+
+fsm_state_encoding {911841182} CONECT {000010}
+
+fsm_state_encoding {911841182} INIT {000100}
+
+fsm_state_encoding {911841182} WAIT {001000}
+
+fsm_state_encoding {911841182} SETING {010000}
+
+fsm_state_encoding {911841182} STA_RD {100000}
+
+fsm_registers {911841182} {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
+
+fsm_encoding {639843981} onehot
+
+fsm_state_encoding {639843981} IDLE {0000001}
+
+fsm_state_encoding {639843981} S_START {0000010}
+
+fsm_state_encoding {639843981} SEND {0000100}
+
+fsm_state_encoding {639843981} S_ACK {0001000}
+
+fsm_state_encoding {639843981} RECEIV {0010000}
+
+fsm_state_encoding {639843981} R_ACK {0100000}
+
+fsm_state_encoding {639843981} STOP {1000000}
+
+fsm_registers {639843981} {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
+
+fsm_encoding {639843981} onehot
+
+fsm_state_encoding {639843981} IDLE {0000001}
+
+fsm_state_encoding {639843981} S_START {0000010}
+
+fsm_state_encoding {639843981} SEND {0000100}
+
+fsm_state_encoding {639843981} S_ACK {0001000}
+
+fsm_state_encoding {639843981} RECEIV {0010000}
+
+fsm_state_encoding {639843981} R_ACK {0100000}
+
+fsm_state_encoding {639843981} STOP {1000000}
+
+fsm_registers {639843981} {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 

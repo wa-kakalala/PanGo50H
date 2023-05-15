@@ -1,0 +1,2192 @@
+
+----------------------------------------------------------------------------------------------------
+| Tool Version : Fabric Compiler (version 2022.1 <build 99559>)
+| Date         : Tue May 16 02:05:42 2023
+| Design       : top
+| Device       : PGL50H
+| Speed Grade  : -6
+| Package      : FBG484
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+| Timing Models: Production
+| Tcl Command  : report_timing 
+----------------------------------------------------------------------------------------------------
+
+Timing analysis mode : multi corner
+
+ Clock Summary:                                                                                                                                  
+*************************************************************************************************************************************************
+                                                                                  Clock   Non-clock                                              
+ Clock                           Period       Waveform       Type                 Loads       Loads  Sources                                     
+-------------------------------------------------------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock  1000.000     {0 500}        Declared               274           0  {the_instance_name/u_pll_e3/goppll/CLKOUT1} 
+ sys_pll|clkout0_inferred_clock  1000.000     {0 500}        Declared                30           1  {the_instance_name/u_pll_e3/goppll/CLKOUT0} 
+ sys_clk                         20.000       {0 10}         Virtual                  0           0                                              
+=================================================================================================================================================
+
+ Clock Groups:                                                                                      
+****************************************************************************************************
+ Clock Group                   Group Type                 Clocks                                    
+----------------------------------------------------------------------------------------------------
+ Autoconstr_clkgroup_0_1       asynchronous               sys_pll|clkout1_inferred_clock            
+ Autoconstr_clkgroup_0_2       asynchronous               sys_pll|clkout0_inferred_clock            
+====================================================================================================
+
+ Performance Summary:                                                                               
+****************************************************************************************************
+                              Requested       Estimated      Requested      Estimated               
+ Clock                        Frequency       Frequency      Period         Period             Slack
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                              1.000 MHz     175.932 MHz       1000.000          5.684        994.316
+ sys_pll|clkout0_inferred_clock
+                              1.000 MHz     217.061 MHz       1000.000          4.607        995.393
+====================================================================================================
+
+Design Summary : All Constraints Met.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                        sys_pll|clkout1_inferred_clock
+                                                   994.316       0.000              0           1089
+ sys_pll|clkout0_inferred_clock
+                        sys_pll|clkout0_inferred_clock
+                                                   995.393       0.000              0            104
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                        sys_pll|clkout1_inferred_clock
+                                                     0.275       0.000              0           1089
+ sys_pll|clkout0_inferred_clock
+                        sys_pll|clkout0_inferred_clock
+                                                     0.415       0.000              0            104
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                        sys_pll|clkout1_inferred_clock
+                                                   997.346       0.000              0              1
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                        sys_pll|clkout1_inferred_clock
+                                                     1.172       0.000              0              1
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock                    499.102       0.000              0            274
+ sys_pll|clkout0_inferred_clock                    499.380       0.000              0             30
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                        sys_pll|clkout1_inferred_clock
+                                                   995.912       0.000              0           1089
+ sys_pll|clkout0_inferred_clock
+                        sys_pll|clkout0_inferred_clock
+                                                   996.681       0.000              0            104
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                        sys_pll|clkout1_inferred_clock
+                                                     0.197       0.000              0           1089
+ sys_pll|clkout0_inferred_clock
+                        sys_pll|clkout0_inferred_clock
+                                                     0.307       0.000              0            104
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                        sys_pll|clkout1_inferred_clock
+                                                   998.055       0.000              0              1
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock
+                        sys_pll|clkout1_inferred_clock
+                                                     0.860       0.000              0              1
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_pll|clkout1_inferred_clock                    499.282       0.000              0            274
+ sys_pll|clkout0_inferred_clock                    499.504       0.000              0             30
+====================================================================================================
+
+Slow Corner
+****************************************************************************************************
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[1]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[8]/opit_0_AQ/RS
+Path Group  : sys_pll|clkout1_inferred_clock
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.029  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.590
+  Launch Clock Delay      :  2.663
+  Clock Pessimism Removal :  0.044
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.078       1.078         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       1.078 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.585       2.663         ntclkbufg_0      
+ CLMA_286_165/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[1]/opit_0_A2Q21/CLK
+
+ CLMA_286_165/Q1                   tco                   0.291       2.954 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[1]/opit_0_A2Q21/Q1
+                                   net (fanout=8)        0.466       3.420         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt_Z [1]
+ CLMA_286_177/Y0                   td                    0.341       3.761 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47_1/gateop_perm/Z
+                                   net (fanout=1)        0.554       4.315         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47/_N1
+ CLMA_286_181/Y2                   td                    0.478       4.793 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47/gateop_perm/Z
+                                   net (fanout=2)        0.536       5.329         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47_Z
+ CLMA_286_177/Y2                   td                    0.478       5.807 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/un1_dri_cnt_1_sqmuxa_0/gateop_perm/Z
+                                   net (fanout=1)        0.268       6.075         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/un1_dri_cnt_1_sqmuxa/_N4
+ CLMA_286_181/Y1                   td                    0.460       6.535 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/un1_dri_cnt_1_sqmuxa/gateop_perm/Z
+                                   net (fanout=3)        0.254       6.789         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnte
+ CLMA_286_180/Y0                   td                    0.294       7.083 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/comp_rst/gateop_perm/Z
+                                   net (fanout=2)        0.397       7.480         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_1_0
+ CLMA_286_165/RSCO                 td                    0.147       7.627 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[3]/opit_0_A2Q21/RSOUT
+                                   net (fanout=2)        0.000       7.627         ntR4             
+ CLMA_286_169/RSCO                 td                    0.147       7.774 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_A2Q21/RSOUT
+                                   net (fanout=1)        0.000       7.774         ntR3             
+ CLMA_286_173/RSCI                                                         f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[8]/opit_0_AQ/RS
+
+ Data arrival time                                                   7.774         Logic Levels: 7  
+                                                                                   Logic: 2.636ns(51.575%), Route: 2.475ns(48.425%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000    1000.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.059    1001.059         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000    1001.059 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.531    1002.590         ntclkbufg_0      
+ CLMA_286_173/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[8]/opit_0_AQ/CLK
+ clock pessimism                                         0.044    1002.634                          
+ clock uncertainty                                      -0.150    1002.484                          
+
+ Setup time                                             -0.394    1002.090                          
+
+ Data required time                                               1002.090                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1002.090                          
+ Data arrival time                                                   7.774                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       994.316                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[1]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d[16]/opit_0/CE
+Path Group  : sys_pll|clkout1_inferred_clock
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.590
+  Launch Clock Delay      :  2.663
+  Clock Pessimism Removal :  0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.078       1.078         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       1.078 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.585       2.663         ntclkbufg_0      
+ CLMA_286_165/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[1]/opit_0_A2Q21/CLK
+
+ CLMA_286_165/Q1                   tco                   0.291       2.954 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[1]/opit_0_A2Q21/Q1
+                                   net (fanout=8)        0.466       3.420         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt_Z [1]
+ CLMA_286_177/Y0                   td                    0.341       3.761 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47_1/gateop_perm/Z
+                                   net (fanout=1)        0.554       4.315         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47/_N1
+ CLMA_286_181/Y2                   td                    0.492       4.807 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47/gateop_perm/Z
+                                   net (fanout=2)        0.253       5.060         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47_Z
+ CLMA_286_176/Y3                   td                    0.303       5.363 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n36/gateop_perm/Z
+                                   net (fanout=4)        0.546       5.909         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/w_r_e/_N1
+ CLMS_290_173/Y3                   td                    0.210       6.119 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n_0_0[4]/gateop_perm/Z
+                                   net (fanout=1)        0.250       6.369         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n_0_0_Z [4]
+ CLMS_290_173/Y1                   td                    0.212       6.581 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n_0[4]/gateop_perm/Z
+                                   net (fanout=3)        0.123       6.704         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n [4]
+ CLMS_290_173/Y2                   td                    0.295       6.999 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d3/gateop_perm/Z
+                                   net (fanout=2)        0.541       7.540         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d3_Z
+ CLMS_290_173/CE                                                           f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d[16]/opit_0/CE
+
+ Data arrival time                                                   7.540         Logic Levels: 6  
+                                                                                   Logic: 2.144ns(43.961%), Route: 2.733ns(56.039%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000    1000.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.059    1001.059         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000    1001.059 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.531    1002.590         ntclkbufg_0      
+ CLMS_290_173/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d[16]/opit_0/CLK
+ clock pessimism                                         0.037    1002.627                          
+ clock uncertainty                                      -0.150    1002.477                          
+
+ Setup time                                             -0.617    1001.860                          
+
+ Data required time                                               1001.860                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1001.860                          
+ Data arrival time                                                   7.540                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       994.320                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[1]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d[17]/opit_0/CE
+Path Group  : sys_pll|clkout1_inferred_clock
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.590
+  Launch Clock Delay      :  2.663
+  Clock Pessimism Removal :  0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.078       1.078         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       1.078 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.585       2.663         ntclkbufg_0      
+ CLMA_286_165/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[1]/opit_0_A2Q21/CLK
+
+ CLMA_286_165/Q1                   tco                   0.291       2.954 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[1]/opit_0_A2Q21/Q1
+                                   net (fanout=8)        0.466       3.420         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt_Z [1]
+ CLMA_286_177/Y0                   td                    0.341       3.761 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47_1/gateop_perm/Z
+                                   net (fanout=1)        0.554       4.315         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47/_N1
+ CLMA_286_181/Y2                   td                    0.492       4.807 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47/gateop_perm/Z
+                                   net (fanout=2)        0.253       5.060         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47_Z
+ CLMA_286_176/Y3                   td                    0.303       5.363 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n36/gateop_perm/Z
+                                   net (fanout=4)        0.546       5.909         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/w_r_e/_N1
+ CLMS_290_173/Y3                   td                    0.210       6.119 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n_0_0[4]/gateop_perm/Z
+                                   net (fanout=1)        0.250       6.369         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n_0_0_Z [4]
+ CLMS_290_173/Y1                   td                    0.212       6.581 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n_0[4]/gateop_perm/Z
+                                   net (fanout=3)        0.123       6.704         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n [4]
+ CLMS_290_173/Y2                   td                    0.295       6.999 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d3/gateop_perm/Z
+                                   net (fanout=2)        0.541       7.540         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d3_Z
+ CLMS_290_173/CE                                                           f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d[17]/opit_0/CE
+
+ Data arrival time                                                   7.540         Logic Levels: 6  
+                                                                                   Logic: 2.144ns(43.961%), Route: 2.733ns(56.039%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000    1000.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.059    1001.059         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000    1001.059 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.531    1002.590         ntclkbufg_0      
+ CLMS_290_173/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d[17]/opit_0/CLK
+ clock pessimism                                         0.037    1002.627                          
+ clock uncertainty                                      -0.150    1002.477                          
+
+ Setup time                                             -0.617    1001.860                          
+
+ Data required time                                               1001.860                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1001.860                          
+ Data arrival time                                                   7.540                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       994.320                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_index[1]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_data_cnst_0_0/iGopDrm/ADDRB[4]
+Path Group  : sys_pll|clkout1_inferred_clock
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.663
+  Launch Clock Delay      :  2.590
+  Clock Pessimism Removal :  -0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.059       1.059         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       1.059 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.531       2.590         ntclkbufg_0      
+ CLMA_274_156/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_index[1]/opit_0_A2Q21/CLK
+
+ CLMA_274_156/Q0                   tco                   0.226       2.816 r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_index[1]/opit_0_A2Q21/Q0
+                                   net (fanout=12)       0.225       3.041         hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_index_Z [0]
+ DRM_278_148/ADB0[4]                                                       r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_data_cnst_0_0/iGopDrm/ADDRB[4]
+
+ Data arrival time                                                   3.041         Logic Levels: 0  
+                                                                                   Logic: 0.226ns(50.111%), Route: 0.225ns(49.889%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.078       1.078         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       1.078 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.585       2.663         ntclkbufg_0      
+ DRM_278_148/CLKB[0]                                                       r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_data_cnst_0_0/iGopDrm/CLKB
+ clock pessimism                                        -0.037       2.626                          
+ clock uncertainty                                       0.000       2.626                          
+
+ Hold time                                               0.140       2.766                          
+
+ Data required time                                                  2.766                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  2.766                          
+ Data arrival time                                                   3.041                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.275                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_index[3]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_data_cnst_0_0/iGopDrm/ADDRB[7]
+Path Group  : sys_pll|clkout1_inferred_clock
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.663
+  Launch Clock Delay      :  2.590
+  Clock Pessimism Removal :  -0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.059       1.059         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       1.059 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.531       2.590         ntclkbufg_0      
+ CLMA_274_156/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_index[3]/opit_0_A2Q21/CLK
+
+ CLMA_274_156/Q3                   tco                   0.226       2.816 r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_index[3]/opit_0_A2Q21/Q1
+                                   net (fanout=9)        0.226       3.042         hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_index_Z [3]
+ DRM_278_148/ADB0[7]                                                       r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_data_cnst_0_0/iGopDrm/ADDRB[7]
+
+ Data arrival time                                                   3.042         Logic Levels: 0  
+                                                                                   Logic: 0.226ns(50.000%), Route: 0.226ns(50.000%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.078       1.078         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       1.078 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.585       2.663         ntclkbufg_0      
+ DRM_278_148/CLKB[0]                                                       r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_data_cnst_0_0/iGopDrm/CLKB
+ clock pessimism                                        -0.037       2.626                          
+ clock uncertainty                                       0.000       2.626                          
+
+ Hold time                                               0.140       2.766                          
+
+ Data required time                                                  2.766                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  2.766                          
+ Data arrival time                                                   3.042                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.276                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_index[5]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_data_cnst_0_0/iGopDrm/ADB0[10]
+Path Group  : sys_pll|clkout1_inferred_clock
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.663
+  Launch Clock Delay      :  2.590
+  Clock Pessimism Removal :  -0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.059       1.059         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       1.059 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.531       2.590         ntclkbufg_0      
+ CLMS_274_177/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_index[5]/opit_0_A2Q21/CLK
+
+ CLMS_274_177/Q1                   tco                   0.229       2.819 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_index[5]/opit_0_A2Q21/Q1
+                                   net (fanout=3)        0.224       3.043         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_index_Z [5]
+ DRM_278_168/ADB0[10]                                                      r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_data_cnst_0_0/iGopDrm/ADB0[10]
+
+ Data arrival time                                                   3.043         Logic Levels: 0  
+                                                                                   Logic: 0.229ns(50.552%), Route: 0.224ns(49.448%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.078       1.078         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       1.078 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.585       2.663         ntclkbufg_0      
+ DRM_278_168/CLKB[0]                                                       r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_data_cnst_0_0/iGopDrm/CLKB[0]
+ clock pessimism                                        -0.037       2.626                          
+ clock uncertainty                                       0.000       2.626                          
+
+ Hold time                                               0.079       2.705                          
+
+ Data required time                                                  2.705                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  2.705                          
+ Data arrival time                                                   3.043                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.338                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/sync_vg/v_count_mod[10]/opit_0_L5Q_perm/L3
+Path Group  : sys_pll|clkout0_inferred_clock
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.029  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.590
+  Launch Clock Delay      :  2.663
+  Clock Pessimism Removal :  0.044
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.078       1.078         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       1.078 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       1.585       2.663         ntclkbufg_1      
+ CLMA_302_160/CLK                                                          r       hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/CLK
+
+ CLMA_302_160/Q0                   tco                   0.289       2.952 r       hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/Q0
+                                   net (fanout=5)        0.404       3.356         hdmi_top_inst/sync_vg/h_count_Z [4]
+ CLMA_302_157/Y1                   td                    0.212       3.568 r       hdmi_top_inst/sync_vg/un1_h_count_6_7/gateop_perm/Z
+                                   net (fanout=2)        0.413       3.981         hdmi_top_inst/sync_vg/h_count15lto6/_N3
+ CLMA_302_152/Y1                   td                    0.212       4.193 r       hdmi_top_inst/sync_vg/un1_h_count_6_2/gateop_perm/Z
+                                   net (fanout=1)        0.254       4.447         hdmi_top_inst/sync_vg/un1_h_count_6/_N3
+ CLMA_302_152/Y0                   td                    0.320       4.767 r       hdmi_top_inst/sync_vg/un1_h_count_6/gateop_perm/Z
+                                   net (fanout=5)        0.578       5.345         hdmi_top_inst/sync_vg/un1_h_count_6_Z
+                                   td                    0.474       5.819 f       hdmi_top_inst/sync_vg/un1_v_count_12_cry_0_cy_cin/gateop_A2/Cout
+                                   net (fanout=1)        0.000       5.819         hdmi_top_inst/sync_vg/un1_v_count_12_cry_0/_N6
+ CLMA_310_148/COUT                 td                    0.058       5.877 r       hdmi_top_inst/sync_vg/v_count_mod[1]/opit_0_A2Q21/Cout
+                                   net (fanout=1)        0.000       5.877         hdmi_top_inst/sync_vg/un1_v_count_12_cry_1_Z
+                                   td                    0.058       5.935 r       hdmi_top_inst/sync_vg/v_count_mod[3]/opit_0_A2Q1/Cout
+                                   net (fanout=1)        0.000       5.935         hdmi_top_inst/sync_vg/un1_v_count_12_cry_3_Z
+ CLMA_310_152/COUT                 td                    0.058       5.993 r       hdmi_top_inst/sync_vg/v_count_mod[4]/opit_0_A2Q0/Cout
+                                   net (fanout=1)        0.000       5.993         hdmi_top_inst/sync_vg/un1_v_count_12_cry_6/_N6
+                                   td                    0.058       6.051 r       hdmi_top_inst/sync_vg/v_count_0_mod[7]/opit_0_A2Q1/Cout
+                                   net (fanout=1)        0.000       6.051         hdmi_top_inst/sync_vg/un1_v_count_12_cry_7_Z
+ CLMA_310_156/COUT                 td                    0.058       6.109 r       hdmi_top_inst/sync_vg/v_count_mod[9]/opit_0_A2Q21/Cout
+                                   net (fanout=1)        0.000       6.109         hdmi_top_inst/sync_vg/un1_v_count_12_cry_9_Z
+ CLMA_310_160/Y0                   td                    0.269       6.378 r       hdmi_top_inst/sync_vg/v_count_mod[11]/opit_0_A2Q1/Y0
+                                   net (fanout=1)        0.336       6.714         hdmi_top_inst/sync_vg/v_count_0_0[10]/_N0
+ CLMA_302_161/D3                                                           r       hdmi_top_inst/sync_vg/v_count_mod[10]/opit_0_L5Q_perm/L3
+
+ Data arrival time                                                   6.714         Logic Levels: 7  
+                                                                                   Logic: 2.066ns(51.000%), Route: 1.985ns(49.000%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.059    1001.059         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000    1001.059 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       1.531    1002.590         ntclkbufg_1      
+ CLMA_302_161/CLK                                                          r       hdmi_top_inst/sync_vg/v_count_mod[10]/opit_0_L5Q_perm/CLK
+ clock pessimism                                         0.044    1002.634                          
+ clock uncertainty                                      -0.150    1002.484                          
+
+ Setup time                                             -0.377    1002.107                          
+
+ Data required time                                               1002.107                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1002.107                          
+ Data arrival time                                                   6.714                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       995.393                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/sync_vg/v_count_0_mod[5]/opit_0_L5Q_perm/L4
+Path Group  : sys_pll|clkout0_inferred_clock
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.590
+  Launch Clock Delay      :  2.663
+  Clock Pessimism Removal :  0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.078       1.078         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       1.078 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       1.585       2.663         ntclkbufg_1      
+ CLMA_302_160/CLK                                                          r       hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/CLK
+
+ CLMA_302_160/Q0                   tco                   0.289       2.952 r       hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/Q0
+                                   net (fanout=5)        0.404       3.356         hdmi_top_inst/sync_vg/h_count_Z [4]
+ CLMA_302_157/Y1                   td                    0.212       3.568 r       hdmi_top_inst/sync_vg/un1_h_count_6_7/gateop_perm/Z
+                                   net (fanout=2)        0.413       3.981         hdmi_top_inst/sync_vg/h_count15lto6/_N3
+ CLMA_302_152/Y1                   td                    0.212       4.193 r       hdmi_top_inst/sync_vg/un1_h_count_6_2/gateop_perm/Z
+                                   net (fanout=1)        0.254       4.447         hdmi_top_inst/sync_vg/un1_h_count_6/_N3
+ CLMA_302_152/Y0                   td                    0.320       4.767 r       hdmi_top_inst/sync_vg/un1_h_count_6/gateop_perm/Z
+                                   net (fanout=5)        0.578       5.345         hdmi_top_inst/sync_vg/un1_h_count_6_Z
+                                   td                    0.474       5.819 f       hdmi_top_inst/sync_vg/un1_v_count_12_cry_0_cy_cin/gateop_A2/Cout
+                                   net (fanout=1)        0.000       5.819         hdmi_top_inst/sync_vg/un1_v_count_12_cry_0/_N6
+ CLMA_310_148/COUT                 td                    0.058       5.877 r       hdmi_top_inst/sync_vg/v_count_mod[1]/opit_0_A2Q21/Cout
+                                   net (fanout=1)        0.000       5.877         hdmi_top_inst/sync_vg/un1_v_count_12_cry_1_Z
+                                   td                    0.058       5.935 r       hdmi_top_inst/sync_vg/v_count_mod[3]/opit_0_A2Q1/Cout
+                                   net (fanout=1)        0.000       5.935         hdmi_top_inst/sync_vg/un1_v_count_12_cry_3_Z
+ CLMA_310_152/Y3                   td                    0.501       6.436 r       hdmi_top_inst/sync_vg/v_count_mod[4]/opit_0_A2Q0/Y1
+                                   net (fanout=1)        0.305       6.741         hdmi_top_inst/sync_vg/v_count_0_0[5]/_N0
+ CLMA_310_144/A4                                                           r       hdmi_top_inst/sync_vg/v_count_0_mod[5]/opit_0_L5Q_perm/L4
+
+ Data arrival time                                                   6.741         Logic Levels: 5  
+                                                                                   Logic: 2.124ns(52.084%), Route: 1.954ns(47.916%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.059    1001.059         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000    1001.059 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       1.531    1002.590         ntclkbufg_1      
+ CLMA_310_144/CLK                                                          r       hdmi_top_inst/sync_vg/v_count_0_mod[5]/opit_0_L5Q_perm/CLK
+ clock pessimism                                         0.037    1002.627                          
+ clock uncertainty                                      -0.150    1002.477                          
+
+ Setup time                                             -0.121    1002.356                          
+
+ Data required time                                               1002.356                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1002.356                          
+ Data arrival time                                                   6.741                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       995.615                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/sync_vg/v_count_mod[2]/opit_0_L5Q_perm/L4
+Path Group  : sys_pll|clkout0_inferred_clock
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.590
+  Launch Clock Delay      :  2.663
+  Clock Pessimism Removal :  0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.078       1.078         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       1.078 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       1.585       2.663         ntclkbufg_1      
+ CLMA_302_160/CLK                                                          r       hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/CLK
+
+ CLMA_302_160/Q0                   tco                   0.289       2.952 r       hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/Q0
+                                   net (fanout=5)        0.404       3.356         hdmi_top_inst/sync_vg/h_count_Z [4]
+ CLMA_302_157/Y1                   td                    0.212       3.568 r       hdmi_top_inst/sync_vg/un1_h_count_6_7/gateop_perm/Z
+                                   net (fanout=2)        0.413       3.981         hdmi_top_inst/sync_vg/h_count15lto6/_N3
+ CLMA_302_152/Y1                   td                    0.212       4.193 r       hdmi_top_inst/sync_vg/un1_h_count_6_2/gateop_perm/Z
+                                   net (fanout=1)        0.254       4.447         hdmi_top_inst/sync_vg/un1_h_count_6/_N3
+ CLMA_302_152/Y0                   td                    0.320       4.767 r       hdmi_top_inst/sync_vg/un1_h_count_6/gateop_perm/Z
+                                   net (fanout=5)        0.578       5.345         hdmi_top_inst/sync_vg/un1_h_count_6_Z
+                                   td                    0.474       5.819 f       hdmi_top_inst/sync_vg/un1_v_count_12_cry_0_cy_cin/gateop_A2/Cout
+                                   net (fanout=1)        0.000       5.819         hdmi_top_inst/sync_vg/un1_v_count_12_cry_0/_N6
+ CLMA_310_148/COUT                 td                    0.058       5.877 r       hdmi_top_inst/sync_vg/v_count_mod[1]/opit_0_A2Q21/Cout
+                                   net (fanout=1)        0.000       5.877         hdmi_top_inst/sync_vg/un1_v_count_12_cry_1_Z
+ CLMA_310_152/Y0                   td                    0.269       6.146 r       hdmi_top_inst/sync_vg/v_count_mod[3]/opit_0_A2Q1/Y0
+                                   net (fanout=1)        0.555       6.701         hdmi_top_inst/sync_vg/v_count_0_0[2]/_N0
+ CLMA_310_164/A4                                                           r       hdmi_top_inst/sync_vg/v_count_mod[2]/opit_0_L5Q_perm/L4
+
+ Data arrival time                                                   6.701         Logic Levels: 5  
+                                                                                   Logic: 1.834ns(45.419%), Route: 2.204ns(54.581%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.059    1001.059         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000    1001.059 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       1.531    1002.590         ntclkbufg_1      
+ CLMA_310_164/CLK                                                          r       hdmi_top_inst/sync_vg/v_count_mod[2]/opit_0_L5Q_perm/CLK
+ clock pessimism                                         0.037    1002.627                          
+ clock uncertainty                                      -0.150    1002.477                          
+
+ Setup time                                             -0.121    1002.356                          
+
+ Data required time                                               1002.356                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1002.356                          
+ Data arrival time                                                   6.701                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       995.655                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/sync_vg/hs_out/opit_0_L5Q_perm/CLK
+Endpoint    : hdmi_top_inst/pattern_vg/hs_out/opit_0/D
+Path Group  : sys_pll|clkout0_inferred_clock
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.663
+  Launch Clock Delay      :  2.590
+  Clock Pessimism Removal :  -0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.059       1.059         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       1.059 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       1.531       2.590         ntclkbufg_1      
+ CLMS_298_157/CLK                                                          r       hdmi_top_inst/sync_vg/hs_out/opit_0_L5Q_perm/CLK
+
+ CLMS_298_157/Q0                   tco                   0.226       2.816 r       hdmi_top_inst/sync_vg/hs_out/opit_0_L5Q_perm/Q
+                                   net (fanout=1)        0.211       3.027         hdmi_top_inst/hs 
+ CLMA_302_153/M0                                                           r       hdmi_top_inst/pattern_vg/hs_out/opit_0/D
+
+ Data arrival time                                                   3.027         Logic Levels: 0  
+                                                                                   Logic: 0.226ns(51.716%), Route: 0.211ns(48.284%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.078       1.078         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       1.078 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       1.585       2.663         ntclkbufg_1      
+ CLMA_302_153/CLK                                                          r       hdmi_top_inst/pattern_vg/hs_out/opit_0/CLK
+ clock pessimism                                        -0.037       2.626                          
+ clock uncertainty                                       0.000       2.626                          
+
+ Hold time                                              -0.014       2.612                          
+
+ Data required time                                                  2.612                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  2.612                          
+ Data arrival time                                                   3.027                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.415                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/sync_vg/x_act[4]/opit_0/D
+Path Group  : sys_pll|clkout0_inferred_clock
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.029  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.663
+  Launch Clock Delay      :  2.590
+  Clock Pessimism Removal :  -0.044
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.059       1.059         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       1.059 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       1.531       2.590         ntclkbufg_1      
+ CLMA_302_160/CLK                                                          r       hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/CLK
+
+ CLMA_302_160/Q0                   tco                   0.226       2.816 r       hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/Q0
+                                   net (fanout=5)        0.217       3.033         hdmi_top_inst/sync_vg/h_count_Z [4]
+ CLMA_302_157/M2                                                           r       hdmi_top_inst/sync_vg/x_act[4]/opit_0/D
+
+ Data arrival time                                                   3.033         Logic Levels: 0  
+                                                                                   Logic: 0.226ns(51.016%), Route: 0.217ns(48.984%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.078       1.078         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       1.078 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       1.585       2.663         ntclkbufg_1      
+ CLMA_302_157/CLK                                                          r       hdmi_top_inst/sync_vg/x_act[4]/opit_0/CLK
+ clock pessimism                                        -0.044       2.619                          
+ clock uncertainty                                       0.000       2.619                          
+
+ Hold time                                              -0.014       2.605                          
+
+ Data required time                                                  2.605                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  2.605                          
+ Data arrival time                                                   3.033                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.428                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/sync_vg/h_count[1]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/sync_vg/h_count[1]/opit_0_A2Q21/I01
+Path Group  : sys_pll|clkout0_inferred_clock
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.000  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.663
+  Launch Clock Delay      :  2.590
+  Clock Pessimism Removal :  -0.073
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.059       1.059         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       1.059 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       1.531       2.590         ntclkbufg_1      
+ CLMA_302_156/CLK                                                          r       hdmi_top_inst/sync_vg/h_count[1]/opit_0_A2Q21/CLK
+
+ CLMA_302_156/Q0                   tco                   0.222       2.812 f       hdmi_top_inst/sync_vg/h_count[1]/opit_0_A2Q21/Q0
+                                   net (fanout=3)        0.086       2.898         hdmi_top_inst/sync_vg/h_count_Z [0]
+ CLMA_302_156/A1                                                           f       hdmi_top_inst/sync_vg/h_count[1]/opit_0_A2Q21/I01
+
+ Data arrival time                                                   2.898         Logic Levels: 0  
+                                                                                   Logic: 0.222ns(72.078%), Route: 0.086ns(27.922%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.078       1.078         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       1.078 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       1.585       2.663         ntclkbufg_1      
+ CLMA_302_156/CLK                                                          r       hdmi_top_inst/sync_vg/h_count[1]/opit_0_A2Q21/CLK
+ clock pessimism                                        -0.073       2.590                          
+ clock uncertainty                                       0.000       2.590                          
+
+ Hold time                                              -0.121       2.469                          
+
+ Data required time                                                  2.469                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  2.469                          
+ Data arrival time                                                   2.898                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.429                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/rstn_1ms_mod[3]/opit_0_inv_A2Q21/CLK
+Endpoint    : hdmi_top_inst/ms72xx_ctl/rstn_temp1/opit_0/RS
+Path Group  : sys_pll|clkout1_inferred_clock
+Path Type   : max (slow corner)
+Path Class  : async timing path
+Clock Skew  :    -0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.590
+  Launch Clock Delay      :  2.663
+  Clock Pessimism Removal :  0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.078       1.078         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       1.078 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.585       2.663         ntclkbufg_0      
+ CLMA_302_129/CLK                                                          r       hdmi_top_inst/rstn_1ms_mod[3]/opit_0_inv_A2Q21/CLK
+
+ CLMA_302_129/Q2                   tco                   0.290       2.953 r       hdmi_top_inst/rstn_1ms_mod[3]/opit_0_inv_A2Q21/Q0
+                                   net (fanout=2)        0.265       3.218         hdmi_top_inst/dsp_join_kb_2_0 [2]
+ CLMA_302_132/Y0                   td                    0.478       3.696 r       hdmi_top_inst/rstn_out_1/gateop_perm/Z
+                                   net (fanout=2)        0.396       4.092         hdmi_top_inst/rstn_out/_N3
+ CLMA_302_136/Y0                   td                    0.341       4.433 f       hdmi_top_inst/rstn_out_i/gateop_perm/Z
+                                   net (fanout=3)        0.551       4.984         hdmi_top_inst/rstn_out_c_i_0
+ CLMS_298_157/RSCO                 td                    0.147       5.131 f       hdmi_top_inst/sync_vg/hs_out/opit_0_L5Q_perm/RSOUT
+                                   net (fanout=1)        0.000       5.131         ntR23            
+ CLMS_298_161/RSCI                                                         f       hdmi_top_inst/ms72xx_ctl/rstn_temp1/opit_0/RS
+
+ Data arrival time                                                   5.131         Logic Levels: 3  
+                                                                                   Logic: 1.256ns(50.891%), Route: 1.212ns(49.109%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000    1000.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.059    1001.059         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000    1001.059 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.531    1002.590         ntclkbufg_0      
+ CLMS_298_161/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/rstn_temp1/opit_0/CLK
+ clock pessimism                                         0.037    1002.627                          
+ clock uncertainty                                      -0.150    1002.477                          
+
+ Recovery time                                           0.000    1002.477                          
+
+ Data required time                                               1002.477                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1002.477                          
+ Data arrival time                                                   5.131                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       997.346                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/rstn_1ms_mod[9]/opit_0_inv_A2Q21/CLK
+Endpoint    : hdmi_top_inst/ms72xx_ctl/rstn_temp1/opit_0/RS
+Path Group  : sys_pll|clkout1_inferred_clock
+Path Type   : min (slow corner)
+Path Class  : async timing path
+Clock Skew  :    0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.663
+  Launch Clock Delay      :  2.590
+  Clock Pessimism Removal :  -0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.059       1.059         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       1.059 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.531       2.590         ntclkbufg_0      
+ CLMA_302_137/CLK                                                          r       hdmi_top_inst/rstn_1ms_mod[9]/opit_0_inv_A2Q21/CLK
+
+ CLMA_302_137/Q1                   tco                   0.224       2.814 f       hdmi_top_inst/rstn_1ms_mod[9]/opit_0_inv_A2Q21/Q1
+                                   net (fanout=3)        0.086       2.900         hdmi_top_inst/dsp_join_kb_2_0 [9]
+ CLMA_302_136/Y0                   td                    0.339       3.239 r       hdmi_top_inst/rstn_out_i/gateop_perm/Z
+                                   net (fanout=3)        0.454       3.693         hdmi_top_inst/rstn_out_c_i_0
+ CLMS_298_157/RSCO                 td                    0.105       3.798 r       hdmi_top_inst/sync_vg/hs_out/opit_0_L5Q_perm/RSOUT
+                                   net (fanout=1)        0.000       3.798         ntR23            
+ CLMS_298_161/RSCI                                                         r       hdmi_top_inst/ms72xx_ctl/rstn_temp1/opit_0/RS
+
+ Data arrival time                                                   3.798         Logic Levels: 2  
+                                                                                   Logic: 0.668ns(55.298%), Route: 0.540ns(44.702%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.078       1.078         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       1.078 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.585       2.663         ntclkbufg_0      
+ CLMS_298_161/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/rstn_temp1/opit_0/CLK
+ clock pessimism                                        -0.037       2.626                          
+ clock uncertainty                                       0.000       2.626                          
+
+ Removal time                                            0.000       2.626                          
+
+ Data required time                                                  2.626                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  2.626                          
+ Data arrival time                                                   3.798                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         1.172                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/ms7210_ctl/init_over/opit_0_inv_L5Q_perm/CLK
+Endpoint    : led_int (port)
+Path Group  : **default**
+Path Type   : max (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.078       1.078         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       1.078 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.585       2.663         ntclkbufg_0      
+ CLMS_270_161/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/init_over/opit_0_inv_L5Q_perm/CLK
+
+ CLMS_270_161/Q0                   tco                   0.287       2.950 f       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/init_over/opit_0_inv_L5Q_perm/Q
+                                   net (fanout=2)        4.240       7.190         led_int_c        
+ IOL_19_374/DO                     td                    0.139       7.329 f       led_int_obuf/opit_1/O
+                                   net (fanout=1)        0.000       7.329         led_int_obuf/ntO 
+ IOBD_16_376/PAD                   td                    3.853      11.182 f       led_int_obuf/opit_0/O
+                                   net (fanout=1)        0.109      11.291         led_int          
+ B2                                                                        f       led_int (port)   
+
+ Data arrival time                                                  11.291         Logic Levels: 2  
+                                                                                   Logic: 4.279ns(49.594%), Route: 4.349ns(50.406%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/iic_dri_rx/state[4]/opit_0_L5Q_perm/CLK
+Endpoint    : iic_sda (port)
+Path Group  : **default**
+Path Type   : max (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.078       1.078         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       1.078 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.585       2.663         ntclkbufg_0      
+ CLMS_274_197/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/iic_dri_rx/state[4]/opit_0_L5Q_perm/CLK
+
+ CLMS_274_197/Q1                   tco                   0.291       2.954 r       hdmi_top_inst/ms72xx_ctl/iic_dri_rx/state[4]/opit_0_L5Q_perm/Q
+                                   net (fanout=16)       0.710       3.664         hdmi_top_inst/ms72xx_ctl/iic_dri_rx/state_Z [4]
+ CLMA_286_181/Y3                   td                    0.303       3.967 r       hdmi_top_inst/ms72xx_ctl/iic_dri_rx/sda_out_en_0_a2/gateop_perm/Z
+                                   net (fanout=1)        0.542       4.509         hdmi_top_inst/ms72xx_ctl/sda_out_en_Z_0
+ CLMA_294_176/Y0                   td                    0.294       4.803 f       hdmi_top_inst/ms72xx_ctl/sda_out_en_i/opit_0/Z
+                                   net (fanout=1)        1.878       6.681         sda_out_en_i_0   
+ IOL_327_25/TO                     td                    0.139       6.820 f       iic_sda_iobuf/opit_1/T
+                                   net (fanout=1)        0.000       6.820         iic_sda_iobuf/ntT
+ IOBS_LR_328_24/PAD                tse                   3.903      10.723 f       iic_sda_iobuf/opit_0/IO
+                                   net (fanout=1)        0.051      10.774         iic_sda          
+ V20                                                                       f       iic_sda (port)   
+
+ Data arrival time                                                  10.774         Logic Levels: 4  
+                                                                                   Logic: 4.930ns(60.782%), Route: 3.181ns(39.218%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/iic_dri_tx/state[4]/opit_0_L5Q_perm/CLK
+Endpoint    : iic_tx_sda (port)
+Path Group  : **default**
+Path Type   : max (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        1.078       1.078         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       1.078 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      1.585       2.663         ntclkbufg_0      
+ CLMA_274_136/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/iic_dri_tx/state[4]/opit_0_L5Q_perm/CLK
+
+ CLMA_274_136/Q0                   tco                   0.289       2.952 r       hdmi_top_inst/ms72xx_ctl/iic_dri_tx/state[4]/opit_0_L5Q_perm/Q
+                                   net (fanout=16)       0.639       3.591         hdmi_top_inst/ms72xx_ctl/iic_dri_tx/state_Z [4]
+ CLMA_286_132/Y1                   td                    0.304       3.895 r       hdmi_top_inst/ms72xx_ctl/iic_dri_tx/sda_out_en_0_a2/gateop_perm/Z
+                                   net (fanout=1)        0.449       4.344         hdmi_top_inst/ms72xx_ctl/sda_tx_out_en_Z_0
+ CLMA_286_121/Y0                   td                    0.294       4.638 f       hdmi_top_inst/ms72xx_ctl/sda_tx_out_en_i/opit_0/Z
+                                   net (fanout=1)        1.422       6.060         sda_tx_out_en_i_0
+ IOL_327_45/TO                     td                    0.139       6.199 f       iic_tx_sda_iobuf/opit_1/T
+                                   net (fanout=1)        0.000       6.199         iic_tx_sda_iobuf/ntT
+ IOBS_LR_328_44/PAD                tse                   3.903      10.102 f       iic_tx_sda_iobuf/opit_0/IO
+                                   net (fanout=1)        0.058      10.160         iic_tx_sda       
+ P18                                                                       f       iic_tx_sda (port)
+
+ Data arrival time                                                  10.160         Logic Levels: 4  
+                                                                                   Logic: 4.929ns(65.746%), Route: 2.568ns(34.254%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : iic_tx_sda (port)
+Endpoint    : hdmi_top_inst/ms72xx_ctl/iic_dri_tx/receiv_data[0]/opit_0_inv/D
+Path Group  : **default**
+Path Type   : min (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ P18                                                     0.000       0.000 r       iic_tx_sda (port)
+                                   net (fanout=1)        0.058       0.058         iic_tx_sda       
+ IOBS_LR_328_44/DIN                td                    1.047       1.105 r       iic_tx_sda_iobuf/opit_0/O
+                                   net (fanout=1)        0.000       1.105         iic_tx_sda_iobuf/ntI
+ IOL_327_45/RX_DATA_DD             td                    0.082       1.187 r       iic_tx_sda_iobuf/opit_1/OUT
+                                   net (fanout=1)        1.347       2.534         iic_tx_sda_in    
+ CLMA_286_137/M2                                                           r       hdmi_top_inst/ms72xx_ctl/iic_dri_tx/receiv_data[0]/opit_0_inv/D
+
+ Data arrival time                                                   2.534         Logic Levels: 2  
+                                                                                   Logic: 1.129ns(44.554%), Route: 1.405ns(55.446%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : iic_sda (port)
+Endpoint    : hdmi_top_inst/ms72xx_ctl/iic_dri_rx/receiv_data[0]/opit_0_inv/D
+Path Group  : **default**
+Path Type   : min (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ V20                                                     0.000       0.000 r       iic_sda (port)   
+                                   net (fanout=1)        0.051       0.051         iic_sda          
+ IOBS_LR_328_24/DIN                td                    1.047       1.098 r       iic_sda_iobuf/opit_0/O
+                                   net (fanout=1)        0.000       1.098         iic_sda_iobuf/ntI
+ IOL_327_25/RX_DATA_DD             td                    0.082       1.180 r       iic_sda_iobuf/opit_1/OUT
+                                   net (fanout=1)        1.625       2.805         iic_sda_in       
+ CLMA_286_176/M3                                                           r       hdmi_top_inst/ms72xx_ctl/iic_dri_rx/receiv_data[0]/opit_0_inv/D
+
+ Data arrival time                                                   2.805         Logic Levels: 2  
+                                                                                   Logic: 1.129ns(40.250%), Route: 1.676ns(59.750%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/pattern_vg/b_out_1[0]/opit_0_L5Q_perm/CLK
+Endpoint    : b_out[6] (port)
+Path Group  : **default**
+Path Type   : min (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.059       1.059         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       1.059 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       1.531       2.590         ntclkbufg_1      
+ CLMA_302_168/CLK                                                          r       hdmi_top_inst/pattern_vg/b_out_1[0]/opit_0_L5Q_perm/CLK
+
+ CLMA_302_168/Q0                   tco                   0.226       2.816 r       hdmi_top_inst/pattern_vg/b_out_1[0]/opit_0_L5Q_perm/Q
+                                   net (fanout=8)        0.812       3.628         b_out_c[0]       
+ IOL_327_137/DO                    td                    0.087       3.715 r       b_out_obuf[6]/opit_1/O
+                                   net (fanout=1)        0.000       3.715         b_out_obuf[6]/ntO
+ IOBR_LR_328_136/PAD               td                    2.380       6.095 r       b_out_obuf[6]/opit_0/O
+                                   net (fanout=1)        0.063       6.158         b_out[6]         
+ R19                                                                       r       b_out[6] (port)  
+
+ Data arrival time                                                   6.158         Logic Levels: 2  
+                                                                                   Logic: 2.693ns(75.476%), Route: 0.875ns(24.524%)
+====================================================================================================
+
+{sys_pll|clkout1_inferred_clock} Minimum Pulse Width :
+****************************************************************************************************
+ Slack       Actual Width    Require Width   Type              Location                Pin          
+----------------------------------------------------------------------------------------------------
+ 499.102     500.000         0.898           High Pulse Width  DRM_278_168/CLKB[0]     hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_data_cnst_0_0/iGopDrm/CLKB[0]
+ 499.102     500.000         0.898           Low Pulse Width   DRM_278_168/CLKB[0]     hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_data_cnst_0_0/iGopDrm/CLKB[0]
+ 499.102     500.000         0.898           High Pulse Width  DRM_278_148/CLKB[0]     hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_data_cnst_0_0/iGopDrm/CLKB
+====================================================================================================
+
+{sys_pll|clkout0_inferred_clock} Minimum Pulse Width :
+****************************************************************************************************
+ Slack       Actual Width    Require Width   Type              Location                Pin          
+----------------------------------------------------------------------------------------------------
+ 499.380     500.000         0.620           High Pulse Width  CLMS_298_157/CLK        hdmi_top_inst/sync_vg/hs_out/opit_0_L5Q_perm/CLK
+ 499.380     500.000         0.620           Low Pulse Width   CLMS_298_157/CLK        hdmi_top_inst/sync_vg/hs_out/opit_0_L5Q_perm/CLK
+ 499.580     500.000         0.420           Low Pulse Width   CLMA_302_168/CLK        hdmi_top_inst/pattern_vg/b_out_1[0]/opit_0_L5Q_perm/CLK
+====================================================================================================
+
+====================================================================================================
+Fast Corner
+****************************************************************************************************
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[8]/opit_0_AQ/RS
+Path Group  : sys_pll|clkout1_inferred_clock
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.015  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.498
+  Launch Clock Delay      :  1.539
+  Clock Pessimism Removal :  0.026
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.614       0.614         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       0.614 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.925       1.539         ntclkbufg_0      
+ CLMA_286_169/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_A2Q21/CLK
+
+ CLMA_286_169/Q2                   tco                   0.224       1.763 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_A2Q21/Q0
+                                   net (fanout=5)        0.189       1.952         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt_Z [6]
+ CLMA_286_177/Y0                   td                    0.380       2.332 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47_1/gateop_perm/Z
+                                   net (fanout=1)        0.370       2.702         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47/_N1
+ CLMA_286_181/Y2                   td                    0.379       3.081 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47/gateop_perm/Z
+                                   net (fanout=2)        0.328       3.409         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47_Z
+ CLMA_286_177/Y2                   td                    0.379       3.788 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/un1_dri_cnt_1_sqmuxa_0/gateop_perm/Z
+                                   net (fanout=1)        0.169       3.957         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/un1_dri_cnt_1_sqmuxa/_N4
+ CLMA_286_181/Y1                   td                    0.359       4.316 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/un1_dri_cnt_1_sqmuxa/gateop_perm/Z
+                                   net (fanout=3)        0.152       4.468         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnte
+ CLMA_286_180/Y0                   td                    0.226       4.694 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/comp_rst/gateop_perm/Z
+                                   net (fanout=2)        0.273       4.967         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_1_0
+ CLMA_286_165/RSCO                 td                    0.113       5.080 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[3]/opit_0_A2Q21/RSOUT
+                                   net (fanout=2)        0.000       5.080         ntR4             
+ CLMA_286_169/RSCO                 td                    0.113       5.193 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_A2Q21/RSOUT
+                                   net (fanout=1)        0.000       5.193         ntR3             
+ CLMA_286_173/RSCI                                                         f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[8]/opit_0_AQ/RS
+
+ Data arrival time                                                   5.193         Logic Levels: 7  
+                                                                                   Logic: 2.173ns(59.469%), Route: 1.481ns(40.531%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000    1000.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.603    1000.603         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000    1000.603 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.895    1001.498         ntclkbufg_0      
+ CLMA_286_173/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[8]/opit_0_AQ/CLK
+ clock pessimism                                         0.026    1001.524                          
+ clock uncertainty                                      -0.150    1001.374                          
+
+ Setup time                                             -0.269    1001.105                          
+
+ Data required time                                               1001.105                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1001.105                          
+ Data arrival time                                                   5.193                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       995.912                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d[16]/opit_0/CE
+Path Group  : sys_pll|clkout1_inferred_clock
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.498
+  Launch Clock Delay      :  1.539
+  Clock Pessimism Removal :  0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.614       0.614         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       0.614 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.925       1.539         ntclkbufg_0      
+ CLMA_286_169/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_A2Q21/CLK
+
+ CLMA_286_169/Q2                   tco                   0.224       1.763 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_A2Q21/Q0
+                                   net (fanout=5)        0.189       1.952         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt_Z [6]
+ CLMA_286_177/Y0                   td                    0.380       2.332 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47_1/gateop_perm/Z
+                                   net (fanout=1)        0.370       2.702         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47/_N1
+ CLMA_286_181/Y2                   td                    0.379       3.081 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47/gateop_perm/Z
+                                   net (fanout=2)        0.169       3.250         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47_Z
+ CLMA_286_176/Y3                   td                    0.243       3.493 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n36/gateop_perm/Z
+                                   net (fanout=4)        0.348       3.841         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/w_r_e/_N1
+ CLMS_290_173/Y3                   td                    0.162       4.003 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n_0_0[4]/gateop_perm/Z
+                                   net (fanout=1)        0.145       4.148         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n_0_0_Z [4]
+ CLMS_290_173/Y1                   td                    0.162       4.310 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n_0[4]/gateop_perm/Z
+                                   net (fanout=3)        0.073       4.383         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n [4]
+ CLMS_290_173/Y2                   td                    0.227       4.610 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d3/gateop_perm/Z
+                                   net (fanout=2)        0.359       4.969         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d3_Z
+ CLMS_290_173/CE                                                           f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d[16]/opit_0/CE
+
+ Data arrival time                                                   4.969         Logic Levels: 6  
+                                                                                   Logic: 1.777ns(51.808%), Route: 1.653ns(48.192%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000    1000.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.603    1000.603         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000    1000.603 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.895    1001.498         ntclkbufg_0      
+ CLMS_290_173/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d[16]/opit_0/CLK
+ clock pessimism                                         0.022    1001.520                          
+ clock uncertainty                                      -0.150    1001.370                          
+
+ Setup time                                             -0.476    1000.894                          
+
+ Data required time                                               1000.894                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1000.894                          
+ Data arrival time                                                   4.969                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       995.925                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d[17]/opit_0/CE
+Path Group  : sys_pll|clkout1_inferred_clock
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.498
+  Launch Clock Delay      :  1.539
+  Clock Pessimism Removal :  0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.614       0.614         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       0.614 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.925       1.539         ntclkbufg_0      
+ CLMA_286_169/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_A2Q21/CLK
+
+ CLMA_286_169/Q2                   tco                   0.224       1.763 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_A2Q21/Q0
+                                   net (fanout=5)        0.189       1.952         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt_Z [6]
+ CLMA_286_177/Y0                   td                    0.380       2.332 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47_1/gateop_perm/Z
+                                   net (fanout=1)        0.370       2.702         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47/_N1
+ CLMA_286_181/Y2                   td                    0.379       3.081 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47/gateop_perm/Z
+                                   net (fanout=2)        0.169       3.250         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/dri_cnt47_Z
+ CLMA_286_176/Y3                   td                    0.243       3.493 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n36/gateop_perm/Z
+                                   net (fanout=4)        0.348       3.841         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/w_r_e/_N1
+ CLMS_290_173/Y3                   td                    0.162       4.003 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n_0_0[4]/gateop_perm/Z
+                                   net (fanout=1)        0.145       4.148         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n_0_0_Z [4]
+ CLMS_290_173/Y1                   td                    0.162       4.310 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n_0[4]/gateop_perm/Z
+                                   net (fanout=3)        0.073       4.383         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/state_n [4]
+ CLMS_290_173/Y2                   td                    0.227       4.610 f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d3/gateop_perm/Z
+                                   net (fanout=2)        0.359       4.969         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d3_Z
+ CLMS_290_173/CE                                                           f       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d[17]/opit_0/CE
+
+ Data arrival time                                                   4.969         Logic Levels: 6  
+                                                                                   Logic: 1.777ns(51.808%), Route: 1.653ns(48.192%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000    1000.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.603    1000.603         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000    1000.603 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.895    1001.498         ntclkbufg_0      
+ CLMS_290_173/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/freq_rec_2d[17]/opit_0/CLK
+ clock pessimism                                         0.022    1001.520                          
+ clock uncertainty                                      -0.150    1001.370                          
+
+ Setup time                                             -0.476    1000.894                          
+
+ Data required time                                               1000.894                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1000.894                          
+ Data arrival time                                                   4.969                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       995.925                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_index[1]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_data_cnst_0_0/iGopDrm/ADDRB[4]
+Path Group  : sys_pll|clkout1_inferred_clock
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.539
+  Launch Clock Delay      :  1.498
+  Clock Pessimism Removal :  -0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.603       0.603         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       0.603 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.895       1.498         ntclkbufg_0      
+ CLMA_274_156/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_index[1]/opit_0_A2Q21/CLK
+
+ CLMA_274_156/Q0                   tco                   0.182       1.680 r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_index[1]/opit_0_A2Q21/Q0
+                                   net (fanout=12)       0.141       1.821         hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_index_Z [0]
+ DRM_278_148/ADB0[4]                                                       r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_data_cnst_0_0/iGopDrm/ADDRB[4]
+
+ Data arrival time                                                   1.821         Logic Levels: 0  
+                                                                                   Logic: 0.182ns(56.347%), Route: 0.141ns(43.653%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.614       0.614         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       0.614 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.925       1.539         ntclkbufg_0      
+ DRM_278_148/CLKB[0]                                                       r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_data_cnst_0_0/iGopDrm/CLKB
+ clock pessimism                                        -0.022       1.517                          
+ clock uncertainty                                       0.000       1.517                          
+
+ Hold time                                               0.107       1.624                          
+
+ Data required time                                                  1.624                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  1.624                          
+ Data arrival time                                                   1.821                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.197                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_index[3]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_data_cnst_0_0/iGopDrm/ADDRB[7]
+Path Group  : sys_pll|clkout1_inferred_clock
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.539
+  Launch Clock Delay      :  1.498
+  Clock Pessimism Removal :  -0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.603       0.603         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       0.603 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.895       1.498         ntclkbufg_0      
+ CLMA_274_156/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_index[3]/opit_0_A2Q21/CLK
+
+ CLMA_274_156/Q3                   tco                   0.182       1.680 r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_index[3]/opit_0_A2Q21/Q1
+                                   net (fanout=9)        0.144       1.824         hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_index_Z [3]
+ DRM_278_148/ADB0[7]                                                       r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_data_cnst_0_0/iGopDrm/ADDRB[7]
+
+ Data arrival time                                                   1.824         Logic Levels: 0  
+                                                                                   Logic: 0.182ns(55.828%), Route: 0.144ns(44.172%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.614       0.614         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       0.614 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.925       1.539         ntclkbufg_0      
+ DRM_278_148/CLKB[0]                                                       r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_data_cnst_0_0/iGopDrm/CLKB
+ clock pessimism                                        -0.022       1.517                          
+ clock uncertainty                                       0.000       1.517                          
+
+ Hold time                                               0.107       1.624                          
+
+ Data required time                                                  1.624                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  1.624                          
+ Data arrival time                                                   1.824                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.200                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_index[5]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_data_cnst_0_0/iGopDrm/ADB0[10]
+Path Group  : sys_pll|clkout1_inferred_clock
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.539
+  Launch Clock Delay      :  1.498
+  Clock Pessimism Removal :  -0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.603       0.603         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       0.603 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.895       1.498         ntclkbufg_0      
+ CLMS_274_177/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_index[5]/opit_0_A2Q21/CLK
+
+ CLMS_274_177/Q1                   tco                   0.184       1.682 r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_index[5]/opit_0_A2Q21/Q1
+                                   net (fanout=3)        0.142       1.824         hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_index_Z [5]
+ DRM_278_168/ADB0[10]                                                      r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_data_cnst_0_0/iGopDrm/ADB0[10]
+
+ Data arrival time                                                   1.824         Logic Levels: 0  
+                                                                                   Logic: 0.184ns(56.442%), Route: 0.142ns(43.558%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.614       0.614         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       0.614 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.925       1.539         ntclkbufg_0      
+ DRM_278_168/CLKB[0]                                                       r       hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_data_cnst_0_0/iGopDrm/CLKB[0]
+ clock pessimism                                        -0.022       1.517                          
+ clock uncertainty                                       0.000       1.517                          
+
+ Hold time                                               0.061       1.578                          
+
+ Data required time                                                  1.578                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  1.578                          
+ Data arrival time                                                   1.824                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.246                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/sync_vg/h_count[1]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/sync_vg/v_count_mod[10]/opit_0_L5Q_perm/L3
+Path Group  : sys_pll|clkout0_inferred_clock
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.015  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.498
+  Launch Clock Delay      :  1.539
+  Clock Pessimism Removal :  0.026
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.614       0.614         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       0.614 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       0.925       1.539         ntclkbufg_1      
+ CLMA_302_156/CLK                                                          r       hdmi_top_inst/sync_vg/h_count[1]/opit_0_A2Q21/CLK
+
+ CLMA_302_156/Q1                   tco                   0.224       1.763 r       hdmi_top_inst/sync_vg/h_count[1]/opit_0_A2Q21/Q1
+                                   net (fanout=2)        0.075       1.838         hdmi_top_inst/sync_vg/h_count_Z [1]
+ CLMA_302_157/Y1                   td                    0.360       2.198 f       hdmi_top_inst/sync_vg/un1_h_count_6_7/gateop_perm/Z
+                                   net (fanout=2)        0.266       2.464         hdmi_top_inst/sync_vg/h_count15lto6/_N3
+ CLMA_302_152/Y1                   td                    0.162       2.626 r       hdmi_top_inst/sync_vg/un1_h_count_6_2/gateop_perm/Z
+                                   net (fanout=1)        0.149       2.775         hdmi_top_inst/sync_vg/un1_h_count_6/_N3
+ CLMA_302_152/Y0                   td                    0.264       3.039 f       hdmi_top_inst/sync_vg/un1_h_count_6/gateop_perm/Z
+                                   net (fanout=5)        0.368       3.407         hdmi_top_inst/sync_vg/un1_h_count_6_Z
+                                   td                    0.365       3.772 f       hdmi_top_inst/sync_vg/un1_v_count_12_cry_0_cy_cin/gateop_A2/Cout
+                                   net (fanout=1)        0.000       3.772         hdmi_top_inst/sync_vg/un1_v_count_12_cry_0/_N6
+ CLMA_310_148/COUT                 td                    0.044       3.816 r       hdmi_top_inst/sync_vg/v_count_mod[1]/opit_0_A2Q21/Cout
+                                   net (fanout=1)        0.000       3.816         hdmi_top_inst/sync_vg/un1_v_count_12_cry_1_Z
+                                   td                    0.044       3.860 r       hdmi_top_inst/sync_vg/v_count_mod[3]/opit_0_A2Q1/Cout
+                                   net (fanout=1)        0.000       3.860         hdmi_top_inst/sync_vg/un1_v_count_12_cry_3_Z
+ CLMA_310_152/COUT                 td                    0.044       3.904 r       hdmi_top_inst/sync_vg/v_count_mod[4]/opit_0_A2Q0/Cout
+                                   net (fanout=1)        0.000       3.904         hdmi_top_inst/sync_vg/un1_v_count_12_cry_6/_N6
+                                   td                    0.044       3.948 r       hdmi_top_inst/sync_vg/v_count_0_mod[7]/opit_0_A2Q1/Cout
+                                   net (fanout=1)        0.000       3.948         hdmi_top_inst/sync_vg/un1_v_count_12_cry_7_Z
+ CLMA_310_156/COUT                 td                    0.044       3.992 r       hdmi_top_inst/sync_vg/v_count_mod[9]/opit_0_A2Q21/Cout
+                                   net (fanout=1)        0.000       3.992         hdmi_top_inst/sync_vg/un1_v_count_12_cry_9_Z
+ CLMA_310_160/Y0                   td                    0.206       4.198 r       hdmi_top_inst/sync_vg/v_count_mod[11]/opit_0_A2Q1/Y0
+                                   net (fanout=1)        0.205       4.403         hdmi_top_inst/sync_vg/v_count_0_0[10]/_N0
+ CLMA_302_161/D3                                                           r       hdmi_top_inst/sync_vg/v_count_mod[10]/opit_0_L5Q_perm/L3
+
+ Data arrival time                                                   4.403         Logic Levels: 7  
+                                                                                   Logic: 1.801ns(62.884%), Route: 1.063ns(37.116%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.603    1000.603         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000    1000.603 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       0.895    1001.498         ntclkbufg_1      
+ CLMA_302_161/CLK                                                          r       hdmi_top_inst/sync_vg/v_count_mod[10]/opit_0_L5Q_perm/CLK
+ clock pessimism                                         0.026    1001.524                          
+ clock uncertainty                                      -0.150    1001.374                          
+
+ Setup time                                             -0.290    1001.084                          
+
+ Data required time                                               1001.084                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1001.084                          
+ Data arrival time                                                   4.403                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       996.681                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/sync_vg/h_count[1]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/sync_vg/v_count_0_mod[5]/opit_0_L5Q_perm/L4
+Path Group  : sys_pll|clkout0_inferred_clock
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.498
+  Launch Clock Delay      :  1.539
+  Clock Pessimism Removal :  0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.614       0.614         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       0.614 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       0.925       1.539         ntclkbufg_1      
+ CLMA_302_156/CLK                                                          r       hdmi_top_inst/sync_vg/h_count[1]/opit_0_A2Q21/CLK
+
+ CLMA_302_156/Q1                   tco                   0.224       1.763 r       hdmi_top_inst/sync_vg/h_count[1]/opit_0_A2Q21/Q1
+                                   net (fanout=2)        0.075       1.838         hdmi_top_inst/sync_vg/h_count_Z [1]
+ CLMA_302_157/Y1                   td                    0.360       2.198 f       hdmi_top_inst/sync_vg/un1_h_count_6_7/gateop_perm/Z
+                                   net (fanout=2)        0.266       2.464         hdmi_top_inst/sync_vg/h_count15lto6/_N3
+ CLMA_302_152/Y1                   td                    0.162       2.626 r       hdmi_top_inst/sync_vg/un1_h_count_6_2/gateop_perm/Z
+                                   net (fanout=1)        0.149       2.775         hdmi_top_inst/sync_vg/un1_h_count_6/_N3
+ CLMA_302_152/Y0                   td                    0.264       3.039 f       hdmi_top_inst/sync_vg/un1_h_count_6/gateop_perm/Z
+                                   net (fanout=5)        0.368       3.407         hdmi_top_inst/sync_vg/un1_h_count_6_Z
+                                   td                    0.365       3.772 f       hdmi_top_inst/sync_vg/un1_v_count_12_cry_0_cy_cin/gateop_A2/Cout
+                                   net (fanout=1)        0.000       3.772         hdmi_top_inst/sync_vg/un1_v_count_12_cry_0/_N6
+ CLMA_310_148/COUT                 td                    0.044       3.816 r       hdmi_top_inst/sync_vg/v_count_mod[1]/opit_0_A2Q21/Cout
+                                   net (fanout=1)        0.000       3.816         hdmi_top_inst/sync_vg/un1_v_count_12_cry_1_Z
+                                   td                    0.044       3.860 r       hdmi_top_inst/sync_vg/v_count_mod[3]/opit_0_A2Q1/Cout
+                                   net (fanout=1)        0.000       3.860         hdmi_top_inst/sync_vg/un1_v_count_12_cry_3_Z
+ CLMA_310_152/Y3                   td                    0.387       4.247 r       hdmi_top_inst/sync_vg/v_count_mod[4]/opit_0_A2Q0/Y1
+                                   net (fanout=1)        0.184       4.431         hdmi_top_inst/sync_vg/v_count_0_0[5]/_N0
+ CLMA_310_144/A4                                                           r       hdmi_top_inst/sync_vg/v_count_0_mod[5]/opit_0_L5Q_perm/L4
+
+ Data arrival time                                                   4.431         Logic Levels: 5  
+                                                                                   Logic: 1.850ns(63.970%), Route: 1.042ns(36.030%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.603    1000.603         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000    1000.603 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       0.895    1001.498         ntclkbufg_1      
+ CLMA_310_144/CLK                                                          r       hdmi_top_inst/sync_vg/v_count_0_mod[5]/opit_0_L5Q_perm/CLK
+ clock pessimism                                         0.022    1001.520                          
+ clock uncertainty                                      -0.150    1001.370                          
+
+ Setup time                                             -0.093    1001.277                          
+
+ Data required time                                               1001.277                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1001.277                          
+ Data arrival time                                                   4.431                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       996.846                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/sync_vg/h_count[1]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/sync_vg/v_count_mod[2]/opit_0_L5Q_perm/L4
+Path Group  : sys_pll|clkout0_inferred_clock
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.498
+  Launch Clock Delay      :  1.539
+  Clock Pessimism Removal :  0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.614       0.614         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       0.614 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       0.925       1.539         ntclkbufg_1      
+ CLMA_302_156/CLK                                                          r       hdmi_top_inst/sync_vg/h_count[1]/opit_0_A2Q21/CLK
+
+ CLMA_302_156/Q1                   tco                   0.224       1.763 r       hdmi_top_inst/sync_vg/h_count[1]/opit_0_A2Q21/Q1
+                                   net (fanout=2)        0.075       1.838         hdmi_top_inst/sync_vg/h_count_Z [1]
+ CLMA_302_157/Y1                   td                    0.360       2.198 f       hdmi_top_inst/sync_vg/un1_h_count_6_7/gateop_perm/Z
+                                   net (fanout=2)        0.266       2.464         hdmi_top_inst/sync_vg/h_count15lto6/_N3
+ CLMA_302_152/Y1                   td                    0.162       2.626 r       hdmi_top_inst/sync_vg/un1_h_count_6_2/gateop_perm/Z
+                                   net (fanout=1)        0.149       2.775         hdmi_top_inst/sync_vg/un1_h_count_6/_N3
+ CLMA_302_152/Y0                   td                    0.264       3.039 f       hdmi_top_inst/sync_vg/un1_h_count_6/gateop_perm/Z
+                                   net (fanout=5)        0.368       3.407         hdmi_top_inst/sync_vg/un1_h_count_6_Z
+                                   td                    0.365       3.772 f       hdmi_top_inst/sync_vg/un1_v_count_12_cry_0_cy_cin/gateop_A2/Cout
+                                   net (fanout=1)        0.000       3.772         hdmi_top_inst/sync_vg/un1_v_count_12_cry_0/_N6
+ CLMA_310_148/COUT                 td                    0.044       3.816 r       hdmi_top_inst/sync_vg/v_count_mod[1]/opit_0_A2Q21/Cout
+                                   net (fanout=1)        0.000       3.816         hdmi_top_inst/sync_vg/un1_v_count_12_cry_1_Z
+ CLMA_310_152/Y0                   td                    0.206       4.022 f       hdmi_top_inst/sync_vg/v_count_mod[3]/opit_0_A2Q1/Y0
+                                   net (fanout=1)        0.365       4.387         hdmi_top_inst/sync_vg/v_count_0_0[2]/_N0
+ CLMA_310_164/A4                                                           f       hdmi_top_inst/sync_vg/v_count_mod[2]/opit_0_L5Q_perm/L4
+
+ Data arrival time                                                   4.387         Logic Levels: 5  
+                                                                                   Logic: 1.625ns(57.058%), Route: 1.223ns(42.942%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.603    1000.603         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000    1000.603 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       0.895    1001.498         ntclkbufg_1      
+ CLMA_310_164/CLK                                                          r       hdmi_top_inst/sync_vg/v_count_mod[2]/opit_0_L5Q_perm/CLK
+ clock pessimism                                         0.022    1001.520                          
+ clock uncertainty                                      -0.150    1001.370                          
+
+ Setup time                                             -0.079    1001.291                          
+
+ Data required time                                               1001.291                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1001.291                          
+ Data arrival time                                                   4.387                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       996.904                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/sync_vg/hs_out/opit_0_L5Q_perm/CLK
+Endpoint    : hdmi_top_inst/pattern_vg/hs_out/opit_0/D
+Path Group  : sys_pll|clkout0_inferred_clock
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.539
+  Launch Clock Delay      :  1.498
+  Clock Pessimism Removal :  -0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.603       0.603         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       0.603 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       0.895       1.498         ntclkbufg_1      
+ CLMS_298_157/CLK                                                          r       hdmi_top_inst/sync_vg/hs_out/opit_0_L5Q_perm/CLK
+
+ CLMS_298_157/Q0                   tco                   0.182       1.680 r       hdmi_top_inst/sync_vg/hs_out/opit_0_L5Q_perm/Q
+                                   net (fanout=1)        0.133       1.813         hdmi_top_inst/hs 
+ CLMA_302_153/M0                                                           r       hdmi_top_inst/pattern_vg/hs_out/opit_0/D
+
+ Data arrival time                                                   1.813         Logic Levels: 0  
+                                                                                   Logic: 0.182ns(57.778%), Route: 0.133ns(42.222%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.614       0.614         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       0.614 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       0.925       1.539         ntclkbufg_1      
+ CLMA_302_153/CLK                                                          r       hdmi_top_inst/pattern_vg/hs_out/opit_0/CLK
+ clock pessimism                                        -0.022       1.517                          
+ clock uncertainty                                       0.000       1.517                          
+
+ Hold time                                              -0.011       1.506                          
+
+ Data required time                                                  1.506                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  1.506                          
+ Data arrival time                                                   1.813                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.307                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/sync_vg/x_act[4]/opit_0/D
+Path Group  : sys_pll|clkout0_inferred_clock
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.015  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.539
+  Launch Clock Delay      :  1.498
+  Clock Pessimism Removal :  -0.026
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.603       0.603         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       0.603 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       0.895       1.498         ntclkbufg_1      
+ CLMA_302_160/CLK                                                          r       hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/CLK
+
+ CLMA_302_160/Q0                   tco                   0.182       1.680 r       hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/Q0
+                                   net (fanout=5)        0.139       1.819         hdmi_top_inst/sync_vg/h_count_Z [4]
+ CLMA_302_157/M2                                                           r       hdmi_top_inst/sync_vg/x_act[4]/opit_0/D
+
+ Data arrival time                                                   1.819         Logic Levels: 0  
+                                                                                   Logic: 0.182ns(56.698%), Route: 0.139ns(43.302%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.614       0.614         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       0.614 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       0.925       1.539         ntclkbufg_1      
+ CLMA_302_157/CLK                                                          r       hdmi_top_inst/sync_vg/x_act[4]/opit_0/CLK
+ clock pessimism                                        -0.026       1.513                          
+ clock uncertainty                                       0.000       1.513                          
+
+ Hold time                                              -0.011       1.502                          
+
+ Data required time                                                  1.502                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  1.502                          
+ Data arrival time                                                   1.819                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.317                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/CLK
+Endpoint    : hdmi_top_inst/sync_vg/x_act[5]/opit_0/D
+Path Group  : sys_pll|clkout0_inferred_clock
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.015  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.539
+  Launch Clock Delay      :  1.498
+  Clock Pessimism Removal :  -0.026
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.603       0.603         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       0.603 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       0.895       1.498         ntclkbufg_1      
+ CLMA_302_160/CLK                                                          r       hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/CLK
+
+ CLMA_302_160/Q1                   tco                   0.184       1.682 r       hdmi_top_inst/sync_vg/h_count[5]/opit_0_A2Q21/Q1
+                                   net (fanout=5)        0.143       1.825         hdmi_top_inst/sync_vg/h_count_Z [5]
+ CLMA_302_157/M0                                                           r       hdmi_top_inst/sync_vg/x_act[5]/opit_0/D
+
+ Data arrival time                                                   1.825         Logic Levels: 0  
+                                                                                   Logic: 0.184ns(56.269%), Route: 0.143ns(43.731%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.614       0.614         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       0.614 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       0.925       1.539         ntclkbufg_1      
+ CLMA_302_157/CLK                                                          r       hdmi_top_inst/sync_vg/x_act[5]/opit_0/CLK
+ clock pessimism                                        -0.026       1.513                          
+ clock uncertainty                                       0.000       1.513                          
+
+ Hold time                                              -0.011       1.502                          
+
+ Data required time                                                  1.502                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  1.502                          
+ Data arrival time                                                   1.825                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.323                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/rstn_1ms_mod[3]/opit_0_inv_A2Q21/CLK
+Endpoint    : hdmi_top_inst/ms72xx_ctl/rstn_temp1/opit_0/RS
+Path Group  : sys_pll|clkout1_inferred_clock
+Path Type   : max (fast corner)
+Path Class  : async timing path
+Clock Skew  :    -0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.498
+  Launch Clock Delay      :  1.539
+  Clock Pessimism Removal :  0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.614       0.614         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       0.614 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.925       1.539         ntclkbufg_0      
+ CLMA_302_129/CLK                                                          r       hdmi_top_inst/rstn_1ms_mod[3]/opit_0_inv_A2Q21/CLK
+
+ CLMA_302_129/Q2                   tco                   0.223       1.762 f       hdmi_top_inst/rstn_1ms_mod[3]/opit_0_inv_A2Q21/Q0
+                                   net (fanout=2)        0.169       1.931         hdmi_top_inst/dsp_join_kb_2_0 [2]
+ CLMA_302_132/Y0                   td                    0.378       2.309 f       hdmi_top_inst/rstn_out_1/gateop_perm/Z
+                                   net (fanout=2)        0.253       2.562         hdmi_top_inst/rstn_out/_N3
+ CLMA_302_136/Y0                   td                    0.264       2.826 f       hdmi_top_inst/rstn_out_i/gateop_perm/Z
+                                   net (fanout=3)        0.376       3.202         hdmi_top_inst/rstn_out_c_i_0
+ CLMS_298_157/RSCO                 td                    0.113       3.315 f       hdmi_top_inst/sync_vg/hs_out/opit_0_L5Q_perm/RSOUT
+                                   net (fanout=1)        0.000       3.315         ntR23            
+ CLMS_298_161/RSCI                                                         f       hdmi_top_inst/ms72xx_ctl/rstn_temp1/opit_0/RS
+
+ Data arrival time                                                   3.315         Logic Levels: 3  
+                                                                                   Logic: 0.978ns(55.068%), Route: 0.798ns(44.932%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000    1000.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.603    1000.603         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000    1000.603 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.895    1001.498         ntclkbufg_0      
+ CLMS_298_161/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/rstn_temp1/opit_0/CLK
+ clock pessimism                                         0.022    1001.520                          
+ clock uncertainty                                      -0.150    1001.370                          
+
+ Recovery time                                           0.000    1001.370                          
+
+ Data required time                                               1001.370                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1001.370                          
+ Data arrival time                                                   3.315                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       998.055                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/rstn_1ms_mod[9]/opit_0_inv_A2Q21/CLK
+Endpoint    : hdmi_top_inst/ms72xx_ctl/rstn_temp1/opit_0/RS
+Path Group  : sys_pll|clkout1_inferred_clock
+Path Type   : min (fast corner)
+Path Class  : async timing path
+Clock Skew  :    0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.539
+  Launch Clock Delay      :  1.498
+  Clock Pessimism Removal :  -0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.603       0.603         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       0.603 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.895       1.498         ntclkbufg_0      
+ CLMA_302_137/CLK                                                          r       hdmi_top_inst/rstn_1ms_mod[9]/opit_0_inv_A2Q21/CLK
+
+ CLMA_302_137/Q1                   tco                   0.180       1.678 f       hdmi_top_inst/rstn_1ms_mod[9]/opit_0_inv_A2Q21/Q1
+                                   net (fanout=3)        0.059       1.737         hdmi_top_inst/dsp_join_kb_2_0 [9]
+ CLMA_302_136/Y0                   td                    0.273       2.010 r       hdmi_top_inst/rstn_out_i/gateop_perm/Z
+                                   net (fanout=3)        0.282       2.292         hdmi_top_inst/rstn_out_c_i_0
+ CLMS_298_157/RSCO                 td                    0.085       2.377 r       hdmi_top_inst/sync_vg/hs_out/opit_0_L5Q_perm/RSOUT
+                                   net (fanout=1)        0.000       2.377         ntR23            
+ CLMS_298_161/RSCI                                                         r       hdmi_top_inst/ms72xx_ctl/rstn_temp1/opit_0/RS
+
+ Data arrival time                                                   2.377         Logic Levels: 2  
+                                                                                   Logic: 0.538ns(61.206%), Route: 0.341ns(38.794%)
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.614       0.614         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       0.614 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.925       1.539         ntclkbufg_0      
+ CLMS_298_161/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/rstn_temp1/opit_0/CLK
+ clock pessimism                                        -0.022       1.517                          
+ clock uncertainty                                       0.000       1.517                          
+
+ Removal time                                            0.000       1.517                          
+
+ Data required time                                                  1.517                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  1.517                          
+ Data arrival time                                                   2.377                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.860                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/ms7210_ctl/init_over/opit_0_inv_L5Q_perm/CLK
+Endpoint    : led_int (port)
+Path Group  : **default**
+Path Type   : max (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.614       0.614         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       0.614 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.925       1.539         ntclkbufg_0      
+ CLMS_270_161/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/init_over/opit_0_inv_L5Q_perm/CLK
+
+ CLMS_270_161/Q0                   tco                   0.221       1.760 f       hdmi_top_inst/ms72xx_ctl/ms7210_ctl/init_over/opit_0_inv_L5Q_perm/Q
+                                   net (fanout=2)        2.977       4.737         led_int_c        
+ IOL_19_374/DO                     td                    0.106       4.843 f       led_int_obuf/opit_1/O
+                                   net (fanout=1)        0.000       4.843         led_int_obuf/ntO 
+ IOBD_16_376/PAD                   td                    3.238       8.081 f       led_int_obuf/opit_0/O
+                                   net (fanout=1)        0.109       8.190         led_int          
+ B2                                                                        f       led_int (port)   
+
+ Data arrival time                                                   8.190         Logic Levels: 2  
+                                                                                   Logic: 3.565ns(53.601%), Route: 3.086ns(46.399%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/ms72xx_ctl/iic_dri_rx/state[4]/opit_0_L5Q_perm/CLK
+Endpoint    : iic_sda (port)
+Path Group  : **default**
+Path Type   : max (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.614       0.614         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       0.614 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.925       1.539         ntclkbufg_0      
+ CLMS_274_197/CLK                                                          r       hdmi_top_inst/ms72xx_ctl/iic_dri_rx/state[4]/opit_0_L5Q_perm/CLK
+
+ CLMS_274_197/Q1                   tco                   0.224       1.763 r       hdmi_top_inst/ms72xx_ctl/iic_dri_rx/state[4]/opit_0_L5Q_perm/Q
+                                   net (fanout=16)       0.439       2.202         hdmi_top_inst/ms72xx_ctl/iic_dri_rx/state_Z [4]
+ CLMA_286_181/Y3                   td                    0.233       2.435 r       hdmi_top_inst/ms72xx_ctl/iic_dri_rx/sda_out_en_0_a2/gateop_perm/Z
+                                   net (fanout=1)        0.317       2.752         hdmi_top_inst/ms72xx_ctl/sda_out_en_Z_0
+ CLMA_294_176/Y0                   td                    0.226       2.978 f       hdmi_top_inst/ms72xx_ctl/sda_out_en_i/opit_0/Z
+                                   net (fanout=1)        1.316       4.294         sda_out_en_i_0   
+ IOL_327_25/TO                     td                    0.106       4.400 f       iic_sda_iobuf/opit_1/T
+                                   net (fanout=1)        0.000       4.400         iic_sda_iobuf/ntT
+ IOBS_LR_328_24/PAD                tse                   3.150       7.550 f       iic_sda_iobuf/opit_0/IO
+                                   net (fanout=1)        0.051       7.601         iic_sda          
+ V20                                                                       f       iic_sda (port)   
+
+ Data arrival time                                                   7.601         Logic Levels: 4  
+                                                                                   Logic: 3.939ns(64.979%), Route: 2.123ns(35.021%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/rstn_1ms_mod[7]/opit_0_inv_A2Q21/CLK
+Endpoint    : rstn_out (port)
+Path Group  : **default**
+Path Type   : max (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout1_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT1                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT1
+                                   net (fanout=1)        0.614       0.614         cfg_clk_10m[0]   
+ USCM_84_108/CLK_USCM              td                    0.000       0.614 r       clkbufg_227/gopclkbufg/CLKOUT
+                                   net (fanout=274)      0.925       1.539         ntclkbufg_0      
+ CLMA_302_133/CLK                                                          r       hdmi_top_inst/rstn_1ms_mod[7]/opit_0_inv_A2Q21/CLK
+
+ CLMA_302_133/Q3                   tco                   0.222       1.761 r       hdmi_top_inst/rstn_1ms_mod[7]/opit_0_inv_A2Q21/Q1
+                                   net (fanout=2)        0.183       1.944         hdmi_top_inst/dsp_join_kb_2_0 [7]
+ CLMA_302_140/Y0                   td                    0.380       2.324 f       hdmi_top_inst/rstn_out_1_3/gateop_perm/Z
+                                   net (fanout=2)        0.168       2.492         hdmi_top_inst/rstn_out/_N4
+ CLMA_302_136/Y1                   td                    0.224       2.716 f       hdmi_top_inst/rstn_out/gateop_perm/Z
+                                   net (fanout=5)        1.190       3.906         rstn_out_c       
+ IOL_327_42/DO                     td                    0.106       4.012 f       rstn_out_obuf/opit_1/O
+                                   net (fanout=1)        0.000       4.012         rstn_out_obuf/ntO
+ IOBS_LR_328_41/PAD                td                    3.150       7.162 f       rstn_out_obuf/opit_0/O
+                                   net (fanout=1)        0.060       7.222         rstn_out         
+ R17                                                                       f       rstn_out (port)  
+
+ Data arrival time                                                   7.222         Logic Levels: 4  
+                                                                                   Logic: 4.082ns(71.828%), Route: 1.601ns(28.172%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : iic_tx_sda (port)
+Endpoint    : hdmi_top_inst/ms72xx_ctl/iic_dri_tx/receiv_data[0]/opit_0_inv/D
+Path Group  : **default**
+Path Type   : min (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ P18                                                     0.000       0.000 r       iic_tx_sda (port)
+                                   net (fanout=1)        0.058       0.058         iic_tx_sda       
+ IOBS_LR_328_44/DIN                td                    0.735       0.793 r       iic_tx_sda_iobuf/opit_0/O
+                                   net (fanout=1)        0.000       0.793         iic_tx_sda_iobuf/ntI
+ IOL_327_45/RX_DATA_DD             td                    0.066       0.859 r       iic_tx_sda_iobuf/opit_1/OUT
+                                   net (fanout=1)        0.860       1.719         iic_tx_sda_in    
+ CLMA_286_137/M2                                                           r       hdmi_top_inst/ms72xx_ctl/iic_dri_tx/receiv_data[0]/opit_0_inv/D
+
+ Data arrival time                                                   1.719         Logic Levels: 2  
+                                                                                   Logic: 0.801ns(46.597%), Route: 0.918ns(53.403%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : iic_sda (port)
+Endpoint    : hdmi_top_inst/ms72xx_ctl/iic_dri_rx/receiv_data[0]/opit_0_inv/D
+Path Group  : **default**
+Path Type   : min (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ V20                                                     0.000       0.000 r       iic_sda (port)   
+                                   net (fanout=1)        0.051       0.051         iic_sda          
+ IOBS_LR_328_24/DIN                td                    0.735       0.786 r       iic_sda_iobuf/opit_0/O
+                                   net (fanout=1)        0.000       0.786         iic_sda_iobuf/ntI
+ IOL_327_25/RX_DATA_DD             td                    0.066       0.852 r       iic_sda_iobuf/opit_1/OUT
+                                   net (fanout=1)        1.061       1.913         iic_sda_in       
+ CLMA_286_176/M3                                                           r       hdmi_top_inst/ms72xx_ctl/iic_dri_rx/receiv_data[0]/opit_0_inv/D
+
+ Data arrival time                                                   1.913         Logic Levels: 2  
+                                                                                   Logic: 0.801ns(41.871%), Route: 1.112ns(58.129%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : hdmi_top_inst/pattern_vg/b_out_1[0]/opit_0_L5Q_perm/CLK
+Endpoint    : b_out[6] (port)
+Path Group  : **default**
+Path Type   : min (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock sys_pll|clkout0_inferred_clock (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       the_instance_name/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.603       0.603         clk_148m5[0]     
+ USCM_84_109/CLK_USCM              td                    0.000       0.603 r       clkbufg_228/gopclkbufg/CLKOUT
+                                   net (fanout=30)       0.895       1.498         ntclkbufg_1      
+ CLMA_302_168/CLK                                                          r       hdmi_top_inst/pattern_vg/b_out_1[0]/opit_0_L5Q_perm/CLK
+
+ CLMA_302_168/Q0                   tco                   0.182       1.680 r       hdmi_top_inst/pattern_vg/b_out_1[0]/opit_0_L5Q_perm/Q
+                                   net (fanout=8)        0.519       2.199         b_out_c[0]       
+ IOL_327_137/DO                    td                    0.070       2.269 r       b_out_obuf[6]/opit_1/O
+                                   net (fanout=1)        0.000       2.269         b_out_obuf[6]/ntO
+ IOBR_LR_328_136/PAD               td                    1.836       4.105 r       b_out_obuf[6]/opit_0/O
+                                   net (fanout=1)        0.063       4.168         b_out[6]         
+ R19                                                                       r       b_out[6] (port)  
+
+ Data arrival time                                                   4.168         Logic Levels: 2  
+                                                                                   Logic: 2.088ns(78.202%), Route: 0.582ns(21.798%)
+====================================================================================================
+
+{sys_pll|clkout1_inferred_clock} Minimum Pulse Width :
+****************************************************************************************************
+ Slack       Actual Width    Require Width   Type              Location                Pin          
+----------------------------------------------------------------------------------------------------
+ 499.282     500.000         0.718           High Pulse Width  DRM_278_168/CLKB[0]     hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_data_cnst_0_0/iGopDrm/CLKB[0]
+ 499.282     500.000         0.718           Low Pulse Width   DRM_278_168/CLKB[0]     hdmi_top_inst/ms72xx_ctl/ms7200_ctl/cmd_data_cnst_0_0/iGopDrm/CLKB[0]
+ 499.282     500.000         0.718           High Pulse Width  DRM_278_148/CLKB[0]     hdmi_top_inst/ms72xx_ctl/ms7210_ctl/cmd_data_cnst_0_0/iGopDrm/CLKB
+====================================================================================================
+
+{sys_pll|clkout0_inferred_clock} Minimum Pulse Width :
+****************************************************************************************************
+ Slack       Actual Width    Require Width   Type              Location                Pin          
+----------------------------------------------------------------------------------------------------
+ 499.504     500.000         0.496           High Pulse Width  CLMS_298_157/CLK        hdmi_top_inst/sync_vg/hs_out/opit_0_L5Q_perm/CLK
+ 499.504     500.000         0.496           Low Pulse Width   CLMS_298_157/CLK        hdmi_top_inst/sync_vg/hs_out/opit_0_L5Q_perm/CLK
+ 499.664     500.000         0.336           Low Pulse Width   CLMA_302_168/CLK        hdmi_top_inst/pattern_vg/b_out_1[0]/opit_0_L5Q_perm/CLK
+====================================================================================================
+
+====================================================================================================
+
+Inputs and Outputs :
++----------------------------------------------------------------------------------+
+| Type       | File Name                                                          
++----------------------------------------------------------------------------------+
+| Input      | C:/Users/wkk/Desktop/program/program/place_route/top_pnr.adf       
+| Output     | C:/Users/wkk/Desktop/program/program/report_timing/top_rtp.adf     
+|            | C:/Users/wkk/Desktop/program/program/report_timing/top.rtr         
+|            | C:/Users/wkk/Desktop/program/program/report_timing/rtr.db          
++----------------------------------------------------------------------------------+
+
+
+Flow Command: report_timing 
+Peak memory: 714 MB
+Total CPU  time to report_timing completion : 0h:0m:4s
+Process Total CPU  time to report_timing completion : 0h:0m:4s
+Total real time to report_timing completion : 0h:0m:6s

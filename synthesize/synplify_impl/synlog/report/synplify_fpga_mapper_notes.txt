@@ -1,0 +1,109 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty4 (in view: work.sys_pll(verilog)) on net dyn_duty4 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty3 (in view: work.sys_pll(verilog)) on net dyn_duty3 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty2 (in view: work.sys_pll(verilog)) on net dyn_duty2 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty1 (in view: work.sys_pll(verilog)) on net dyn_duty1 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_duty0 (in view: work.sys_pll(verilog)) on net dyn_duty0 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_fdiv (in view: work.sys_pll(verilog)) on net dyn_fdiv (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv4 (in view: work.sys_pll(verilog)) on net dyn_odiv4 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv3 (in view: work.sys_pll(verilog)) on net dyn_odiv3 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv2 (in view: work.sys_pll(verilog)) on net dyn_odiv2 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\wkk\desktop\program\program\ipcore\sys_pll\sys_pll.v":256:16:256:19|Tristate driver dyn_odiv1 (in view: work.sys_pll(verilog)) on net dyn_odiv1 (in view: work.sys_pll(verilog)) has its enable tied to GND.
+@N: FX493 |Applying initial value "1" on instance state[0].
+@N: FX493 |Applying initial value "0" on instance state[1].
+@N: FX493 |Applying initial value "0" on instance state[2].
+@N: FX493 |Applying initial value "0" on instance state[3].
+@N: FX493 |Applying initial value "0" on instance state[4].
+@N: FX493 |Applying initial value "1" on instance state[0].
+@N: FX493 |Applying initial value "0" on instance state[1].
+@N: FX493 |Applying initial value "0" on instance state[2].
+@N: FX493 |Applying initial value "0" on instance state[3].
+@N: FX493 |Applying initial value "0" on instance state[4].
+@N: FX493 |Applying initial value "0" on instance state[5].
+@N: FX493 |Applying initial value "1" on instance state[0].
+@N: FX493 |Applying initial value "0" on instance state[1].
+@N: FX493 |Applying initial value "0" on instance state[2].
+@N: FX493 |Applying initial value "0" on instance state[3].
+@N: FX493 |Applying initial value "0" on instance state[4].
+@N: FX493 |Applying initial value "0" on instance state[5].
+@N: FX493 |Applying initial value "0" on instance state[6].
+@N: FX493 |Applying initial value "1" on instance state[0].
+@N: FX493 |Applying initial value "0" on instance state[1].
+@N: FX493 |Applying initial value "0" on instance state[2].
+@N: FX493 |Applying initial value "0" on instance state[3].
+@N: FX493 |Applying initial value "0" on instance state[4].
+@N: FX493 |Applying initial value "0" on instance state[5].
+@N: FX493 |Applying initial value "0" on instance state[6].
+@N: MT204 |Auto Constrain mode is disabled because the following clocks are already defined:
+@N: MO231 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":61:4:61:9|Found counter in view:work.sync_vg_Z2(verilog) instance h_count[11:0] 
+@N: MO231 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":472:4:472:9|Found counter in view:work.ms7200_ctl(verilog) instance dri_cnt[8:0] 
+@N: MO231 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":614:4:614:9|Found counter in view:work.ms7200_ctl(verilog) instance cmd_index[8:0] 
+@N: MO231 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":170:4:170:9|Found counter in view:work.ms7210_ctl(verilog) instance dri_cnt[4:0] 
+@N: MO231 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":218:4:218:9|Found counter in view:work.ms7210_ctl(verilog) instance delay_cnt[21:0] 
+@N: MO231 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":279:4:279:9|Found counter in view:work.ms7210_ctl(verilog) instance cmd_index[5:0] 
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":262:4:262:9|Removing sequential instance trans_byte_max[1] (in view: work.iic_dri_Z1(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":262:4:262:9|Removing sequential instance trans_byte_max[2] (in view: work.iic_dri_Z1(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":262:4:262:9|Removing sequential instance trans_byte_max[1] (in view: work.iic_dri_Z1_0(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\iic_dri.v":262:4:262:9|Removing sequential instance trans_byte_max[2] (in view: work.iic_dri_Z1_0(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":122:4:122:9|Removing sequential instance sync_vg.x_act[0] (in view: ScratchLib.cell31(netlist)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":122:4:122:9|Removing sequential instance sync_vg.x_act[1] (in view: ScratchLib.cell31(netlist)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":122:4:122:9|Removing sequential instance sync_vg.x_act[2] (in view: ScratchLib.cell31(netlist)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":122:4:122:9|Removing sequential instance sync_vg.x_act[3] (in view: ScratchLib.cell31(netlist)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":122:4:122:9|Removing sequential instance sync_vg.x_act[0] (in view: work.hdmi_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":122:4:122:9|Removing sequential instance sync_vg.x_act[1] (in view: work.hdmi_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":122:4:122:9|Removing sequential instance sync_vg.x_act[2] (in view: work.hdmi_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi\sync_vg.v":122:4:122:9|Removing sequential instance sync_vg.x_act[3] (in view: work.hdmi_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\wkk\desktop\program\program\source\hdmi_top.v":63:4:63:9|Removing sequential instance hdmi_top_inst.rstn_1ms_0_mod[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_000 = 000040020000042D830000425B0000042E01000000926000000401000020540000020402.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_001 = 00000E201000001602000000A0000000A80800000E100000043B020000003C3000040F04.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_002 = 000042104000042013000040060000040401000040314000040504000042DC700000C214.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_003 = 0000101FF000010000000000C8000000F010000042C33000042B3300004230C000042204.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_004 = 0000101FF0000100000000107000000106FF0000105FF0000104FF0000103FF0000102FF.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_005 = 00001092D00001084C0000107000000106FF0000105FF0000104FF0000103FF0000102FF.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_006 = 00001111C00001101C000010F30000010E51000010D4D000010C58000010B0D000010AFF.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_007 = 00001195F00001182A00001177800001162300001153D000011480000011303000011201.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_008 = 00001215000001200F000011F28000011EA2000011D4F000011C57000011BA2000011AB1.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_009 = 00001290000001288100001274F0000126710000125800000124EF0000123BF000012254.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_00A = 0000131C00000130A9000012F00000012E95000012D80000012C81000012BC0000012A81.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_00B = 0000139300000138000000137740000136040000135010000134010000133000000132B3.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_00C = 00001410000001408A000013F58000013EB0000013D80000013C5A000013B70000013AF2.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_00D = 00001490000001480000001471E000014600000014500000014421000014359000014260.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_00E = 00001511E00001505A000014F1E000014E4B000014D18000014C00000014BFD000014A00.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_00F = 00001592000001582000001572000001562000001552000001542000001530A000015200.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_010 = 000016138000016032000015F55000015E00000015DFC000015C00000015B00000015A00.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_011 = 00001692000001682000001672000001660A000016578000016435000016337000016248.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_012 = 000017148000017000000016FFF000016E00000016D00000016C00000016B20000016A20.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_013 = 00001793500001783000001773000001763000001753700001744B000017350000017254.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_014 = 000018103000018002000017FF7000017E01000017D20000017C20000017B0A000017A31.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_015 = 00001891300001881F00001870400001861000001855F00001844B0000183F0000018226.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_016 = 000019109000019023000018F5D000018E5E000018D22000018C20000018B12000018A03.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_017 = 00001990300001986D000019700000019600000019501000019483000019307000019207.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_018 = 00001A11000001A020000019F3C000019E80000019D00000019C10000019B00000019A0C.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_019 = 00001A91800001A88000001A73A00001A60200001A50300001A40200001A30100001A260.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_01A = 00001B10000001B04500001AF2C00001AE5800001AD4000001AC2D00001AB3800001AA71.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_01B = 00001B93A00001B80200001B71E00001B60000001B50000001B42100001B35900001B260.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_01C = 00001C12C00001C01000001BF4000001BE2D00001BD3800001BC7200001BBD000001BA80.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_01D = 00001C91E00001C80000001C70000001C62100001C55900001C46000001C38000001C245.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_01E = 00001D12000001D01E00001CFD000001CE5100001CD7200001CC0000001CB1D00001CA01.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_01F = 00001D90000001D82100001D75900001D66000001D50000001D45500001D32800001D26E.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_020 = 00001E1A000001E0A000001DFA000001DE0000001DD5E00001DC5600001DB1E00001DA00.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_021 = 00001E95900001E86000001E70000001E63500001E52000001E43000001E35000001E229.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_022 = 00001F10000001F00000001EF0000001EE0000001ED1A00001EC0000001EB0000001EA21.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_023 = 00001F90000001F80000001F70000001F60000001F50000001F40000001F30000001F200.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_024 = 000000A04000000C0000001FFA800001FE0000001FD0000001FC0000001FB0000001FA00.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_025 = 000089F00000089E00000089D00000089C0000008030100008020000008010000008000F.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7200_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0_0.INIT_026 = 000000000000021500000021501000020007000042470000020000000042400000041001.
+@N: FX211 |Packed ROM hdmi_top_inst.ms72xx_ctl.ms7200_ctl.cmd_data_cnst_0[19:0] (9 input, 20 output) to Block SelectRAM 
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7210_ctl.cmd_data_cnst_0_0.INIT_000 = 07C1C0F8009510244408C1C04090051C00200C610061102BC008F001C240901058100104.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7210_ctl.cmd_data_cnst_0_0.INIT_001 = 024080A82038000B110400429080A220270D09B74205E01810070602C0000FE06080201E.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7210_ctl.cmd_data_cnst_0_0.INIT_002 = 039000D00034000D00034000D00034000D00034000D00034000D00035600D11034180B0D.
+@N: FX276 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":40:8:40:11|Initial value hdmi_top_inst.ms72xx_ctl.ms7210_ctl.cmd_data_cnst_0_0.INIT_003 = 000000000000000000000000000000000000000000000000000000000000000000000700.
+@N: FX211 |Packed ROM hdmi_top_inst.ms72xx_ctl.ms7210_ctl.cmd_data_cnst_0[13:0] (6 input, 14 output) to Block SelectRAM 
+@N: FX214 :"c:\users\wkk\desktop\program\program\source\hdmi\ms7210_ctl.v":40:8:40:11|Generating ROM hdmi_top_inst.ms72xx_ctl.ms7210_ctl.cmd_data_cnst_0[3:0] (in view: work.top(verilog)).
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
